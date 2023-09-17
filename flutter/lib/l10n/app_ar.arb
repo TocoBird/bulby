@@ -1,0 +1,176 @@
+{
+  "@@locale": "ar",
+
+
+  "pageAddReflectionNameTitle": "دعونا نقرر اسم الانعكاس!",
+  "pageAddReflectionNameSubTitle": "يتم استخدامه للتفكير\nفي كل شخصية / سلاح.",
+  "pageAddReflectionNameFormTitle": "اسم انعكاس",
+  "pageAddReflectionNameFormAnnotation": "* يمكنك تغييره لاحقًا.",
+  "pageAddReflectionNameFormPlaceHolder": "اسم اللعبة + اسم الشخصية",
+  "pageAddReflectionNameFormButton": "يسجل",
+  "pageAddReflectionNameLanguageTitle": "تغيير اللغة",
+
+
+  "pageSolutionTitle": "حل",
+  "pageSolutionCountValue": "{count} مرة",
+  "pageSolutionNoList": "لا يوجد انعكاس.\nدعنا نضيفها من يعكس",
+  "pageSolutionButtonGood": "لتحسين",
+  "pageSolutionButtonBad": "ينمو",
+
+
+  "solutionDetailPageTitle": "تفاصيل الانعكاس",
+  "solutionDetailPageButtonEdit": "للتعديل",
+  "solutionDetailPageButtonRemoveTodo": "إزالة من الجميع",
+  "solutionDetailPageButtonAddTodo": "أضف إلى المهام",
+  "solutionDetailPageButtonDone": "قم بإنهاء التحرير",
+  "solutionDetailPageButtonCancel": "يلغي",
+  "solutionDetailPageModalCheckTitle": "هل أنت متأكد أنك تريد الانتهاء؟",
+  "solutionDetailPageModalCheckAnnotation": "* محذوف ولا يمكن استعادته.",
+  "solutionDetailPageModalCheckButtonDone": "منتهي",
+  "solutionDetailPageModalCheckButtonCancel": "يلغي",
+  "solutionDetailPageModalAddTodoTitle": "أضف الجميع",
+  "solutionDetailPageModalAddTodoTitleSub": "أي مشهد؟",
+  "solutionDetailPageModalAddTodoAdd": "يضيف",
+  "solutionDetailPageModalAddTodoCancel": "يلغي",
+  "solutionDetailPageModalAddTodoGame": "تفعل في لعبة",
+  "solutionDetailPageModalAddTodoTraning": "تفعل في التدريب",
+  "solutionDetailPageHooksAlertAddGood": "تحتاج إلى كتابة [كيف تنمو] لتضيف.",
+  "solutionDetailPageHooksAlertAddBad": "تحتاج إلى كتابة [كيفية التحسين] للإضافة.",
+  "solutionDetailPageHooksAddTodoValidate": "يمكنك إضافة ما يصل إلى 15 مهمة.",
+  "solutionDetailPageHooksAlertRemoveTodo": "تمت الإزالة من الجميع",
+  "solutionDetailPageHooksAlertAddTodo": "تمت الإضافة من الجميع",
+  "solutionDetailPageTopTypeGood": "النوع: نقاط جيدة",
+  "solutionDetailPageTopTypeBad": "النوع: نقاط سيئة",
+  "solutionDetailPageTopCountValue": "{count} مرة",
+  "solutionDetailPageTopDetailGood": "كيف تحسن نقاطك الجيدة",
+  "solutionDetailPageTopDetailBad": "إجراء مضاد",
+  "solutionDetailPageTopUpdateAt": "تاريخ آخر تواجد: {updateAtText}",
+  "solutionDetailPageTopNoData": "لم تتم إضافته بعد",
+  "solutionDetailPageTopEditCountValue": "{count} مرة",
+  "solutionDetailPageTopEditDetailGood": "كيف تحسن نقاطك الجيدة",
+  "solutionDetailPageTopEditDetailBad": "إجراء مضاد",
+  "solutionDetailPageTopEditDetailHintGood": "اكتب كيف يمكنك تحسين نقاط قوتك.",
+  "solutionDetailPageTopEditDetailHintBad": "اكتب إجراءً مضادًا.",
+  "solutionDetailPageTopEditTitleHint": "اسم الانعكاس",
+
+
+  "pageReflectionTitle": "أضف انعكاسًا",
+  "pageReflectionHowToTitle": "كيف تفكر",
+  "pageReflectionHowToDetail": "1. شاهد الإعادة\n\n2. اكتب الخير والشر\n\n3. أضف نفس التفكير من الاقتراحات",
+  "pageReflectionHowToDetailSub": "افعل هذا كل بضع مباريات.",
+  "pageReflectionButtonStart": "ابدأ التفكير",
+  "pageReflectionHooksAddValidation": "تجاوز الحد الإضافي.\nيمكنك حذفه من [حل].\n{numStr}",
+
+
+  "pageRankDetailTitle": "رتبة",
+  "pageRankDetailSubTitle": "إنه مؤشر على الكفاءة في التفكير.",
+
+
+  "reflectionAddPageModalAddType": "تصنيف الانعكاس",
+  "reflectionAddPageModalAddCountTitle": "عدد مرات حدوث ذلك",
+  "reflectionAddPageModalAddCountValue": "{count} مرة",
+  "reflectionAddPageModalAddButton": "يضيف",
+  "reflectionAddPageModalAddButtonCancel": "يلغي",
+  "reflectionAddPageModalConfirmTitle": "لدي مراجعة إضافية.\nهل أنت متأكد أنك تريد العودة؟",
+  "reflectionAddPageModalConfirmBack": "العودة دون حفظ",
+  "reflectionAddPageModalConfirmCancel": "يلغي",
+  "reflectionAddPageBottomDone": "انعكاس كامل",
+  "reflectionAddPageBottomHint": "اكتب انعكاسًا",
+  "reflectionAddPageBottomButtonAdd": "يضيف",
+  "reflectionAddPageCandidateNoList": "لم يتم العثور على مرشحين",
+  "reflectionAddPageCandidateFirstText": "شاهد الاعادة\nواكتب النقطة الجيدة والنقطة السيئة.\nأو قم بإضافته مباشرة بعد المباراة.",
+  "reflectionAddPageDoneAlert": "لم تقم بإضافة أي انعكاسات.",
+  "reflectionAddPageAddValidate": "يمكن إضافة ما يصل إلى 30 مرة واحدة.",
+
+
+  "pageReflectionAddedListTitle": "قائمة انعكاسات مضافة",
+  "pageReflectionAddedListButtonSave": "يحفظ",
+  "pageReflectionAddedListDoneAlert": "انعكاس مضاف.",
+  "pageReflectionAddedListCountValue": "+ {count} مرة",
+
+
+  "pageReflectionHistoryCountValue": "+ {count} مرة",
+
+
+  "pageReflectionHistoryGroupTitle": "{title} التاريخ",
+  "pageReflectionHistoryGroupNoList": "لا يوجد تاريخ انعكاس.",
+  "pageReflectionHistoryGroupAnnotation": "يمكن حفظ ما يصل إلى 10 عناصر.",
+
+
+  "pageTodoTitle": "كله تمام",
+  "pageTodoNoData": "لم يتم إضافة أي مهام.\nدعنا نضيف من الحل.",
+  "pageTodoButtonGame": "لعبة",
+  "pageTodoButtonTraining": "تدريب",
+
+
+  "accountPageTitle": "إعدادات الحساب",
+  "accountPageCurrentReflectionName": "اسم الانعكاس المحدد",
+  "accountPageChangeReflectionName": "تغيير اسم الانعكاس",
+  "accountPageChangeReflectionNamePlaceHolder": "اسم اللعبة + اسم الشخصية",
+  "accountPageChangeReflectionNameButton": "يتغير",
+  "accountPageAddReflection": "خلق انعكاس جديد",
+  "accountPageAddReflectionPlaceHolder": "اسم اللعبة + اسم الشخصية",
+  "accountPageAddReflectionButton": "خلق جديد إبداع جديد",
+  "accountPageChangeColorMode": "تغيير وضع اللون",
+  "accountPageChangeLanguage": "تغيير اللغة",
+  "accountPageQuestionnaire": "استبيان",
+  "accountPageTermsOfService": "شروط الخدمة",
+  "accountPagePrivacyPolicy": "سياسة الخصوصية",
+  "accountPageAppInfo": "معلومات التطبيق",
+  "accountPageDeleteReflection": "حذف الانعكاس المحدد",
+  "accountPageDeleteReflectionDetail": "* سيتم أيضًا حذف محتوى الانعكاس.",
+  "accountPageDeleteButton": "يمسح",
+  "accountPageModalDeleteTitle": "احذف الانعكاس",
+  "accountPageModalDeleteSubTitle": "سيتم حذف المحتوى الذي تمت مراجعته أيضًا.\nالاستعادة غير ممكن.",
+  "accountPageModalDeleteButtonDelete": "يمسح",
+  "accountPageModalDeleteCancel": "يلغي",
+  "accountPageModalNewTitle": "خلق انعكاس جديد",
+  "accountPageModalNewButtonAdd": "خلق جديد إبداع جديد",
+  "accountPageModalNewCancel": "يلغي",
+  "accountPageHooksDoneChangedName": "تم التغيير إلى {name}.",
+  "accountPageHooksDoneAddedName": "تمت إضافة {name}.",
+  "accountPageHooksAddedNameValidation": "يمكن إضافة ما يصل إلى {num} من العناصر.",
+  "accountPageHooksDeleteLastGroup": "لا يمكن حذف آخر واحد.",
+  "accountPageHooksDoneDelete": "تمت إزالة {name}.",
+
+
+  "footerSolution": "حل",
+  "footerReflection": "يعكس",
+  "footerTodo": "الجميع",
+  "footerAccount": "حساب",
+
+
+  "headerMenuRightDone": "منتهي",
+  "headerMenuRightHistory": "تاريخ",
+
+
+  "commonButtonPeriodFilterAll": "الجميع",
+  "commonButtonPeriodFilterCenter": "3 أشهر",
+  "commonButtonPeriodFilterRight": "أسبوع 1",
+
+
+  "commonSelectColorModeDark": "مظلم",
+  "commonSelectColorModeLight": "ضوء",
+
+
+  "commonRadioGoodBadButtonGood": "جيد",
+  "commonRadioGoodBadButtonBad": "سيء",
+
+
+  "commonInputTextValidationEmpty": "* لم يتم إدخال أي أحرف.",
+  "commonInputTextValidationMaxLengthOver": "* أقصى عدد من الأحرف.",
+  "commonInputTextValidationAllSpace": "* لا يمكنك إضافة كل الفراغات.",
+  "commonInputTextValidationFisrtSpace": "* لا توجد مساحة مسموح بها في البداية.",
+  "commonInputTextValidationLastSpace": "* لا توجد مساحة مسموح بها في النهاية.",
+
+
+  "commonRankBronze": "برونزية",
+  "commonRankSilver": "فضة",
+  "commonRankGold": "ذهب",
+  "commonRankPlatinum3": "البلاتين 3",
+  "commonRankPlatinum2": "البلاتين 2",
+  "commonRankPlatinum1": "البلاتين 1",
+  "commonRankDiamond3": "الماس 3",
+  "commonRankDiamond2": "الماس 2",
+  "commonRankDiamond1": "الماس 1"
+}

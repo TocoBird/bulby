@@ -1,0 +1,176 @@
+{
+  "@@locale": "en",
+
+
+  "pageAddReflectionNameTitle": "Let's decide the reflection name!",
+  "pageAddReflectionNameSubTitle": "It is used to reflection\nat each character/weapon.",
+  "pageAddReflectionNameFormTitle": "Reflection name",
+  "pageAddReflectionNameFormAnnotation": "*You can change it later.",
+  "pageAddReflectionNameFormPlaceHolder": "Game name + Character name",
+  "pageAddReflectionNameFormButton": "Register",
+  "pageAddReflectionNameLanguageTitle": "Change language",
+
+
+  "pageSolutionTitle": "Solution",
+  "pageSolutionCountValue": "{count} times",
+  "pageSolutionNoList": "There is no reflection. \nLet's add it from Reflect.",
+  "pageSolutionButtonGood": "to improve",
+  "pageSolutionButtonBad": "to grow",
+
+
+  "solutionDetailPageTitle": "Reflection details",
+  "solutionDetailPageButtonEdit": "To edit",
+  "solutionDetailPageButtonRemoveTodo": "Remove from todo",
+  "solutionDetailPageButtonAddTodo": "Add to todo",
+  "solutionDetailPageButtonDone": "Finish editing",
+  "solutionDetailPageButtonCancel": "Cancel",
+  "solutionDetailPageModalCheckTitle": "Are you sure you want to finish?",
+  "solutionDetailPageModalCheckAnnotation": "* Deleted and cannot be restored.",
+  "solutionDetailPageModalCheckButtonDone": "Done",
+  "solutionDetailPageModalCheckButtonCancel": "Cancel",
+  "solutionDetailPageModalAddTodoTitle": "Add Todo",
+  "solutionDetailPageModalAddTodoTitleSub": "Which scene?",
+  "solutionDetailPageModalAddTodoAdd": "Add",
+  "solutionDetailPageModalAddTodoCancel": "Cancel",
+  "solutionDetailPageModalAddTodoGame": "do in a game",
+  "solutionDetailPageModalAddTodoTraning": "do in a traning",
+  "solutionDetailPageHooksAlertAddGood": "You need to write [how to grow] to add.",
+  "solutionDetailPageHooksAlertAddBad": "You need to write [how to improve] to add.",
+  "solutionDetailPageHooksAddTodoValidate": "You can add up to 15 todo.",
+  "solutionDetailPageHooksAlertRemoveTodo": "Removed from todo.",
+  "solutionDetailPageHooksAlertAddTodo": "Added from todo.",
+  "solutionDetailPageTopTypeGood": "Type: good points",
+  "solutionDetailPageTopTypeBad": "Type: Bad points",
+  "solutionDetailPageTopCountValue": "{count} times",
+  "solutionDetailPageTopDetailGood": "How to improve your good points",
+  "solutionDetailPageTopDetailBad": "Countermeasure",
+  "solutionDetailPageTopUpdateAt": "Last Occurrence Date: {updateAtText}",
+  "solutionDetailPageTopNoData": "Not added yet",
+  "solutionDetailPageTopEditCountValue": "{count} times",
+  "solutionDetailPageTopEditDetailGood": "How to improve your good points",
+  "solutionDetailPageTopEditDetailBad": "Countermeasure",
+  "solutionDetailPageTopEditDetailHintGood": "Write down how you can improve your strengths.",
+  "solutionDetailPageTopEditDetailHintBad": "Write a countermeasure.",
+  "solutionDetailPageTopEditTitleHint": "Reflection name",
+
+
+  "pageReflectionTitle": "Add reflection",
+  "pageReflectionHowToTitle": "How to reflection",
+  "pageReflectionHowToDetail": "1. Watch the replay\n\n2. Write good and bad\n\n3. Add the same reflection from the suggestions",
+  "pageReflectionHowToDetailSub": "*Do this every few games.",
+  "pageReflectionButtonStart": "Start reflection",
+  "pageReflectionHooksAddValidation": "Exceeding additional limit.\nYou can delete it from [Solution].\n{numStr}",
+
+
+  "pageRankDetailTitle": "Rank",
+  "pageRankDetailSubTitle": "It is an indicator of proficiency in reflection.",
+
+
+  "reflectionAddPageModalAddType": "Classification of reflection",
+  "reflectionAddPageModalAddCountTitle": "Number of times it happened",
+  "reflectionAddPageModalAddCountValue": "{count} times",
+  "reflectionAddPageModalAddButton": "Add",
+  "reflectionAddPageModalAddButtonCancel": "Cancel",
+  "reflectionAddPageModalConfirmTitle": "I have an added review. \nAre you sure you want to go back?",
+  "reflectionAddPageModalConfirmBack": "Return without saving",
+  "reflectionAddPageModalConfirmCancel": "Cancel",
+  "reflectionAddPageBottomDone": "Complete reflection",
+  "reflectionAddPageBottomHint": "Write a reflection",
+  "reflectionAddPageBottomButtonAdd": "Add",
+  "reflectionAddPageCandidateNoList": "No Candidates Found",
+  "reflectionAddPageCandidateFirstText": "Watch the replay\nand write down what you good point and bad point.\nOr add it right after the match.",
+  "reflectionAddPageDoneAlert": "You haven't added any reflections.",
+  "reflectionAddPageAddValidate": "Up to 30 can be added at once.",
+
+
+  "pageReflectionAddedListTitle": "Added reflection list",
+  "pageReflectionAddedListButtonSave": "Save",
+  "pageReflectionAddedListDoneAlert": "Added reflection.",
+  "pageReflectionAddedListCountValue": "+{count} times",
+
+
+  "pageReflectionHistoryCountValue": "+{count} times",
+
+
+  "pageReflectionHistoryGroupTitle": "{title} History",
+  "pageReflectionHistoryGroupNoList": "There is no reflection history.",
+  "pageReflectionHistoryGroupAnnotation": "Up to 10 items can be saved.",
+
+
+  "pageTodoTitle": "Todo list",
+  "pageTodoNoData": "No todos have been added. \nLet's add from the Solution.",
+  "pageTodoButtonGame": "Game",
+  "pageTodoButtonTraining": "Training",
+
+
+  "accountPageTitle": "Account setting",
+  "accountPageCurrentReflectionName": "Selected reflection name",
+  "accountPageChangeReflectionName": "Change reflection name",
+  "accountPageChangeReflectionNamePlaceHolder": "Game name + Character name",
+  "accountPageChangeReflectionNameButton": "Change",
+  "accountPageAddReflection": "Create a new reflection",
+  "accountPageAddReflectionPlaceHolder": "Game name + Character name",
+  "accountPageAddReflectionButton": "Create new",
+  "accountPageChangeColorMode": "Change color mode",
+  "accountPageChangeLanguage": "Change language",
+  "accountPageQuestionnaire": "questionnaire",
+  "accountPageTermsOfService": "Terms of service",
+  "accountPagePrivacyPolicy": "Privacy Policy",
+  "accountPageAppInfo": "App info",
+  "accountPageDeleteReflection": "Delete selected reflection",
+  "accountPageDeleteReflectionDetail": "*Reflection content will also be deleted.",
+  "accountPageDeleteButton": "Delete",
+  "accountPageModalDeleteTitle": "Delete reflection",
+  "accountPageModalDeleteSubTitle": "Reviewed content will also be deleted. \nRestore is not possible.",
+  "accountPageModalDeleteButtonDelete": "Delete",
+  "accountPageModalDeleteCancel": "Cancel",
+  "accountPageModalNewTitle": "Create a new reflection",
+  "accountPageModalNewButtonAdd": "Create new",
+  "accountPageModalNewCancel": "Cancel",
+  "accountPageHooksDoneChangedName": "Changed to {name}.",
+  "accountPageHooksDoneAddedName": "Added {name}.",
+  "accountPageHooksAddedNameValidation": "Up to {num} items can be added.",
+  "accountPageHooksDeleteLastGroup": "The last one cannot be deleted.",
+  "accountPageHooksDoneDelete": "Removed {name}.",
+
+
+  "footerSolution": "Solution",
+  "footerReflection": "Reflect",
+  "footerTodo": "Todo",
+  "footerAccount": "Account",
+
+
+  "headerMenuRightDone": "Done",
+  "headerMenuRightHistory": "History",
+
+
+  "commonButtonPeriodFilterAll": "All",
+  "commonButtonPeriodFilterCenter": "3 month",
+  "commonButtonPeriodFilterRight": "1 week",
+
+
+  "commonSelectColorModeDark": "Dark",
+  "commonSelectColorModeLight": "Light",
+
+
+  "commonRadioGoodBadButtonGood": "Good",
+  "commonRadioGoodBadButtonBad": "Bad",
+
+
+  "commonInputTextValidationEmpty": "*No characters have been entered.",
+  "commonInputTextValidationMaxLengthOver": "*Maximum number of characters.",
+  "commonInputTextValidationAllSpace": "*You cannot add all blanks.",
+  "commonInputTextValidationFisrtSpace": "*No space is allowed at the beginning.",
+  "commonInputTextValidationLastSpace": "*No space is allowed at the end.",
+
+
+  "commonRankBronze": "Bronze",
+  "commonRankSilver": "Silver",
+  "commonRankGold": "Gold",
+  "commonRankPlatinum3": "Platinum3",
+  "commonRankPlatinum2": "Platinum2",
+  "commonRankPlatinum1": "Platinum1",
+  "commonRankDiamond3": "Diamond3",
+  "commonRankDiamond2": "Diamond2",
+  "commonRankDiamond1": "Diamond1"
+}

@@ -1,0 +1,176 @@
+{
+  "@@locale": "ru",
+
+
+  "pageAddReflectionNameTitle": "Давайте определимся с именем самоанализ!",
+  "pageAddReflectionNameSubTitle": "Используется для самоанализ каждого персонажа/оружия.",
+  "pageAddReflectionNameFormTitle": "Имя самоанализ",
+  "pageAddReflectionNameFormAnnotation": "*Вы можете изменить это позже.",
+  "pageAddReflectionNameFormPlaceHolder": "Название игры + имя персонажа",
+  "pageAddReflectionNameFormButton": "Зарегистрироваться",
+  "pageAddReflectionNameLanguageTitle": "Изменить язык",
+
+
+  "pageSolutionTitle": "Решение",
+  "pageSolutionCountValue": "{count} раз",
+  "pageSolutionNoList": "Отражение отсутствует.\nДавайте добавим его из Самоанализ.",
+  "pageSolutionButtonGood": "для улучшения",
+  "pageSolutionButtonBad": "для роста",
+
+
+  "solutionDetailPageTitle": "Детали самоанализ",
+  "solutionDetailPageButtonEdit": "Для редактирования",
+  "solutionDetailPageButtonRemoveTodo": "Удалить из списка дел",
+  "solutionDetailPageButtonAddTodo": "Добавить в список дел",
+  "solutionDetailPageButtonDone": "Завершить редактирование",
+  "solutionDetailPageButtonCancel": "Отмена",
+  "solutionDetailPageModalCheckTitle": "Вы уверены, что хотите закончить?",
+  "solutionDetailPageModalCheckAnnotation": "* Удалено и не может быть восстановлено.",
+  "solutionDetailPageModalCheckButtonDone": "Готово",
+  "solutionDetailPageModalCheckButtonCancel": "Отмена",
+  "solutionDetailPageModalAddTodoTitle": "Добавить дело",
+  "solutionDetailPageModalAddTodoTitleSub": "Какая сцена?",
+  "solutionDetailPageModalAddTodoAdd": "Добавить",
+  "solutionDetailPageModalAddTodoCancel": "Отмена",
+  "solutionDetailPageModalAddTodoGame": "сделать в игре",
+  "solutionDetailPageModalAddTodoTraning": "провести тренировку",
+  "solutionDetailPageHooksAlertAddGood": "Чтобы добавить, нужно написать [как увеличить].",
+  "solutionDetailPageHooksAlertAddBad": "Чтобы добавить, нужно написать [как улучшить].",
+  "solutionDetailPageHooksAddTodoValidate": "Вы можете добавить до 15 задач.",
+  "solutionDetailPageHooksAlertRemoveTodo": "Удалено из списка дел.",
+  "solutionDetailPageHooksAlertAddTodo": "Добавлено из списка дел.",
+  "solutionDetailPageTopTypeGood": "Тип: положительные моменты",
+  "solutionDetailPageTopTypeBad": "Тип: Плохие моменты",
+  "solutionDetailPageTopCountValue": "{count} раз",
+  "solutionDetailPageTopDetailGood": "Как улучшить свои положительные стороны",
+  "solutionDetailPageTopDetailBad": "Контрмера",
+  "solutionDetailPageTopUpdateAt": "Дата последнего появления: {updateAtText}",
+  "solutionDetailPageTopNoData": "Еще не добавлено",
+  "solutionDetailPageTopEditCountValue": "{count} раз",
+  "solutionDetailPageTopEditDetailGood": "Как улучшить свои положительные стороны",
+  "solutionDetailPageTopEditDetailBad": "Контрмера",
+  "solutionDetailPageTopEditDetailHintGood": "Запишите, как вы можете улучшить свои сильные стороны.",
+  "solutionDetailPageTopEditDetailHintBad": "Напишите контрмеру.",
+  "solutionDetailPageTopEditTitleHint": "Имя самоанализ",
+
+
+  "pageReflectionTitle": "Добавить отражение",
+  "pageReflectionHowToTitle": "Как отразить",
+  "pageReflectionHowToDetail": "1. Посмотрите повтор\n\n2. Напишите хорошее и плохое\n\n3. Добавьте такое же отражение из предложений",
+  "pageReflectionHowToDetailSub": "* Делайте это каждые несколько игр.",
+  "pageReflectionButtonStart": "Начать отражение",
+  "pageReflectionHooksAddValidation": "Превышение дополнительного лимита.\nВы можете удалить его из [Решение].\n{numStr}",
+
+
+  "pageRankDetailTitle": "Ранг",
+  "pageRankDetailSubTitle": "Это показатель вашего навыка самоанализа.",
+
+
+  "reflectionAddPageModalAddType": "Классификация отражений",
+  "reflectionAddPageModalAddCountTitle": "Сколько раз это произошло",
+  "reflectionAddPageModalAddCountValue": "{count} раз",
+  "reflectionAddPageModalAddButton": "Добавить",
+  "reflectionAddPageModalAddButtonCancel": "Отмена",
+  "reflectionAddPageModalConfirmTitle": "У меня есть добавленный отзыв. \nВы уверены, что хотите вернуться?",
+  "reflectionAddPageModalConfirmBack": "Вернуть без сохранения",
+  "reflectionAddPageModalConfirmCancel": "Отмена",
+  "reflectionAddPageBottomDone": "Полное отражение",
+  "reflectionAddPageBottomHint": "Написать отражение",
+  "reflectionAddPageBottomButtonAdd": "Добавить",
+  "reflectionAddPageCandidateNoList": "Кандидатов не найдено",
+  "reflectionAddPageCandidateFirstText": "Посмотрите повтор\nи запишите свои положительные и отрицательные стороны.\nИли добавьте это сразу после матча.",
+  "reflectionAddPageDoneAlert": "Вы не добавили никаких отражений.",
+  "reflectionAddPageAddValidate": "Одновременно можно добавить до 30.",
+
+
+  "pageReflectionAddedListTitle": "Добавлен список отражений",
+  "pageReflectionAddedListButtonSave": "Сохранить",
+  "pageReflectionAddedListDoneAlert": "Добавлено отражение.",
+  "pageReflectionAddedListCountValue": "+{count} раз",
+
+
+  "pageReflectionHistoryCountValue": "+{count} раз",
+
+
+  "pageReflectionHistoryGroupTitle": "История {title}",
+  "pageReflectionHistoryGroupNoList": "Истории самоанализ нет.",
+  "pageReflectionHistoryGroupAnnotation": "Можно сохранить до 10 элементов.",
+
+
+  "pageTodoTitle": "Список дел",
+  "pageTodoNoData": "Задачи не добавлены. \nДавайте добавим из Решение.",
+  "pageTodoButtonGame": "Игра",
+  "pageTodoButtonTraining": "Обучение",
+
+
+  "accountPageTitle": "Настройка аккаунта",
+  "accountPageCurrentReflectionName": "Выбранное имя самоанализ",
+  "accountPageChangeReflectionName": "Изменить имя самоанализ",
+  "accountPageChangeReflectionNamePlaceHolder": "Имя игры + имя персонажа",
+  "accountPageChangeReflectionNameButton": "Изменить",
+  "accountPageAddReflection": "Создать новое отражение",
+  "accountPageAddReflectionPlaceHolder": "Имя игры + имя персонажа",
+  "accountPageAddReflectionButton": "Создать новый",
+  "accountPageChangeColorMode": "Изменить цветовой режим",
+  "accountPageChangeLanguage": "Изменить язык",
+  "accountPageQuestionnaire": "анкета",
+  "accountPageTermsOfService": "Условия использования",
+  "accountPagePrivacyPolicy": "Политика конфиденциальности",
+  "accountPageAppInfo": "Информация о приложении",
+  "accountPageDeleteReflection": "Удалить выбранное отражение",
+  "accountPageDeleteReflectionDetail": "*Содержимое самоанализ также будет удалено.",
+  "accountPageDeleteButton": "Удалить",
+  "accountPageModalDeleteTitle": "Удалить отражение",
+  "accountPageModalDeleteSubTitle": "Просмотренный контент также будет удален. \nВосстановление невозможно.",
+  "accountPageModalDeleteButtonDelete": "Удалить",
+  "accountPageModalDeleteCancel": "Отмена",
+  "accountPageModalNewTitle": "Создать новое отражение",
+  "accountPageModalNewButtonAdd": "Создать новый",
+  "accountPageModalNewCancel": "Отмена",
+  "accountPageHooksDoneChangedName": "Изменено на {name}.",
+  "accountPageHooksDoneAddedName": "Добавлено {name}.",
+  "accountPageHooksAddedNameValidation": "Можно добавить до {num} элементов.",
+  "accountPageHooksDeleteLastGroup": "Последний не может быть удален.",
+  "accountPageHooksDoneDelete": "Удалено {name}.",
+
+
+  "footerSolution": "Решение",
+  "footerReflection": "Самоанализ",
+  "footerTodo": "Делать",
+  "footerAccount": "Счет",
+
+
+  "headerMenuRightDone": "Готово",
+  "headerMenuRightHistory": "История",
+
+
+  "commonButtonPeriodFilterAll": "Все",
+  "commonButtonPeriodFilterCenter": "3 месяца",
+  "commonButtonPeriodFilterRight": "1 неделя",
+
+
+  "commonSelectColorModeDark": "Темный",
+  "commonSelectColorModeLight": "Светлый",
+
+
+  "commonRadioGoodBadButtonGood": "Хорошо",
+  "commonRadioGoodBadButtonBad": "Плохо",
+
+
+  "commonInputTextValidationEmpty": "*Не введено ни одного символа.",
+  "commonInputTextValidationMaxLengthOver": "*Максимальное количество символов.",
+  "commonInputTextValidationAllSpace": "*Вы не можете добавить все пробелы.",
+  "commonInputTextValidationFisrtSpace": "*В начале не допускается пробел.",
+  "commonInputTextValidationLastSpace": "*Пробел в конце не допускается.",
+
+
+  "commonRankBronze": "Бронза",
+  "commonRankSilver": "Серебро",
+  "commonRankGold": "Золото",
+  "commonRankPlatinum3": "Платина3",
+  "commonRankPlatinum2": "Платина2",
+  "commonRankPlatinum1": "Платина1",
+  "commonRankDiamond3": "Бриллиант3",
+  "commonRankDiamond2": "Бриллиант2",
+  "commonRankDiamond1": "Бриллиант1"
+}

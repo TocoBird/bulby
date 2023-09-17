@@ -1,0 +1,176 @@
+{
+  "@@locale": "es",
+
+
+  "pageAddReflectionNameTitle": "¡Decidamos el nombre del reflejo!",
+  "pageAddReflectionNameSubTitle": "Se usa para reflejar\n cada personaje/arma.",
+  "pageAddReflectionNameFormTitle": "Nombre de la reflexión",
+  "pageAddReflectionNameFormAnnotation": "*Puedes cambiarlo más tarde.",
+  "pageAddReflectionNameFormPlaceHolder": "Nombre del juego + Nombre del personaje",
+  "pageAddReflectionNameFormButton": "Registrarse",
+  "pageAddReflectionNameLanguageTitle": "Cambiar idioma",
+
+
+  "pageSolutionTitle": "Solución",
+  "pageSolutionCountValue": "{count} veces",
+  "pageSolutionNoList": "No hay reflejo. \nVamos a agregarlo desde Reflect.",
+  "pageSolutionButtonGood": "para mejorar",
+  "pageSolutionButtonBad": "para crecer",
+
+
+  "solutionDetailPageTitle": "Detalles de la reflexión",
+  "solutionDetailPageButtonEdit": "Para editar",
+  "solutionDetailPageButtonRemoveTodo": "Eliminar de tareas pendientes",
+  "solutionDetailPageButtonAddTodo": "Agregar a todo",
+  "solutionDetailPageButtonDone": "Terminar de editar",
+  "solutionDetailPageButtonCancel": "Cancelar",
+  "solutionDetailPageModalCheckTitle": "¿Estás seguro de que quieres terminar?",
+  "solutionDetailPageModalCheckAnnotation": "* Eliminado y no se puede restaurar.",
+  "solutionDetailPageModalCheckButtonDone": "Listo",
+  "solutionDetailPageModalCheckButtonCancel": "Cancelar",
+  "solutionDetailPageModalAddTodoTitle": "Añadir todo",
+  "solutionDetailPageModalAddTodoTitleSub": "¿Qué escena?",
+  "solutionDetailPageModalAddTodoAdd": "Agregar",
+  "solutionDetailPageModalAddTodoCancel": "Cancelar",
+  "solutionDetailPageModalAddTodoGame": "hacer en un juego",
+  "solutionDetailPageModalAddTodoTraning": "hacer en un entrenamiento",
+  "solutionDetailPageHooksAlertAddGood": "Necesitas escribir [cómo crecer] para agregar.",
+  "solutionDetailPageHooksAlertAddBad": "Necesitas escribir [cómo mejorar] para agregar.",
+  "solutionDetailPageHooksAddTodoValidate": "Puede agregar hasta 15 tareas pendientes.",
+  "solutionDetailPageHooksAlertRemoveTodo": "Eliminado de tareas pendientes.",
+  "solutionDetailPageHooksAlertAddTodo": "Agregado desde todo.",
+  "solutionDetailPageTopTypeGood": "Tipo: buenos puntos",
+  "solutionDetailPageTopTypeBad": "Tipo: Puntos incorrectos",
+  "solutionDetailPageTopCountValue": "{count} veces",
+  "solutionDetailPageTopDetailGood": "Cómo mejorar tus puntos buenos",
+  "solutionDetailPageTopDetailBad": "Contramedida",
+  "solutionDetailPageTopUpdateAt": "Fecha de la última ocurrencia: {updateAtText}",
+  "solutionDetailPageTopNoData": "Aún no agregado",
+  "solutionDetailPageTopEditCountValue": "{count} veces",
+  "solutionDetailPageTopEditDetailGood": "Cómo mejorar tus puntos buenos",
+  "solutionDetailPageTopEditDetailBad": "Contramedida",
+  "solutionDetailPageTopEditDetailHintGood": "Escribe cómo puedes mejorar tus fortalezas.",
+  "solutionDetailPageTopEditDetailHintBad": "Escribe una contramedida.",
+  "solutionDetailPageTopEditTitleHint": "Nombre de la reflexión",
+
+
+  "pageReflectionTitle": "Agregar reflejo",
+  "pageReflectionHowToTitle": "Cómo reflexionar",
+  "pageReflectionHowToDetail": "1. Mira la repetición\n\n2. Escribe bueno y malo\n\n3. Agrega el mismo reflejo de las sugerencias",
+  "pageReflectionHowToDetailSub": "* Haga esto cada pocos juegos.",
+  "pageReflectionButtonStart": "Iniciar reflexión",
+  "pageReflectionHooksAddValidation": "Exceder el límite adicional.\nPuede eliminarlo desde [Solución].\n{numStr}",
+
+
+  "pageRankDetailTitle": "Clasificación",
+  "pageRankDetailSubTitle": "Es un indicador de competencia en la reflexión.",
+
+
+  "reflectionAddPageModalAddType": "Clasificación de la reflexión",
+  "reflectionAddPageModalAddCountTitle": "Número de veces que sucedió",
+  "reflectionAddPageModalAddCountValue": "{count} veces",
+  "reflectionAddPageModalAddButton": "Agregar",
+  "reflectionAddPageModalAddButtonCancel": "Cancelar",
+  "reflectionAddPageModalConfirmTitle": "Tengo una revisión añadida. \n¿Estás seguro de que quieres volver?",
+  "reflectionAddPageModalConfirmBack": "Volver sin guardar",
+  "reflectionAddPageModalConfirmCancel": "Cancelar",
+  "reflectionAddPageBottomDone": "Reflejo completo",
+  "reflectionAddPageBottomHint": "Escribir un reflejo",
+  "reflectionAddPageBottomButtonAdd": "Agregar",
+  "reflectionAddPageCandidateNoList": "No se encontraron candidatos",
+  "reflectionAddPageCandidateFirstText": "Mira la repetición\ny escribe lo bueno y lo malo.\nO añádelo justo después del partido.",
+  "reflectionAddPageDoneAlert": "No has agregado ningún reflejo.",
+  "reflectionAddPageAddValidate": "Se pueden agregar hasta 30 a la vez.",
+
+
+  "pageReflectionAddedListTitle": "Lista de reflejos agregada",
+  "pageReflectionAddedListButtonSave": "Guardar",
+  "pageReflectionAddedListDoneAlert": "Reflejo agregado.",
+  "pageReflectionAddedListCountValue": "+{count} veces",
+
+
+  "pageReflectionHistoryCountValue": "+{count} veces",
+
+
+  "pageReflectionHistoryGroupTitle": "{title} Historial",
+  "pageReflectionHistoryGroupNoList": "No hay historial de reflexión.",
+  "pageReflectionHistoryGroupAnnotation": "Se pueden guardar hasta 10 elementos.",
+
+
+  "pageTodoTitle": "Lista de tareas pendientes",
+  "pageTodoNoData": "No todos han sido agregados. \nVamos a agregar desde la Solución.",
+  "pageTodoButtonGame": "Juego",
+  "pageTodoButtonTraining": "Entrenamiento",
+
+
+  "accountPageTitle": "Configuración de cuenta",
+  "accountPageCurrentReflectionName": "Nombre del reflejo seleccionado",
+  "accountPageChangeReflectionName": "Cambiar el nombre de la reflexión",
+  "accountPageChangeReflectionNamePlaceHolder": "Nombre del juego + Nombre del personaje",
+  "accountPageChangeReflectionNameButton": "Cambiar",
+  "accountPageAddReflection": "Crear un nuevo reflejo",
+  "accountPageAddReflectionPlaceHolder": "Nombre del juego + Nombre del personaje",
+  "accountPageAddReflectionButton": "Crear nuevo",
+  "accountPageChangeColorMode": "Cambiar modo de color",
+  "accountPageChangeLanguage": "Cambiar idioma",
+  "accountPageQuestionnaire": "cuestionario",
+  "accountPageTermsOfService": "Términos del servicio",
+  "accountPagePrivacyPolicy": "Política de Privacidad",
+  "accountPageAppInfo": "Información de la aplicación",
+  "accountPageDeleteReflection": "Eliminar reflejo seleccionado",
+  "accountPageDeleteReflectionDetail": "*El contenido de la reflexión también se eliminará.",
+  "accountPageDeleteButton": "Eliminar",
+  "accountPageModalDeleteTitle": "Eliminar reflejo",
+  "accountPageModalDeleteSubTitle": "El contenido revisado también se eliminará. \nLa restauración no es posible.",
+  "accountPageModalDeleteButtonDelete": "Eliminar",
+  "accountPageModalDeleteCancel": "Cancelar",
+  "accountPageModalNewTitle": "Crear un nuevo reflejo",
+  "accountPageModalNewButtonAdd": "Crear nuevo",
+  "accountPageModalNewCancel": "Cancelar",
+  "accountPageHooksDoneChangedName": "Cambiado a {name}.",
+  "accountPageHooksDoneAddedName": "Se agregó {name}.",
+  "accountPageHooksAddedNameValidation": "Se pueden agregar hasta {num} elementos.",
+  "accountPageHooksDeleteLastGroup": "El último no se puede eliminar.",
+  "accountPageHooksDoneDelete": "Se eliminó {name}.",
+
+
+  "footerSolution": "Solución",
+  "footerReflection": "Reflejar",
+  "footerTodo": "Todo",
+  "footerAccount": "Cuenta",
+
+
+  "headerMenuRightDone": "Listo",
+  "headerMenuRightHistory": "Historial",
+
+
+  "commonButtonPeriodFilterAll": "Todos",
+  "commonButtonPeriodFilterCenter": "3 meses",
+  "commonButtonPeriodFilterRight": "1 semana",
+
+
+  "commonSelectColorModeDark": "Oscuro",
+  "commonSelectColorModeLight": "Luz",
+
+
+  "commonRadioGoodBadButtonGood": "Bueno",
+  "commonRadioGoodBadButtonBad": "Malo",
+
+
+  "commonInputTextValidationEmpty": "*No se han ingresado caracteres.",
+  "commonInputTextValidationMaxLengthOver": "*Número máximo de caracteres.",
+  "commonInputTextValidationAllSpace": "*No puedes agregar todos los espacios en blanco.",
+  "commonInputTextValidationFisrtSpace": "*No se permiten espacios al principio.",
+  "commonInputTextValidationLastSpace": "*No se permiten espacios al final.",
+
+
+  "commonRankBronze": "Bronce",
+  "commonRankSilver": "Plata",
+  "commonRankGold": "Oro",
+  "commonRankPlatinum3": "Platino3",
+  "commonRankPlatinum2": "Platino2",
+  "commonRankPlatinum1": "Platino1",
+  "commonRankDiamond3": "Diamante3",
+  "commonRankDiamond2": "Diamante2",
+  "commonRankDiamond1": "Diamante1"
+}

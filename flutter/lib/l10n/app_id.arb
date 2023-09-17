@@ -1,0 +1,176 @@
+{
+  "@@locale": "id",
+
+
+  "pageAddReflectionNameTitle": "Mari tentukan nama refleksinya!",
+  "pageAddReflectionNameSubTitle": "Hal ini digunakan untuk refleksi\npada setiap karakter/senjata.",
+  "pageAddReflectionNameFormTitle": "Nama refleksi",
+  "pageAddReflectionNameFormAnnotation": "*Anda dapat mengubahnya nanti.",
+  "pageAddReflectionNameFormPlaceHolder": "Nama permainan + Nama karakter",
+  "pageAddReflectionNameFormButton": "Daftar",
+  "pageAddReflectionNameLanguageTitle": "Ubah bahasa",
+
+
+  "pageSolutionTitle": "Solusi",
+  "pageSolutionCountValue": "{count} kali",
+  "pageSolutionNoList": "Tidak ada refleksi.\nMari kita tambahkan dari Reflect.",
+  "pageSolutionButtonGood": "perbaikan",
+  "pageSolutionButtonBad": "tumbuh",
+
+
+  "solutionDetailPageTitle": "Detail refleksi",
+  "solutionDetailPageButtonEdit": "Untuk menyunting",
+  "solutionDetailPageButtonRemoveTodo": "Hapus dari todo",
+  "solutionDetailPageButtonAddTodo": "Tambahkan ke todo",
+  "solutionDetailPageButtonDone": "Selesai mengedit",
+  "solutionDetailPageButtonCancel": "Batalkan",
+  "solutionDetailPageModalCheckTitle": "Apakah Anda yakin ingin menyelesaikan?",
+  "solutionDetailPageModalCheckAnnotation": "* Dihapus dan tidak dapat dikembalikan.",
+  "solutionDetailPageModalCheckButtonDone": "Selesai",
+  "solutionDetailPageModalCheckButtonCancel": "Batalkan",
+  "solutionDetailPageModalAddTodoTitle": "Tambahkan Todo",
+  "solutionDetailPageModalAddTodoTitleSub": "Adegan yang mana?",
+  "solutionDetailPageModalAddTodoAdd": "Tambah",
+  "solutionDetailPageModalAddTodoCancel": "Batalkan",
+  "solutionDetailPageModalAddTodoGame": "lakukan dalam permainan",
+  "solutionDetailPageModalAddTodoTraning": "lakukan dalam pelatihan",
+  "solutionDetailPageHooksAlertAddGood": "Anda perlu menulis [cara mengembangkan] untuk menambahkan.",
+  "solutionDetailPageHooksAlertAddBad": "Anda perlu menulis [cara meningkatkan] untuk menambahkan.",
+  "solutionDetailPageHooksAddTodoValidate": "Anda dapat menambahkan hingga 15 todo.",
+  "solutionDetailPageHooksAlertRemoveTodo": "Dihapus dari todo.",
+  "solutionDetailPageHooksAlertAddTodo": "Ditambahkan dari todo.",
+  "solutionDetailPageTopTypeGood": "Tipe: poin bagus",
+  "solutionDetailPageTopTypeBad": "Tipe: Poin buruk",
+  "solutionDetailPageTopCountValue": "{count} kali",
+  "solutionDetailPageTopDetailGood": "Cara meningkatkan poin bagus Anda",
+  "solutionDetailPageTopDetailBad": "Penanggulangan",
+  "solutionDetailPageTopUpdateAt": "Tanggal Kejadian Terakhir: {updateAtText}",
+  "solutionDetailPageTopNoData": "Belum ditambahkan",
+  "solutionDetailPageTopEditCountValue": "{count} kali",
+  "solutionDetailPageTopEditDetailGood": "Cara meningkatkan poin bagus Anda",
+  "solutionDetailPageTopEditDetailBad": "Penanggulangan",
+  "solutionDetailPageTopEditDetailHintGood": "Tuliskan bagaimana Anda dapat meningkatkan kekuatan Anda.",
+  "solutionDetailPageTopEditDetailHintBad": "Tulis tindakan balasan.",
+  "solutionDetailPageTopEditTitleHint": "Nama refleksi",
+
+
+  "pageReflectionTitle": "Tambahkan refleksi",
+  "pageReflectionHowToTitle": "Cara refleksi",
+  "pageReflectionHowToDetail": "1. Tonton pemutaran ulang\n\n2. Tulis baik dan buruk\n\n3. Tambahkan refleksi yang sama dari saran",
+  "pageReflectionHowToDetailSub": "* Lakukan ini setiap beberapa permainan.",
+  "pageReflectionButtonStart": "Mulai refleksi",
+  "pageReflectionHooksAddValidation": "Melebihi batas tambahan.\nAnda dapat menghapusnya dari [Solusi].\n{numStr}",
+
+
+  "pageRankDetailTitle": "Peringkat",
+  "pageRankDetailSubTitle": "Ini merupakan indikator kemahiran dalam refleksi.",
+
+
+  "reflectionAddPageModalAddType": "Klasifikasi refleksi",
+  "reflectionAddPageModalAddCountTitle": "Berapa kali hal itu terjadi",
+  "reflectionAddPageModalAddCountValue": "{count} kali",
+  "reflectionAddPageModalAddButton": "Tambah",
+  "reflectionAddPageModalAddButtonCancel": "Batalkan",
+  "reflectionAddPageModalConfirmTitle": "Saya memiliki tinjauan tambahan.\nAnda yakin ingin kembali?",
+  "reflectionAddPageModalConfirmBack": "Kembali tanpa menyimpan",
+  "reflectionAddPageModalConfirmCancel": "Batalkan",
+  "reflectionAddPageBottomDone": "Refleksi lengkap",
+  "reflectionAddPageBottomHint": "Tulis refleksi",
+  "reflectionAddPageBottomButtonAdd": "Tambah",
+  "reflectionAddPageCandidateNoList": "Tidak Ditemukan Kandidat",
+  "reflectionAddPageCandidateFirstText": "Tonton tayangan ulang\ndan tulis poin baik dan buruk Anda.\nAtau tambahkan segera setelah pertandingan.",
+  "reflectionAddPageDoneAlert": "Anda belum menambahkan refleksi apa pun.",
+  "reflectionAddPageAddValidate": "Hingga 30 dapat ditambahkan sekaligus.",
+
+
+  "pageReflectionAddedListTitle": "Menambahkan daftar refleksi",
+  "pageReflectionAddedListButtonSave": "Simpan",
+  "pageReflectionAddedListDoneAlert": "Menambahkan refleksi.",
+  "pageReflectionAddedListCountValue": "+{count} kali",
+
+
+  "pageReflectionHistoryCountValue": "+{count} kali",
+
+
+  "pageReflectionHistoryGroupTitle": "{title} Sejarah",
+  "pageReflectionHistoryGroupNoList": "Tidak ada riwayat refleksi.",
+  "pageReflectionHistoryGroupAnnotation": "Hingga 10 item dapat disimpan.",
+
+
+  "pageTodoTitle": "Daftar yang harus dilakukan",
+  "pageTodoNoData": "Belum ada todo yang ditambahkan. \nMari tambahkan dari Solusi.",
+  "pageTodoButtonGame": "Permainan",
+  "pageTodoButtonTraining": "Pelatihan",
+
+
+  "accountPageTitle": "Pengaturan akun",
+  "accountPageCurrentReflectionName": "Nama refleksi terpilih",
+  "accountPageChangeReflectionName": "Ubah nama refleksi",
+  "accountPageChangeReflectionNamePlaceHolder": "Nama permainan + Nama karakter",
+  "accountPageChangeReflectionNameButton": "Ubah",
+  "accountPageAddReflection": "Buat refleksi baru",
+  "accountPageAddReflectionPlaceHolder": "Nama permainan + Nama karakter",
+  "accountPageAddReflectionButton": "Buat baru",
+  "accountPageChangeColorMode": "Ubah mode warna",
+  "accountPageChangeLanguage": "Ubah bahasa",
+  "accountPageQuestionnaire": "daftar pertanyaan",
+  "accountPageTermsOfService": "Ketentuan Layanan",
+  "accountPagePrivacyPolicy": "Kebijakan Privasi",
+  "accountPageAppInfo": "Info aplikasi",
+  "accountPageDeleteReflection": "Hapus pantulan terpilih",
+  "accountPageDeleteReflectionDetail": "*Konten pantulan juga akan dihapus.",
+  "accountPageDeleteButton": "Hapus",
+  "accountPageModalDeleteTitle": "Hapus refleksi",
+  "accountPageModalDeleteSubTitle": "Konten yang ditinjau juga akan dihapus.\nPemulihan tidak dimungkinkan.",
+  "accountPageModalDeleteButtonDelete": "Hapus",
+  "accountPageModalDeleteCancel": "Batalkan",
+  "accountPageModalNewTitle": "Buat refleksi baru",
+  "accountPageModalNewButtonAdd": "Buat baru",
+  "accountPageModalNewCancel": "Batalkan",
+  "accountPageHooksDoneChangedName": "Diubah menjadi {name}.",
+  "accountPageHooksDoneAddedName": "Menambahkan {name}.",
+  "accountPageHooksAddedNameValidation": "Hingga {num} item dapat ditambahkan.",
+  "accountPageHooksDeleteLastGroup": "Yang terakhir tidak dapat dihapus.",
+  "accountPageHooksDoneDelete": "{name} yang dihapus.",
+
+
+  "footerSolution": "Solusi",
+  "footerReflection": "Refleksikan",
+  "footerTodo": "Todo",
+  "footerAccount": "Akun",
+
+
+  "headerMenuRightDone": "Selesai",
+  "headerMenuRightHistory": "Riwayat",
+
+
+  "commonButtonPeriodFilterAll": "Semua",
+  "commonButtonPeriodFilterCenter": "3 bulan",
+  "commonButtonPeriodFilterRight": "1 minggu",
+
+
+  "commonSelectColorModeDark": "Gelap",
+  "commonSelectColorModeLight": "Ringan",
+
+
+  "commonRadioGoodBadButtonGood": "Bagus",
+  "commonRadioGoodBadButtonBad": "Buruk",
+
+
+  "commonInputTextValidationEmpty": "*Tidak ada karakter yang dimasukkan.",
+  "commonInputTextValidationMaxLengthOver": "*Jumlah maksimum karakter.",
+  "commonInputTextValidationAllSpace": "*Anda tidak dapat menambahkan semua yang kosong.",
+  "commonInputTextValidationFisrtSpace": "*Tidak boleh ada ruang di awal.",
+  "commonInputTextValidationLastSpace": "*Tidak boleh ada ruang di akhir.",
+
+
+  "commonRankBronze": "Perunggu",
+  "commonRankSilver": "Perak",
+  "commonRankGold": "Emas",
+  "commonRankPlatinum3": "Platinum3",
+  "commonRankPlatinum2": "Platinum2",
+  "commonRankPlatinum1": "Platinum1",
+  "commonRankDiamond3": "Diamond3",
+  "commonRankDiamond2": "Diamond2",
+  "commonRankDiamond1": "Diamond1"
+}

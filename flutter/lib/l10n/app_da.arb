@@ -1,0 +1,179 @@
+{
+  "@@locale": "da",
+
+
+  "pageAddReflectionNameTitle": "Lad os bestemme reflektionsnavnet!",
+  "pageAddReflectionNameSubTitle": "Det bruges til at reflektere over hver karakter/våben.",
+  "pageAddReflectionNameFormTitle": "Refleksionsnavn",
+  "pageAddReflectionNameFormAnnotation": "*Du kan ændre det senere.",
+  "pageAddReflectionNameFormPlaceHolder": "Spilnavn + Karakternavn",
+  "pageAddReflectionNameFormButton": "Tilmeld",
+  "pageAddReflectionNameLanguageTitle": "Skift sprog",
+
+
+  "pageSolutionTitle": "Løsning",
+  "pageSolutionCountValue": "{count} gange",
+  "pageSolutionNoList": "Der er ingen refleksion. \nLad os tilføje det fra Anmeldelse.",
+  "pageSolutionButtonGood": "for at forbedre",
+  "pageSolutionButtonBad": "at vokse",
+
+
+  "solutionDetailPageTitle": "Refleksionsdetaljer",
+  "solutionDetailPageButtonEdit": "For at redigere",
+  "solutionDetailPageButtonRemoveTodo": "Fjern fra opgave",
+  "solutionDetailPageButtonAddTodo": "Tilføj til opgave",
+  "solutionDetailPageButtonDone": "Afslut redigering",
+  "solutionDetailPageButtonCancel": "Annuller",
+  "solutionDetailPageModalCheckTitle": "Er du sikker på, at du vil afslutte?",
+  "solutionDetailPageModalCheckAnnotation": "* Slettet og kan ikke gendannes.",
+  "solutionDetailPageModalCheckButtonDone": "Udført",
+  "solutionDetailPageModalCheckButtonCancel": "Annuller",
+  "solutionDetailPageModalAddTodoTitle": "Tilføj Todo",
+  "solutionDetailPageModalAddTodoTitleSub": "Hvilken scene?",
+  "solutionDetailPageModalAddTodoAdd": "Tilføj",
+  "solutionDetailPageModalAddTodoCancel": "Annuller",
+  "solutionDetailPageModalAddTodoGame": "gør i et spil",
+  "solutionDetailPageModalAddTodoTraning": "gør i en uddannelse",
+  "solutionDetailPageHooksAlertAddGood": "Du skal skrive [hvordan du vokser] for at tilføje.",
+  "solutionDetailPageHooksAlertAddBad": "Du skal skrive [hvordan man forbedrer] for at tilføje.",
+  "solutionDetailPageHooksAddTodoValidate": "Du kan tilføje op til 15 todo.",
+  "solutionDetailPageHooksAlertRemoveTodo": "Fjernet fra opgave.",
+  "solutionDetailPageHooksAlertAddTodo": "Tilføjet fra opgave.",
+  "solutionDetailPageTopTypeGood": "Type: gode pointer",
+  "solutionDetailPageTopTypeBad": "Type: Dårlige point",
+  "solutionDetailPageTopCountValue": "{count} gange",
+  "solutionDetailPageTopDetailGood": "Sådan forbedrer du dine gode pointer",
+  "solutionDetailPageTopDetailBad": "Modforanstaltning",
+  "solutionDetailPageTopUpdateAt": "Dato for sidste forekomst: {updateAtText}",
+  "solutionDetailPageTopNoData": "Ikke tilføjet endnu",
+  "solutionDetailPageTopEditCountValue": "{count} gange",
+  "solutionDetailPageTopEditDetailGood": "Sådan forbedrer du dine gode pointer",
+  "solutionDetailPageTopEditDetailBad": "Modforanstaltning",
+  "solutionDetailPageTopEditDetailHintGood": "Skriv ned, hvordan du kan forbedre dine styrker.",
+  "solutionDetailPageTopEditDetailHintBad": "Skriv en modforanstaltning.",
+  "solutionDetailPageTopEditTitleHint": "Refleksionsnavn",
+
+
+  "pageReflectionTitle": "Tilføj refleksion",
+  "pageReflectionHowToTitle": "Sådan reflekteres",
+  "pageReflectionHowToDetail": "1. Se replayet\n\n2. Skriv godt og dårligt\n\n3. Tilføj den samme refleksion fra forslagene",
+  "pageReflectionHowToDetailSub": "* Gør dette hvert par spil.",
+  "pageReflectionButtonStart": "Start refleksion",
+  "pageReflectionHooksAddValidation": "Overskridelse af yderligere grænse.\nDu kan slette det fra [Løsning].\n{numStr}",
+
+
+  "pageRankDetailTitle": "Rank",
+  "pageRankDetailSubTitle": "Det er en indikator for færdigheder i refleksion.",
+
+
+  "reflectionAddPageModalAddType": "Klassificering af refleksion",
+  "reflectionAddPageModalAddCountTitle": "Antal gange det skete",
+  "reflectionAddPageModalAddCountValue": "{count} gange",
+  "reflectionAddPageModalAddButton": "Tilføj",
+  "reflectionAddPageModalAddButtonCancel": "Annuller",
+  "reflectionAddPageModalConfirmTitle": "Jeg har en tilføjet anmeldelse. \nEr du sikker på, at du vil tilbage?",
+  "reflectionAddPageModalConfirmBack": "Vend tilbage uden at gemme",
+  "reflectionAddPageModalConfirmCancel": "Annuller",
+  "reflectionAddPageBottomDone": "Fuldstændig refleksion",
+  "reflectionAddPageBottomHint": "Skriv en refleksion",
+  "reflectionAddPageBottomButtonAdd": "Tilføj",
+  "reflectionAddPageCandidateNoList": "Ingen kandidater fundet",
+  "reflectionAddPageCandidateFirstText": "Se replayet\nog skriv ned, hvad du har gode og dårlige point.\nEller tilføj det lige efter kampen.",
+  "reflectionAddPageDoneAlert": "Du har ikke tilføjet nogen refleksioner.",
+  "reflectionAddPageAddValidate": "Der kan tilføjes op til 30 på én gang.",
+
+
+  "pageReflectionAddedListTitle": "Tilføjet reflektionsliste",
+  "pageReflectionAddedListButtonSave": "Gem",
+  "pageReflectionAddedListDoneAlert": "Tilføjet refleksion.",
+  "pageReflectionAddedListCountValue": "+{count} gange",
+
+
+  "pageReflectionHistoryCountValue": "+{count} gange",
+
+
+  "pageReflectionHistoryGroupTitle": "{title} Historik",
+  "pageReflectionHistoryGroupNoList": "Der er ingen refleksionshistorik.",
+  "pageReflectionHistoryGroupAnnotation": "Op til 10 elementer kan gemmes.",
+
+
+  "pageTodoTitle": "Todo liste",
+  "pageTodoNoData": "Der er ikke tilføjet todos. \nLad os tilføje fra Løsning.",
+  "pageTodoButtonGame": "Spil",
+  "pageTodoButtonTraining": "Træning",
+
+
+  "accountPageTitle": "Kontoindstilling",
+  "accountPageCurrentReflectionName": "Valgt refleksionsnavn",
+  "accountPageChangeReflectionName": "Skift refleksionsnavn",
+  "accountPageChangeReflectionNamePlaceHolder": "Spilnavn + Karakternavn",
+  "accountPageChangeReflectionNameButton": "Skift",
+  "accountPageAddReflection": "Opret en ny refleksion",
+  "accountPageAddReflectionPlaceHolder": "Spilnavn + Karakternavn",
+  "accountPageAddReflectionButton": "Opret ny",
+  "accountPageChangeColorMode": "Skift farvetilstand",
+  "accountPageChangeLanguage": "Skift sprog",
+  "accountPageQuestionnaire": "spørgeskema",
+  "accountPageTermsOfService": "Servicevilkår",
+  "accountPagePrivacyPolicy": "Privatlivspolitik",
+  "accountPageAppInfo": "App info",
+  "accountPageDeleteReflection": "Slet valgt refleksion",
+  "accountPageDeleteReflectionDetail": "*Refleksionsindhold vil også blive slettet.",
+  "accountPageDeleteButton": "Slet",
+  "accountPageModalDeleteTitle": "Slet refleksion",
+  "accountPageModalDeleteSubTitle": "Anmeldt indhold vil også blive slettet. \nGendannelse er ikke mulig.",
+  "accountPageModalDeleteButtonDelete": "Slet",
+  "accountPageModalDeleteCancel": "Annuller",
+  "accountPageModalNewTitle": "Opret en ny refleksion",
+  "accountPageModalNewButtonAdd": "Opret ny",
+  "accountPageModalNewCancel": "Annuller",
+  "accountPageHooksDoneChangedName": "Ændret til {name}.",
+  "accountPageHooksDoneAddedName": "Tilføjet {name}.",
+  "accountPageHooksAddedNameValidation": "Der kan tilføjes op til {num} varer.",
+  "accountPageHooksDeleteLastGroup": "Den sidste kan ikke slettes.",
+  "accountPageHooksDoneDelete": "Fjernet {name}.",
+
+
+  "accountPageTitle": "bruger indstillinger",
+
+
+  "footerSolution": "Løsning",
+  "footerReflection": "Anmeldelse",
+  "footerTodo": "Alle",
+  "footerAccount": "Konto",
+
+
+  "headerMenuRightDone": "Udfør",
+  "headerMenuRightHistory": "Historie",
+
+
+  "commonButtonPeriodFilterAll": "Alle",
+  "commonButtonPeriodFilterCenter": "3 måneder",
+  "commonButtonPeriodFilterRight": "En uge",
+
+
+  "commonSelectColorModeDark": "Mørk",
+  "commonSelectColorModeLight": "Lys",
+
+
+  "commonRadioGoodBadButtonGood": "Godt",
+  "commonRadioGoodBadButtonBad": "Dårlig",
+
+
+  "commonInputTextValidationEmpty": "*Der er ikke indtastet nogen tegn.",
+  "commonInputTextValidationMaxLengthOver": "*Maksimalt antal tegn.",
+  "commonInputTextValidationAllSpace": "*Du kan ikke tilføje alle tomme felter.",
+  "commonInputTextValidationFisrtSpace": "*Ingen plads er tilladt i begyndelsen.",
+  "commonInputTextValidationLastSpace": "*Ingen mellemrum er tilladt i slutningen.",
+
+
+  "commonRankBronze": "Bronze",
+  "commonRankSilver": "Sølv",
+  "commonRankGold": "Guld",
+  "commonRankPlatinum3": "Platinum3",
+  "commonRankPlatinum2": "Platinum2",
+  "commonRankPlatinum1": "Platinum1",
+  "commonRankDiamond3": "Diamond3",
+  "commonRankDiamond2": "Diamond2",
+  "commonRankDiamond1": "Diamond1"
+}

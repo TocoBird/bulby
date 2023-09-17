@@ -1,0 +1,176 @@
+{
+  "@@locale": "ko",
+
+
+  "pageAddReflectionNameTitle": "반영 이름을 결정합시다!",
+  "pageAddReflectionNameSubTitle": "각 캐릭터/무기에 대한 반사에 사용됩니다.",
+  "pageAddReflectionNameFormTitle": "리플렉션 이름",
+  "pageAddReflectionNameFormAnnotation": "*나중에 변경할 수 있습니다.",
+  "pageAddReflectionNameFormPlaceHolder": "게임 이름 + 캐릭터 이름",
+  "pageAddReflectionNameFormButton": "등록",
+  "pageAddReflectionNameLanguageTitle": "언어 변경",
+
+
+  "pageSolutionTitle": "해결책",
+  "pageSolutionCountValue": "{count}번",
+  "pageSolutionNoList": "반사가 없습니다.\n회고 에서 추가해 봅시다.",
+  "pageSolutionButtonGood": "개선하기 위해",
+  "pageSolutionButtonBad": "성장",
+
+
+  "solutionDetailPageTitle": "반영 세부 정보",
+  "solutionDetailPageButtonEdit": "편집하려면",
+  "solutionDetailPageButtonRemoveTodo": "할 일에서 제거",
+  "solutionDetailPageButtonAddTodo": "할 일에 추가",
+  "solutionDetailPageButtonDone": "편집 완료",
+  "solutionDetailPageButtonCancel": "취소",
+  "solutionDetailPageModalCheckTitle": "정말 끝내시겠습니까?",
+  "solutionDetailPageModalCheckAnnotation": "* 삭제되었으며 복원할 수 없습니다.",
+  "solutionDetailPageModalCheckButtonDone": "완료",
+  "solutionDetailPageModalCheckButtonCancel": "취소",
+  "solutionDetailPageModalAddTodoTitle": "할 일 추가",
+  "solutionDetailPageModalAddTodoTitleSub": "어떤 장면?",
+  "solutionDetailPageModalAddTodoAdd": "추가",
+  "solutionDetailPageModalAddTodoCancel": "취소",
+  "solutionDetailPageModalAddTodoGame": "게임에서 하기",
+  "solutionDetailPageModalAddTodoTraning": "트레이닝에서 수행",
+  "solutionDetailPageHooksAlertAddGood": "추가하려면 [성장 방법]을 작성해야 합니다.",
+  "solutionDetailPageHooksAlertAddBad": "추가하려면 [개선 방법]을 작성해야 합니다.",
+  "solutionDetailPageHooksAddTodoValidate": "할일은 최대 15개까지 추가할 수 있습니다.",
+  "solutionDetailPageHooksAlertRemoveTodo": "할 일에서 제거되었습니다.",
+  "solutionDetailPageHooksAlertAddTodo": "todo에서 추가되었습니다.",
+  "solutionDetailPageTopTypeGood": "유형: 장점",
+  "solutionDetailPageTopTypeBad": "유형: 잘못된 점",
+  "solutionDetailPageTopCountValue": "{count}번",
+  "solutionDetailPageTopDetailGood": "장점을 개선하는 방법",
+  "solutionDetailPageTopDetailBad": "대책",
+  "solutionDetailPageTopUpdateAt": "마지막 발생 날짜: {updateAtText}",
+  "solutionDetailPageTopNoData": "아직 추가되지 않음",
+  "solutionDetailPageTopEditCountValue": "{count}번",
+  "solutionDetailPageTopEditDetailGood": "장점을 개선하는 방법",
+  "solutionDetailPageTopEditDetailBad": "대책",
+  "solutionDetailPageTopEditDetailHintGood": "강점을 향상시킬 수 있는 방법을 적어 주십시오.",
+  "solutionDetailPageTopEditDetailHintBad": "대책을 작성합니다.",
+  "solutionDetailPageTopEditTitleHint": "리플렉션 이름",
+
+
+  "pageReflectionTitle": "반사 추가",
+  "pageReflectionHowToTitle": "리플렉션 방법",
+  "pageReflectionHowToDetail": "1. 다시보기를 시청하세요.\n\n2. 좋은 점과 나쁜 점을 작성하세요.\n\n3. 제안에서 동일한 반영을 추가하세요.",
+  "pageReflectionHowToDetailSub": "* 몇 게임마다 이 작업을 수행합니다.",
+  "pageReflectionButtonStart": "반영 시작",
+  "pageReflectionHooksAddValidation": "추가 한도를 초과합니다.\n[해결책] 에서 삭제할 수 있습니다.\n{numStr}",
+
+
+  "pageRankDetailTitle": "순위",
+  "pageRankDetailSubTitle": "성찰 능력의 지표입니다.",
+
+
+  "reflectionAddPageModalAddType": "반사 분류",
+  "reflectionAddPageModalAddCountTitle": "발생한 횟수",
+  "reflectionAddPageModalAddCountValue": "{count}번",
+  "reflectionAddPageModalAddButton": "추가",
+  "reflectionAddPageModalAddButtonCancel": "취소",
+  "reflectionAddPageModalConfirmTitle": "추가된 리뷰가 있습니다. \n정말 돌아가시겠습니까?",
+  "reflectionAddPageModalConfirmBack": "저장하지 않고 돌아가기",
+  "reflectionAddPageModalConfirmCancel": "취소",
+  "reflectionAddPageBottomDone": "반영 완료",
+  "reflectionAddPageBottomHint": "반성 쓰기",
+  "reflectionAddPageBottomButtonAdd": "추가",
+  "reflectionAddPageCandidateNoList": "후보자 없음",
+  "reflectionAddPageCandidateFirstText": "리플레이를 보고\n좋은 점과 나쁜 점을 적으세요.\n또는 경기 직후에 추가하세요.",
+  "reflectionAddPageDoneAlert": "반사를 추가하지 않았습니다.",
+  "reflectionAddPageAddValidate": "한 번에 최대 30개까지 추가할 수 있습니다.",
+
+
+  "pageReflectionAddedListTitle": "추가된 반사 목록",
+  "pageReflectionAddedListButtonSave": "저장",
+  "pageReflectionAddedListDoneAlert": "반성을 추가했습니다.",
+  "pageReflectionAddedListCountValue": "+{count}번",
+
+
+  "pageReflectionHistoryCountValue": "+{count}번",
+
+
+  "pageReflectionHistoryGroupTitle": "{title} 기록",
+  "pageReflectionHistoryGroupNoList": "반영 기록이 없습니다.",
+  "pageReflectionHistoryGroupAnnotation": "최대 10개 항목을 저장할 수 있습니다.",
+
+
+  "pageTodoTitle": "할 일 목록",
+  "pageTodoNoData": "할 일이 추가되지 않았습니다. \n해결책 추가해 봅시다.",
+  "pageTodoButtonGame": "게임",
+  "pageTodoButtonTraining": "훈련",
+
+
+  "accountPageTitle": "계정 설정",
+  "accountPageCurrentReflectionName": "선택한 리플렉션 이름",
+  "accountPageChangeReflectionName": "반영 이름 변경",
+  "accountPageChangeReflectionNamePlaceHolder": "게임 이름 + 캐릭터 이름",
+  "accountPageChangeReflectionNameButton": "변경",
+  "accountPageAddReflection": "새 리플렉션 만들기",
+  "accountPageAddReflectionPlaceHolder": "게임 이름 + 캐릭터 이름",
+  "accountPageAddReflectionButton": "새로 만들기",
+  "accountPageChangeColorMode": "색상 모드 변경",
+  "accountPageChangeLanguage": "언어 변경",
+  "accountPageQuestionnaire": "설문지",
+  "accountPageTermsOfService": "서비스 약관",
+  "accountPagePrivacyPolicy": "개인정보 보호정책",
+  "accountPageAppInfo": "앱 정보",
+  "accountPageDeleteReflection": "선택한 반사 삭제",
+  "accountPageDeleteReflectionDetail": "*반성 콘텐츠도 삭제됩니다.",
+  "accountPageDeleteButton": "삭제",
+  "accountPageModalDeleteTitle": "반영 삭제",
+  "accountPageModalDeleteSubTitle": "검토된 콘텐츠도 삭제됩니다. \n복원할 수 없습니다.",
+  "accountPageModalDeleteButtonDelete": "삭제",
+  "accountPageModalDeleteCancel": "취소",
+  "accountPageModalNewTitle": "새 반영 만들기",
+  "accountPageModalNewButtonAdd": "새로 만들기",
+  "accountPageModalNewCancel": "취소",
+  "accountPageHooksDoneChangedName": "{name} 님으로 변경되었습니다.",
+  "accountPageHooksDoneAddedName": "{name} 님을 추가했습니다.",
+  "accountPageHooksAddedNameValidation": "최대 {num}개의 항목을 추가할 수 있습니다.",
+  "accountPageHooksDeleteLastGroup": "마지막 것은 삭제할 수 없습니다.",
+  "accountPageHooksDoneDelete": "{name} 을(를) 제거했습니다.",
+
+
+  "footerSolution": "해결책",
+  "footerReflection": "회고",
+  "footerTodo": "할것",
+  "footerAccount": "계정",
+
+
+  "headerMenuRightDone": "완료",
+  "headerMenuRightHistory": "기록",
+
+
+  "commonButtonPeriodFilterAll": "모두",
+  "commonButtonPeriodFilterCenter": "3개월",
+  "commonButtonPeriodFilterRight": "일주",
+
+
+  "commonSelectColorModeDark": "어둡게",
+  "commonSelectColorModeLight": "조명",
+
+
+  "commonRadioGoodBadButtonGood": "좋음",
+  "commonRadioGoodBadButtonBad": "나쁨",
+
+
+  "commonInputTextValidationEmpty": "*입력한 문자가 없습니다.",
+  "commonInputTextValidationMaxLengthOver": "* 최대 문자 수.",
+  "commonInputTextValidationAllSpace": "*모든 공백을 추가할 수 없습니다.",
+  "commonInputTextValidationFisrtSpace": "*처음에는 공백이 허용되지 않습니다.",
+  "commonInputTextValidationLastSpace": "*끝에는 공백이 허용되지 않습니다.",
+
+
+  "commonRankBronze": "브론즈",
+  "commonRankSilver": "실버",
+  "commonRankGold": "골드",
+  "commonRankPlatinum3": "플래티넘3",
+  "commonRankPlatinum2": "플래티넘2",
+  "commonRankPlatinum1": "플래티넘1",
+  "commonRankDiamond3": "다이아몬드3",
+  "commonRankDiamond2": "다이아몬드2",
+  "commonRankDiamond1": "다이아몬드1"
+}

@@ -1,0 +1,176 @@
+{
+  "@@locale": "zh",
+
+
+  "pageAddReflectionNameTitle": "让我们决定回顾名称！",
+  "pageAddReflectionNameSubTitle": "它用于每个角色/武器的回顾。",
+  "pageAddReflectionNameFormTitle": "回顾名称",
+  "pageAddReflectionNameFormAnnotation": "*您可以稍后更改。",
+  "pageAddReflectionNameFormPlaceHolder": "游戏名称+角色名称",
+  "pageAddReflectionNameFormButton": "注册",
+  "pageAddReflectionNameLanguageTitle": "更改语言",
+
+
+  "pageSolutionTitle": "解决方案",
+  "pageSolutionCountValue": "{count} 次",
+  "pageSolutionNoList": "没有回顾。\n让我们从 回顾 添加它。",
+  "pageSolutionButtonGood": "改进",
+  "pageSolutionButtonBad": "成长",
+
+
+  "solutionDetailPageTitle": "回顾详细信息",
+  "solutionDetailPageButtonEdit": "编辑",
+  "solutionDetailPageButtonRemoveTodo": "从待办事项中删除",
+  "solutionDetailPageButtonAddTodo": "添加到待办事项",
+  "solutionDetailPageButtonDone": "完成编辑",
+  "solutionDetailPageButtonCancel": "取消",
+  "solutionDetailPageModalCheckTitle": "您确定要完成吗？",
+  "solutionDetailPageModalCheckAnnotation": "* 已删除且无法恢复。",
+  "solutionDetailPageModalCheckButtonDone": "完成",
+  "solutionDetailPageModalCheckButtonCancel": "取消",
+  "solutionDetailPageModalAddTodoTitle": "添加待办事项",
+  "solutionDetailPageModalAddTodoTitleSub": "哪个场景？",
+  "solutionDetailPageModalAddTodoAdd": "添加",
+  "solutionDetailPageModalAddTodoCancel": "取消",
+  "solutionDetailPageModalAddTodoGame": "在游戏中执行",
+  "solutionDetailPageModalAddTodoTraning": "在训练中执行",
+  "solutionDetailPageHooksAlertAddGood": "需要写[如何增长]来添加。",
+  "solutionDetailPageHooksAlertAddBad": "需要写[如何改进]来添加。",
+  "solutionDetailPageHooksAddTodoValidate": "您最多可以添加 15 个待办事项。",
+  "solutionDetailPageHooksAlertRemoveTodo": "已从待办事项中删除。",
+  "solutionDetailPageHooksAlertAddTodo": "从待办事项添加。",
+  "solutionDetailPageTopTypeGood": "类型：优点",
+  "solutionDetailPageTopTypeBad": "类型：坏点",
+  "solutionDetailPageTopCountValue": "{count} 次",
+  "solutionDetailPageTopDetailGood": "如何提高你的优点",
+  "solutionDetailPageTopDetailBad": "对策",
+  "solutionDetailPageTopUpdateAt": "上次发生日期：{updateAtText}",
+  "solutionDetailPageTopNoData": "尚未添加",
+  "solutionDetailPageTopEditCountValue": "{count} 次",
+  "solutionDetailPageTopEditDetailGood": "如何提高你的优点",
+  "solutionDetailPageTopEditDetailBad": "对策",
+  "solutionDetailPageTopEditDetailHintGood": "写下如何提高自己的优势。",
+  "solutionDetailPageTopEditDetailHintBad": "请写出对策。",
+  "solutionDetailPageTopEditTitleHint": "回顾名称",
+
+
+  "pageReflectionTitle": "添加回顾",
+  "pageReflectionHowToTitle": "如何回顾",
+  "pageReflectionHowToDetail": "1. 观看重播\n\n2. 写出好的和坏的\n\n3. 从建议中添加相同的反思",
+  "pageReflectionHowToDetailSub": "* 每隔几场比赛就这样做一次。",
+  "pageReflectionButtonStart": "开始回顾",
+  "pageReflectionHooksAddValidation": "超出额外限制。\n您可以从[解决方案]中将其删除。\n{numStr}",
+
+
+  "pageRankDetailTitle": "秩",
+  "pageRankDetailSubTitle": "它是反思熟练程度的指标。",
+
+
+  "reflectionAddPageModalAddType": "回顾的分类",
+  "reflectionAddPageModalAddCountTitle": "发生的次数",
+  "reflectionAddPageModalAddCountValue": "{count} 次",
+  "reflectionAddPageModalAddButton": "添加",
+  "reflectionAddPageModalAddButtonCancel": "取消",
+  "reflectionAddPageModalConfirmTitle": "我添加了一条评论。\n您确定要返回吗？",
+  "reflectionAddPageModalConfirmBack": "返回而不保存",
+  "reflectionAddPageModalConfirmCancel": "取消",
+  "reflectionAddPageBottomDone": "完成回望",
+  "reflectionAddPageBottomHint": "写入回顾",
+  "reflectionAddPageBottomButtonAdd": "添加",
+  "reflectionAddPageCandidateNoList": "未找到候选者",
+  "reflectionAddPageCandidateFirstText": "观看重播\n并写下你的优点和缺点。\n或者在比赛后立即添加。",
+  "reflectionAddPageDoneAlert": "您尚未添加任何回顾。",
+  "reflectionAddPageAddValidate": "一次最多可以添加30个。",
+
+
+  "pageReflectionAddedListTitle": "添加回顾列表",
+  "pageReflectionAddedListButtonSave": "保存",
+  "pageReflectionAddedListDoneAlert": "添加了回顾。",
+  "pageReflectionAddedListCountValue": "+{count} 次",
+
+
+  "pageReflectionHistoryCountValue": "+{count} 次",
+
+
+  "pageReflectionHistoryGroupTitle": "{title} 历史记录",
+  "pageReflectionHistoryGroupNoList": "没有回顾历史记录。",
+  "pageReflectionHistoryGroupAnnotation": "最多可以保存 10 条。",
+
+
+  "pageTodoTitle": "待办事项列表",
+  "pageTodoNoData": "尚未添加待办事项。\n让我们从解决方案中添加。",
+  "pageTodoButtonGame": "游戏",
+  "pageTodoButtonTraining": "训练",
+
+
+  "accountPageTitle": "账户设置",
+  "accountPageCurrentReflectionName": "选定的回顾名称",
+  "accountPageChangeReflectionName": "更改回顾名称",
+  "accountPageChangeReflectionNamePlaceHolder": "游戏名称+角色名称",
+  "accountPageChangeReflectionNameButton": "更改",
+  "accountPageAddReflection": "创建新回顾",
+  "accountPageAddReflectionPlaceHolder": "游戏名称+角色名称",
+  "accountPageAddReflectionButton": "新建",
+  "accountPageChangeColorMode": "更改颜色模式",
+  "accountPageChangeLanguage": "更改语言",
+  "accountPageQuestionnaire": "调查问卷",
+  "accountPageTermsOfService": "服务条款",
+  "accountPagePrivacyPolicy": "隐私政策",
+  "accountPageAppInfo": "应用程序信息",
+  "accountPageDeleteReflection": "删除选定的倒影",
+  "accountPageDeleteReflectionDetail": "*回顾内容也会被删除。",
+  "accountPageDeleteButton": "删除",
+  "accountPageModalDeleteTitle": "删除回顾",
+  "accountPageModalDeleteSubTitle": "审阅的内容也将被删除。\n无法恢复。",
+  "accountPageModalDeleteButtonDelete": "删除",
+  "accountPageModalDeleteCancel": "取消",
+  "accountPageModalNewTitle": "创建一个新的回顾",
+  "accountPageModalNewButtonAdd": "新建",
+  "accountPageModalNewCancel": "取消",
+  "accountPageHooksDoneChangedName": "已更改为 {name}。",
+  "accountPageHooksDoneAddedName": "已添加 {name}。",
+  "accountPageHooksAddedNameValidation": "最多可以添加 {num} 个项目。",
+  "accountPageHooksDeleteLastGroup": "最后一个无法删除。",
+  "accountPageHooksDoneDelete": "已删除 {name}。",
+
+
+  "footerSolution": "解决方案",
+  "footerReflection": "回顾",
+  "footerTodo": "去做",
+  "footerAccount": "帐户",
+
+
+  "headerMenuRightDone": "完成",
+  "headerMenuRightHistory": "历史记录",
+
+
+  "commonButtonPeriodFilterAll": "全部",
+  "commonButtonPeriodFilterCenter": "3 个月",
+  "commonButtonPeriodFilterRight": "1周",
+
+
+  "commonSelectColorModeDark": "深色",
+  "commonSelectColorModeLight": "光",
+
+
+  "commonRadioGoodBadButtonGood": "好",
+  "commonRadioGoodBadButtonBad": "坏",
+
+
+  "commonInputTextValidationEmpty": "*尚未输入任何字符。",
+  "commonInputTextValidationMaxLengthOver": "*最大字符数。",
+  "commonInputTextValidationAllSpace": "*您不能添加所有空格。",
+  "commonInputTextValidationFisrtSpace": "*开头不允许有空格。",
+  "commonInputTextValidationLastSpace": "*末尾不允许有空格。",
+
+
+  "commonRankBronze": "青铜",
+  "commonRankSilver": "白银",
+  "commonRankGold": "黄金",
+  "commonRankPlatinum3": "白金3",
+  "commonRankPlatinum2": "白金2",
+  "commonRankPlatinum1": "白金1",
+  "commonRankDiamond3": "钻石3",
+  "commonRankDiamond2": "钻石2",
+  "commonRankDiamond1": "钻石1"
+}

@@ -1,0 +1,176 @@
+{
+  "@@locale": "tr",
+
+
+  "pageAddReflectionNameTitle": "Yansıma adına karar verelim!",
+  "pageAddReflectionNameSubTitle": "Her karakteri/silahı yansıtmak için kullanılır.",
+  "pageAddReflectionNameFormTitle": "Yansıma adı",
+  "pageAddReflectionNameFormAnnotation": "*Daha sonra değiştirebilirsiniz.",
+  "pageAddReflectionNameFormPlaceHolder": "Oyun adı + Karakter adı",
+  "pageAddReflectionNameFormButton": "Kayıt Ol",
+  "pageAddReflectionNameLanguageTitle": "Dili değiştir",
+
+
+  "pageSolutionTitle": "Çözüm",
+  "pageSolutionCountValue": "{count} kez",
+  "pageSolutionNoList": "Yansıtma yok. \nYansıtma'dan ekleyelim.",
+  "pageSolutionButtonGood": "geliştirmek için",
+  "pageSolutionButtonBad": "büyümek için",
+
+
+  "solutionDetailPageTitle": "Yansıma ayrıntıları",
+  "solutionDetailPageButtonEdit": "Düzenlemek için",
+  "solutionDetailPageButtonRemoveTodo": "Yapılacak işlerden kaldır",
+  "solutionDetailPageButtonAddTodo": "Yapılacak işe ekle",
+  "solutionDetailPageButtonDone": "Düzenlemeyi bitir",
+  "solutionDetailPageButtonCancel": "İptal",
+  "solutionDetailPageModalCheckTitle": "Bitirmek istediğinizden emin misiniz?",
+  "solutionDetailPageModalCheckAnnotation": "* Silindi ve geri yüklenemez.",
+  "solutionDetailPageModalCheckButtonDone": "Bitti",
+  "solutionDetailPageModalCheckButtonCancel": "İptal",
+  "solutionDetailPageModalAddTodoTitle": "Yapılacak İşi Ekle",
+  "solutionDetailPageModalAddTodoTitleSub": "Hangi sahne?",
+  "solutionDetailPageModalAddTodoAdd": "Ekle",
+  "solutionDetailPageModalAddTodoCancel": "İptal",
+  "solutionDetailPageModalAddTodoGame": "oyunda yap",
+  "solutionDetailPageModalAddTodoTraning": "bir eğitimde yap",
+  "solutionDetailPageHooksAlertAddGood": "Eklemek için [nasıl büyütülür] yazmanız gerekir.",
+  "solutionDetailPageHooksAlertAddBad": "Eklemek için [nasıl geliştirilir] yazmanız gerekir.",
+  "solutionDetailPageHooksAddTodoValidate": "En fazla 15 yapılacak iş ekleyebilirsiniz.",
+  "solutionDetailPageHooksAlertRemoveTodo": "Yapılacaklar'dan kaldırıldı.",
+  "solutionDetailPageHooksAlertAddTodo": "Yapılacaklar kaynağından eklendi.",
+  "solutionDetailPageTopTypeGood": "Tür: iyi noktalar",
+  "solutionDetailPageTopTypeBad": "Tür: Hatalı noktalar",
+  "solutionDetailPageTopCountValue": "{count} kez",
+  "solutionDetailPageTopDetailGood": "İyi noktalarınızı nasıl geliştirirsiniz",
+  "solutionDetailPageTopDetailBad": "Karşı tedbir",
+  "solutionDetailPageTopUpdateAt": "Son Oluşum Tarihi: {updateAtText}",
+  "solutionDetailPageTopNoData": "Henüz eklenmedi",
+  "solutionDetailPageTopEditCountValue": "{count} kez",
+  "solutionDetailPageTopEditDetailGood": "İyi noktalarınızı nasıl geliştirirsiniz",
+  "solutionDetailPageTopEditDetailBad": "Karşı tedbir",
+  "solutionDetailPageTopEditDetailHintGood": "Güçlü yönlerinizi nasıl geliştirebileceğinizi yazın.",
+  "solutionDetailPageTopEditDetailHintBad": "Bir önlem yazın.",
+  "solutionDetailPageTopEditTitleHint": "Yansıma adı",
+
+
+  "pageReflectionTitle": "Yansıma ekle",
+  "pageReflectionHowToTitle": "Yansıma nasıl yapılır",
+  "pageReflectionHowToDetail": "1. Tekrarı izleyin\n\n2. İyi ve kötüyü yazın\n\n3. Önerilerden aynı yansımayı ekleyin",
+  "pageReflectionHowToDetailSub": "* Bunu birkaç oyunda bir yapın.",
+  "pageReflectionButtonStart": "Yansıtmayı başlat",
+  "pageReflectionHooksAddValidation": "Ek sınırın aşılması.\n[Çözüm]'den silebilirsiniz.\n{numStr}",
+
+
+  "pageRankDetailTitle": "Sıra",
+  "pageRankDetailSubTitle": "Düşünmede yeterliliğin bir göstergesidir.",
+
+
+  "reflectionAddPageModalAddType": "Yansıma sınıflandırması",
+  "reflectionAddPageModalAddCountTitle": "Sayısı gerçekleşti",
+  "reflectionAddPageModalAddCountValue": "{count} kez",
+  "reflectionAddPageModalAddButton": "Ekle",
+  "reflectionAddPageModalAddButtonCancel": "İptal",
+  "reflectionAddPageModalConfirmTitle": "Ek incelemem var. \nGeri dönmek istediğinizden emin misiniz?",
+  "reflectionAddPageModalConfirmBack": "Kaydetmeden dön",
+  "reflectionAddPageModalConfirmCancel": "İptal",
+  "reflectionAddPageBottomDone": "Tam yansıma",
+  "reflectionAddPageBottomHint": "Bir yansıma yaz",
+  "reflectionAddPageBottomButtonAdd": "Ekle",
+  "reflectionAddPageCandidateNoList": "Aday Bulunamadı",
+  "reflectionAddPageCandidateFirstText": "Tekrarını izleyin\nve iyi ve kötü noktalarınızı yazın.\nYa da maçtan hemen sonra ekleyin.",
+  "reflectionAddPageDoneAlert": "Herhangi bir yansıma eklemediniz.",
+  "reflectionAddPageAddValidate": "Aynı anda 30 adede kadar eklenebilir.",
+
+
+  "pageReflectionAddedListTitle": "Yansıma listesi eklendi",
+  "pageReflectionAddedListButtonSave": "Kaydet",
+  "pageReflectionAddedListDoneAlert": "Yansıma eklendi.",
+  "pageReflectionAddedListCountValue": "+{count} kez",
+
+
+  "pageReflectionHistoryCountValue": "+{count} kez",
+
+
+  "pageReflectionHistoryGroupTitle": "{title} Geçmiş",
+  "pageReflectionHistoryGroupNoList": "Yansıma geçmişi yok.",
+  "pageReflectionHistoryGroupAnnotation": "En fazla 10 öğe kaydedilebilir.",
+
+
+  "pageTodoTitle": "Yapılacaklar listesi",
+  "pageTodoNoData": "Yapılacaklar eklenmedi. \nÇözümden ekleyelim.",
+  "pageTodoButtonGame": "Oyun",
+  "pageTodoButtonTraining": "Eğitim",
+
+
+  "accountPageTitle": "Hesap ayarı",
+  "accountPageCurrentReflectionName": "Seçilen yansıma adı",
+  "accountPageChangeReflectionName": "Yansıma adını değiştir",
+  "accountPageChangeReflectionNamePlaceHolder": "Oyun adı + Karakter adı",
+  "accountPageChangeReflectionNameButton": "Değiştir",
+  "accountPageAddReflection": "Yeni bir yansıma oluştur",
+  "accountPageAddReflectionPlaceHolder": "Oyun adı + Karakter adı",
+  "accountPageAddReflectionButton": "Yeni oluştur",
+  "accountPageChangeColorMode": "Renk modunu değiştir",
+  "accountPageChangeLanguage": "Dili değiştir",
+  "accountPageQuestionnaire": "anket",
+  "accountPageTermsOfService": "Hizmet şartları",
+  "accountPagePrivacyPolicy": "Gizlilik Politikası",
+  "accountPageAppInfo": "Uygulama bilgisi",
+  "accountPageDeleteReflection": "Seçili yansımayı sil",
+  "accountPageDeleteReflectionDetail": "*Yansıma içeriği de silinecek.",
+  "accountPageDeleteButton": "Sil",
+  "accountPageModalDeleteTitle": "Yansımayı sil",
+  "accountPageModalDeleteSubTitle": "İncelenen içerik de silinecek. \nGeri yükleme mümkün değil.",
+  "accountPageModalDeleteButtonDelete": "Sil",
+  "accountPageModalDeleteCancel": "İptal",
+  "accountPageModalNewTitle": "Yeni bir yansıma oluştur",
+  "accountPageModalNewButtonAdd": "Yeni oluştur",
+  "accountPageModalNewCancel": "İptal",
+  "accountPageHooksDoneChangedName": "{name} olarak değiştirildi.",
+  "accountPageHooksDoneAddedName": "{name} eklendi.",
+  "accountPageHooksAddedNameValidation": "En fazla {num} öğe eklenebilir.",
+  "accountPageHooksDeleteLastGroup": "Sonuncusu silinemez.",
+  "accountPageHooksDoneDelete": "{name} kaldırıldı.",
+
+
+  "footerSolution": "Çözüm",
+  "footerReflection": "Yansıma",
+  "footerTodo": "Yapılacak",
+  "footerAccount": "Hesap",
+
+
+  "headerMenuRightDone": "Bitti",
+  "headerMenuRightHistory": "Geçmiş",
+
+
+  "commonButtonPeriodFilterAll": "Tümü",
+  "commonButtonPeriodFilterCenter": "3 ay",
+  "commonButtonPeriodFilterRight": "1 hafta",
+
+
+  "commonSelectColorModeDark": "Koyu",
+  "commonSelectColorModeLight": "Işık",
+
+
+  "commonRadioGoodBadButtonGood": "İyi",
+  "commonRadioGoodBadButtonBad": "Kötü",
+
+
+  "commonInputTextValidationEmpty": "*Hiçbir karakter girilmemiş.",
+  "commonInputTextValidationMaxLengthOver": "*Maksimum karakter sayısı.",
+  "commonInputTextValidationAllSpace": "*Tüm boşlukları ekleyemezsiniz.",
+  "commonInputTextValidationFisrtSpace": "*Başlangıçta boşluğa izin verilmez.",
+  "commonInputTextValidationLastSpace": "*Sonda boşluğa izin verilmez.",
+
+
+  "commonRankBronze": "Bronz",
+  "commonRankSilver": "Gümüş",
+  "commonRankGold": "Altın",
+  "commonRankPlatinum3": "Platinum3",
+  "commonRankPlatinum2": "Platinum2",
+  "commonRankPlatinum1": "Platinum1",
+  "commonRankDiamond3": "Elmas3",
+  "commonRankDiamond2": "Elmas2",
+  "commonRankDiamond1": "Elmas1"
+}

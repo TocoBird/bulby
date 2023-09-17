@@ -1,0 +1,176 @@
+{
+  "@@locale": "zh_TW",
+
+
+  "pageAddReflectionNameTitle": "讓我們決定回顧名稱！",
+  "pageAddReflectionNameSubTitle": "它用於每個角色/武器的回顧。",
+  "pageAddReflectionNameFormTitle": "回顧名稱",
+  "pageAddReflectionNameFormAnnotation": "*您可以稍後更改。",
+  "pageAddReflectionNameFormPlaceHolder": "遊戲名稱+角色名稱",
+  "pageAddReflectionNameFormButton": "註冊",
+  "pageAddReflectionNameLanguageTitle": "更改語言",
+
+
+  "pageSolutionTitle": "解決方案",
+  "pageSolutionCountValue": "{count} 次",
+  "pageSolutionNoList": "沒有回顧。\n讓我們從 回顧 添加它。",
+  "pageSolutionButtonGood": "改進",
+  "pageSolutionButtonBad": "成長",
+
+
+  "solutionDetailPageTitle": "回顧詳細信息",
+  "solutionDetailPageButtonEdit": "編輯",
+  "solutionDetailPageButtonRemoveTodo": "從待辦事項中刪除",
+  "solutionDetailPageButtonAddTodo": "添加到待辦事項",
+  "solutionDetailPageButtonDone": "完成編輯",
+  "solutionDetailPageButtonCancel": "取消",
+  "solutionDetailPageModalCheckTitle": "您確定要完成嗎？",
+  "solutionDetailPageModalCheckAnnotation": "* 已刪除且無法恢復。",
+  "solutionDetailPageModalCheckButtonDone": "完成",
+  "solutionDetailPageModalCheckButtonCancel": "取消",
+  "solutionDetailPageModalAddTodoTitle": "添加待辦事項",
+  "solutionDetailPageModalAddTodoTitleSub": "哪個場景？",
+  "solutionDetailPageModalAddTodoAdd": "添加",
+  "solutionDetailPageModalAddTodoCancel": "取消",
+  "solutionDetailPageModalAddTodoGame": "在遊戲中執行",
+  "solutionDetailPageModalAddTodoTraning": "在訓練中執行",
+  "solutionDetailPageHooksAlertAddGood": "需要寫[如何增長]來添加。",
+  "solutionDetailPageHooksAlertAddBad": "需要寫[如何改進]來添加。",
+  "solutionDetailPageHooksAddTodoValidate": "您最多可以添加 15 個待辦事項。",
+  "solutionDetailPageHooksAlertRemoveTodo": "已從待辦事項中刪除。",
+  "solutionDetailPageHooksAlertAddTodo": "從待辦事項添加。",
+  "solutionDetailPageTopTypeGood": "類型：優點",
+  "solutionDetailPageTopTypeBad": "類型：壞點",
+  "solutionDetailPageTopCountValue": "{count} 次",
+  "solutionDetailPageTopDetailGood": "如何提高你的優點",
+  "solutionDetailPageTopDetailBad": "對策",
+  "solutionDetailPageTopUpdateAt": "上次發生日期：{updateAtText}",
+  "solutionDetailPageTopNoData": "尚未添加",
+  "solutionDetailPageTopEditCountValue": "{count} 次",
+  "solutionDetailPageTopEditDetailGood": "如何提高你的優點",
+  "solutionDetailPageTopEditDetailBad": "對策",
+  "solutionDetailPageTopEditDetailHintGood": "寫下如何提高自己的優勢。",
+  "solutionDetailPageTopEditDetailHintBad": "請寫出對策。",
+  "solutionDetailPageTopEditTitleHint": "回顧名稱",
+
+
+  "pageReflectionTitle": "添加回顧",
+  "pageReflectionHowToTitle": "如何回顧",
+  "pageReflectionHowToDetail": "1. 觀看重播\n\n2. 寫出好的和壞的\n\n3. 從建議中添加相同的反思",
+  "pageReflectionHowToDetailSub": "* 每隔幾場比賽就這樣做一次。",
+  "pageReflectionButtonStart": "開始回顧",
+  "pageReflectionHooksAddValidation": "超出額外限制。\n您可以從[解決方案]中將其刪除。\n{numStr}",
+
+
+  "pageRankDetailTitle": "秩",
+  "pageRankDetailSubTitle": "它是反思熟練程度的指標。",
+
+
+  "reflectionAddPageModalAddType": "回顧的分類",
+  "reflectionAddPageModalAddCountTitle": "發生的次數",
+  "reflectionAddPageModalAddCountValue": "{count} 次",
+  "reflectionAddPageModalAddButton": "添加",
+  "reflectionAddPageModalAddButtonCancel": "取消",
+  "reflectionAddPageModalConfirmTitle": "我添加了一條評論。\n您確定要返回嗎？",
+  "reflectionAddPageModalConfirmBack": "返回而不保存",
+  "reflectionAddPageModalConfirmCancel": "取消",
+  "reflectionAddPageBottomDone": "完全回顧",
+  "reflectionAddPageBottomHint": "寫入回顧",
+  "reflectionAddPageBottomButtonAdd": "添加",
+  "reflectionAddPageCandidateNoList": "未找到候選者",
+  "reflectionAddPageCandidateFirstText": "觀看重播\n並寫下你的優點和缺點。\n或者在比賽后立即添加。",
+  "reflectionAddPageDoneAlert": "您尚未添加任何回顧。",
+  "reflectionAddPageAddValidate": "一次最多可以添加30個。",
+
+
+  "pageReflectionAddedListTitle": "添加回顧列表",
+  "pageReflectionAddedListButtonSave": "保存",
+  "pageReflectionAddedListDoneAlert": "添加了回顧。",
+  "pageReflectionAddedListCountValue": "+{count} 次",
+
+
+  "pageReflectionHistoryCountValue": "+{count} 次",
+
+
+  "pageReflectionHistoryGroupTitle": "{title} 歷史記錄",
+  "pageReflectionHistoryGroupNoList": "沒有回顧歷史記錄。",
+  "pageReflectionHistoryGroupAnnotation": "最多可以保存 10 條。",
+
+
+  "pageTodoTitle": "待辦事項列表",
+  "pageTodoNoData": "尚未添加待辦事項。\n讓我們從解決方案中添加。",
+  "pageTodoButtonGame": "遊戲",
+  "pageTodoButtonTraining": "訓練",
+
+
+  "accountPageTitle": "賬戶設置",
+  "accountPageCurrentReflectionName": "選定的回顧名稱",
+  "accountPageChangeReflectionName": "更改回顧名稱",
+  "accountPageChangeReflectionNamePlaceHolder": "遊戲名稱+角色名稱",
+  "accountPageChangeReflectionNameButton": "更改",
+  "accountPageAddReflection": "創建新回顧",
+  "accountPageAddReflectionPlaceHolder": "遊戲名稱+角色名稱",
+  "accountPageAddReflectionButton": "新建",
+  "accountPageChangeColorMode": "更改顏色模式",
+  "accountPageChangeLanguage": "更改語言",
+  "accountPageQuestionnaire": "調查問卷",
+  "accountPageTermsOfService": "服務條款",
+  "accountPagePrivacyPolicy": "隱私政策",
+  "accountPageAppInfo": "應用程序信息",
+  "accountPageDeleteReflection": "刪除選定的倒影",
+  "accountPageDeleteReflectionDetail": "*回顧內容也會被刪除。",
+  "accountPageDeleteButton": "刪除",
+  "accountPageModalDeleteTitle": "刪除回顧",
+  "accountPageModalDeleteSubTitle": "審閱的內容也將被刪除。\n無法恢復。",
+  "accountPageModalDeleteButtonDelete": "刪除",
+  "accountPageModalDeleteCancel": "取消",
+  "accountPageModalNewTitle": "創建一個新的回顧",
+  "accountPageModalNewButtonAdd": "新建",
+  "accountPageModalNewCancel": "取消",
+  "accountPageHooksDoneChangedName": "已更改為 {name}。",
+  "accountPageHooksDoneAddedName": "已添加 {name}。",
+  "accountPageHooksAddedNameValidation": "最多可以添加 {num} 個項目。",
+  "accountPageHooksDeleteLastGroup": "最後一個無法刪除。",
+  "accountPageHooksDoneDelete": "已刪除 {name}。",
+
+
+  "footerSolution": "解決方案",
+  "footerReflection": "回顧",
+  "footerTodo": "去做",
+  "footerAccount": "帳戶",
+
+
+  "headerMenuRightDone": "完成",
+  "headerMenuRightHistory": "歷史記錄",
+
+
+  "commonButtonPeriodFilterAll": "全部",
+  "commonButtonPeriodFilterCenter": "3 個月",
+  "commonButtonPeriodFilterRight": "1週",
+
+
+  "commonSelectColorModeDark": "深色",
+  "commonSelectColorModeLight": "光",
+
+
+  "commonRadioGoodBadButtonGood": "好",
+  "commonRadioGoodBadButtonBad": "壞",
+
+
+  "commonInputTextValidationEmpty": "*尚未輸入任何字符。",
+  "commonInputTextValidationMaxLengthOver": "*最大字符數。",
+  "commonInputTextValidationAllSpace": "*您不能添加所有空格。",
+  "commonInputTextValidationFisrtSpace": "*開頭不允許有空格。",
+  "commonInputTextValidationLastSpace": "*末尾不允許有空格。",
+
+
+  "commonRankBronze": "青銅",
+  "commonRankSilver": "白銀",
+  "commonRankGold": "黃金",
+  "commonRankPlatinum3": "白金3",
+  "commonRankPlatinum2": "白金2",
+  "commonRankPlatinum1": "白金1",
+  "commonRankDiamond3": "鑽石3",
+  "commonRankDiamond2": "鑽石2",
+  "commonRankDiamond1": "鑽石1"
+}

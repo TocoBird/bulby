@@ -1,0 +1,176 @@
+{
+  "@@locale": "ja",
+
+
+  "pageAddReflectionNameTitle": "振り返り名を決めましょう！",
+  "pageAddReflectionNameSubTitle": "キャラ/武器などでそれぞれ\n振り返るために必要です。",
+  "pageAddReflectionNameFormTitle": "振り返り名",
+  "pageAddReflectionNameFormAnnotation": "※後で変更できます。",
+  "pageAddReflectionNameFormPlaceHolder": "ゲーム名 + キャラ名など",
+  "pageAddReflectionNameFormButton": "登録する",
+  "pageAddReflectionNameLanguageTitle": "言語の変更",
+
+ 
+  "pageSolutionTitle": "解決案",
+  "pageSolutionCountValue": "{count}回",
+  "pageSolutionNoList": "振り返りがありません。\n「振り返る」から追加しましょう!",
+  "pageSolutionButtonGood": "改善すること",
+  "pageSolutionButtonBad": "伸ばすこと",
+
+
+  "solutionDetailPageTitle": "振り返り詳細",
+  "solutionDetailPageButtonEdit": "編集する",
+  "solutionDetailPageButtonRemoveTodo": "やることから外す",
+  "solutionDetailPageButtonAddTodo": "やることに追加する",
+  "solutionDetailPageButtonDone": "編集を完了",
+  "solutionDetailPageButtonCancel": "キャンセル",
+  "solutionDetailPageModalCheckTitle": "完了しますか？",
+  "solutionDetailPageModalCheckAnnotation": "※削除され、復元はできません。",
+  "solutionDetailPageModalCheckButtonDone": "完了する",
+  "solutionDetailPageModalCheckButtonCancel": "キャンセル",
+  "solutionDetailPageModalAddTodoTitle": "やることに追加",
+  "solutionDetailPageModalAddTodoTitleSub": "どちらの場面で行いますか？",
+  "solutionDetailPageModalAddTodoAdd": "追加する",
+  "solutionDetailPageModalAddTodoCancel": "キャンセル",
+  "solutionDetailPageModalAddTodoGame": "試合の時",
+  "solutionDetailPageModalAddTodoTraning": "練習の時",
+  "solutionDetailPageHooksAlertAddGood": "追加するには「伸ばす方法」を書く必要があります。",
+  "solutionDetailPageHooksAlertAddBad": "追加するには「対策方法」を書く必要があります。",
+  "solutionDetailPageHooksAddTodoValidate": "やることは15件まで追加できます。",
+  "solutionDetailPageHooksAlertRemoveTodo": "やることから外しました。",
+  "solutionDetailPageHooksAlertAddTodo": "やることに追加しました。",
+  "solutionDetailPageTopTypeGood": "種類: 良かった点",
+  "solutionDetailPageTopTypeBad": "種類: 悪かった点",
+  "solutionDetailPageTopCountValue": "回数: {count}回",
+  "solutionDetailPageTopDetailGood": "良かった点を伸ばす方法",
+  "solutionDetailPageTopDetailBad": "対策方法",
+  "solutionDetailPageTopUpdateAt": "最終発生日: {updateAtText}",
+  "solutionDetailPageTopNoData": "まだ追加していません",
+  "solutionDetailPageTopEditCountValue": "回数: {count}回",
+  "solutionDetailPageTopEditDetailGood": "良かった点を伸ばす方法",
+  "solutionDetailPageTopEditDetailBad": "対策方法",
+  "solutionDetailPageTopEditDetailHintGood": "良かった点を伸ばす方法を書きましょう。",
+  "solutionDetailPageTopEditDetailHintBad": "対策方法を書きましょう。",
+  "solutionDetailPageTopEditTitleHint": "振り返り名",
+  
+
+  "pageReflectionTitle": "振り返りの追加",
+  "pageReflectionHowToTitle": "振り返りのやり方",
+  "pageReflectionHowToDetail": "1. リプレイを見る\n\n2. 良かったこと悪かったことを書く\n\n3. 同じ振り返りは候補から追加する",
+  "pageReflectionHowToDetailSub": "※数試合ごとに行いましょう。",
+  "pageReflectionButtonStart": "振り返りを始める",
+  "pageReflectionHooksAddValidation": "振り返りの上限を超えています。\n[解決案]から削除ができます。\n{numStr}",
+
+
+  "pageRankDetailTitle": "ランク",
+  "pageRankDetailSubTitle": "振り返りの熟練度の指標となります。",
+
+
+  "reflectionAddPageModalAddType": "振り返りの分類",
+  "reflectionAddPageModalAddCountTitle": "発生した回数",
+  "reflectionAddPageModalAddCountValue": "{count}回",
+  "reflectionAddPageModalAddButton": "追加する",
+  "reflectionAddPageModalAddButtonCancel": "キャンセル",
+  "reflectionAddPageModalConfirmTitle": "追加した振り返りがあります。\n戻ってもよろしいですか？",
+  "reflectionAddPageModalConfirmBack": "保存せずに戻る",
+  "reflectionAddPageModalConfirmCancel": "キャンセル",
+  "reflectionAddPageBottomDone": "振り返りを完了する",
+  "reflectionAddPageBottomHint": "振り返りを書く",
+  "reflectionAddPageBottomButtonAdd": "追加",
+  "reflectionAddPageCandidateNoList": "候補が見つかりません",
+  "reflectionAddPageCandidateFirstText": "リプレイを見て、\n良かったこと悪かったことを書きましょう!\nまたは、試合の直後に追加しましょう。",
+  "reflectionAddPageDoneAlert": "振り返りを追加していません。",
+  "reflectionAddPageAddValidate": "一度の追加上限は30件までです。",
+
+
+  "pageReflectionAddedListTitle": "追加した振り返り",
+  "pageReflectionAddedListButtonSave": "保存する",
+  "pageReflectionAddedListDoneAlert": "振り返りを追加しました。",
+  "pageReflectionAddedListCountValue": "+{count}回",
+
+
+  "pageReflectionHistoryCountValue": "+{count}回",
+
+
+  "pageReflectionHistoryGroupTitle": "{title} 履歴",
+  "pageReflectionHistoryGroupNoList": "振り返り履歴がありません。",
+  "pageReflectionHistoryGroupAnnotation": "保存されるのは10件までです。",
+
+
+  "pageTodoTitle": "やることリスト",
+  "pageTodoNoData": "やることが追加されていません。\n「解決案」から追加しましょう!",
+  "pageTodoButtonGame": "試合",
+  "pageTodoButtonTraining": "練習",
+
+
+  "accountPageTitle": "アカウント設定",
+  "accountPageCurrentReflectionName": "選択中の振り返り名",
+  "accountPageChangeReflectionName": "振り返り名の変更",
+  "accountPageChangeReflectionNamePlaceHolder": "ゲーム名 + キャラ名など",
+  "accountPageChangeReflectionNameButton": "変更する",
+  "accountPageAddReflection": "振り返りの新規作成",
+  "accountPageAddReflectionPlaceHolder": "ゲーム名 + キャラ名など",
+  "accountPageAddReflectionButton": "新規で作成する",
+  "accountPageChangeColorMode": "カラーモードの変更",
+  "accountPageChangeLanguage": "言語の変更",
+  "accountPageQuestionnaire": "アンケート（アプリの改善）",
+  "accountPageTermsOfService": "利用規約",
+  "accountPagePrivacyPolicy": "プライバシーポリシー",
+  "accountPageAppInfo": "アプリ情報",
+  "accountPageDeleteReflection": "選択中の振り返りの削除",
+  "accountPageDeleteReflectionDetail": "※振り返りした内容も削除されます。",
+  "accountPageDeleteButton": "削除する",
+  "accountPageModalDeleteTitle": "振り返りの削除",
+  "accountPageModalDeleteSubTitle": "振り返りした内容も削除されます。\n復元はできません。",
+  "accountPageModalDeleteButtonDelete": "削除する",
+  "accountPageModalDeleteCancel": "キャンセル",
+  "accountPageModalNewTitle": "振り返りの新規作成",
+  "accountPageModalNewButtonAdd": "新規で作成する",
+  "accountPageModalNewCancel": "キャンセル",
+  "accountPageHooksDoneChangedName": "「{name}」に変更しました。",
+  "accountPageHooksDoneAddedName": "「{name}」を追加しました。",
+  "accountPageHooksAddedNameValidation": "上限は{num}件までです。",
+  "accountPageHooksDeleteLastGroup": "最後の一つは削除できません。",
+  "accountPageHooksDoneDelete": "「{name}」を削除しました。",
+ 
+
+  "footerSolution": "解決案",
+  "footerReflection": "振り返る",
+  "footerTodo": "やること",
+  "footerAccount": "アカウント",
+
+
+  "headerMenuRightDone": "完了",
+  "headerMenuRightHistory": "履歴",
+
+
+  "commonButtonPeriodFilterAll": "全期間",
+  "commonButtonPeriodFilterCenter": "3ヶ月",
+  "commonButtonPeriodFilterRight": "1週間",
+
+
+  "commonSelectColorModeDark": "ダーク",
+  "commonSelectColorModeLight": "ライト",
+
+
+  "commonRadioGoodBadButtonGood": "良かった",
+  "commonRadioGoodBadButtonBad": "悪かった",
+
+
+  "commonInputTextValidationEmpty": "※文字が未入力です。",
+  "commonInputTextValidationMaxLengthOver": "※文字数の上限を超えています。",
+  "commonInputTextValidationAllSpace": "※全て空白では追加できません。",
+  "commonInputTextValidationFisrtSpace": "※先頭に空白は入れられません。",
+  "commonInputTextValidationLastSpace": "※末尾に空白は入れられません。",
+
+
+  "commonRankBronze": "ブロンズ",
+  "commonRankSilver": "シルバー",
+  "commonRankGold": "ゴールド",
+  "commonRankPlatinum3": "プラチナ3",
+  "commonRankPlatinum2": "プラチナ2",
+  "commonRankPlatinum1": "プラチナ1",
+  "commonRankDiamond3": "ダイヤ3",
+  "commonRankDiamond2": "ダイヤ2",
+  "commonRankDiamond1": "ダイヤ1"
+}

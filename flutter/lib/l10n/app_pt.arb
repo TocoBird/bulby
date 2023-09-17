@@ -1,0 +1,176 @@
+{
+  "@@locale": "pt",
+
+
+  "pageAddReflectionNameTitle": "Vamos decidir o nome da reflexão!",
+  "pageAddReflectionNameSubTitle": "É usado para reflexão\na cada personagem/arma.",
+  "pageAddReflectionNameFormTitle": "Nome da reflexão",
+  "pageAddReflectionNameFormAnnotation": "*Você pode alterá-lo mais tarde.",
+  "pageAddReflectionNameFormPlaceHolder": "Nome do jogo + nome do personagem",
+  "pageAddReflectionNameFormButton": "Registrar",
+  "pageAddReflectionNameLanguageTitle": "Alterar idioma",
+
+
+  "pageSolutionTitle": "Solução",
+  "pageSolutionCountValue": "{count} vezes",
+  "pageSolutionNoList": "Não há reflexão. \nVamos adicioná-la a partir do Reflect.",
+  "pageSolutionButtonGood": "para melhorar",
+  "pageSolutionButtonBad": "crescer",
+
+
+  "solutionDetailPageTitle": "Detalhes da reflexão",
+  "solutionDetailPageButtonEdit": "Para editar",
+  "solutionDetailPageButtonRemoveTodo": "Remover de tudo",
+  "solutionDetailPageButtonAddTodo": "Adicionar a todo",
+  "solutionDetailPageButtonDone": "Concluir edição",
+  "solutionDetailPageButtonCancel": "Cancelar",
+  "solutionDetailPageModalCheckTitle": "Tem certeza que deseja terminar?",
+  "solutionDetailPageModalCheckAnnotation": "* Excluído e não pode ser restaurado.",
+  "solutionDetailPageModalCheckButtonDone": "Concluído",
+  "solutionDetailPageModalCheckButtonCancel": "Cancelar",
+  "solutionDetailPageModalAddTodoTitle": "Adicionar tarefa",
+  "solutionDetailPageModalAddTodoTitleSub": "Qual cena?",
+  "solutionDetailPageModalAddTodoAdd": "Adicionar",
+  "solutionDetailPageModalAddTodoCancel": "Cancelar",
+  "solutionDetailPageModalAddTodoGame": "fazer em um jogo",
+  "solutionDetailPageModalAddTodoTraning": "fazer em um treino",
+  "solutionDetailPageHooksAlertAddGood": "Você precisa escrever [como crescer] para adicionar.",
+  "solutionDetailPageHooksAlertAddBad": "Você precisa escrever [como melhorar] para adicionar.",
+  "solutionDetailPageHooksAddTodoValidate": "Você pode adicionar até 15 tarefas.",
+  "solutionDetailPageHooksAlertRemoveTodo": "Removido de todo.",
+  "solutionDetailPageHooksAlertAddTodo": "Adicionado de todo.",
+  "solutionDetailPageTopTypeGood": "Tipo: bons pontos",
+  "solutionDetailPageTopTypeBad": "Tipo: pontos ruins",
+  "solutionDetailPageTopCountValue": "{count} vezes",
+  "solutionDetailPageTopDetailGood": "Como melhorar seus pontos positivos",
+  "solutionDetailPageTopDetailBad": "Contramedida",
+  "solutionDetailPageTopUpdateAt": "Data da última ocorrência: {updateAtText}",
+  "solutionDetailPageTopNoData": "Ainda não adicionado",
+  "solutionDetailPageTopEditCountValue": "{count} vezes",
+  "solutionDetailPageTopEditDetailGood": "Como melhorar seus pontos positivos",
+  "solutionDetailPageTopEditDetailBad": "Contramedida",
+  "solutionDetailPageTopEditDetailHintGood": "Escreva como você pode melhorar seus pontos fortes.",
+  "solutionDetailPageTopEditDetailHintBad": "Escreva uma contramedida.",
+  "solutionDetailPageTopEditTitleHint": "Nome da reflexão",
+
+
+  "pageReflectionTitle": "Adicionar reflexão",
+  "pageReflectionHowToTitle": "Como refletir",
+  "pageReflectionHowToDetail": "1. Assista ao replay\n\n2. Escreva bom e ruim\n\n3. Adicione o mesmo reflexo das sugestões",
+  "pageReflectionHowToDetailSub": "* Faça isso a cada poucos jogos.",
+  "pageReflectionButtonStart": "Iniciar reflexão",
+  "pageReflectionHooksAddValidation": "Excedendo o limite adicional.\nVocê pode excluí-lo de [Solução].\n{numStr}",
+
+
+  "pageRankDetailTitle": "Classificação",
+  "pageRankDetailSubTitle": "É um indicador de proficiência em reflexão.",
+
+
+  "reflectionAddPageModalAddType": "Classificação da reflexão",
+  "reflectionAddPageModalAddCountTitle": "Número de vezes que aconteceu",
+  "reflectionAddPageModalAddCountValue": "{count} vezes",
+  "reflectionAddPageModalAddButton": "Adicionar",
+  "reflectionAddPageModalAddButtonCancel": "Cancelar",
+  "reflectionAddPageModalConfirmTitle": "Eu tenho uma revisão adicionada. \nTem certeza que deseja voltar?",
+  "reflectionAddPageModalConfirmBack": "Retornar sem salvar",
+  "reflectionAddPageModalConfirmCancel": "Cancelar",
+  "reflectionAddPageBottomDone": "Reflexão completa",
+  "reflectionAddPageBottomHint": "Escreva uma reflexão",
+  "reflectionAddPageBottomButtonAdd": "Adicionar",
+  "reflectionAddPageCandidateNoList": "Nenhum candidato encontrado",
+  "reflectionAddPageCandidateFirstText": "Assista ao replay\ne anote o que você achou bom e ruim.\nOu adicione logo após a partida.",
+  "reflectionAddPageDoneAlert": "Você não adicionou nenhum reflexo.",
+  "reflectionAddPageAddValidate": "Até 30 podem ser adicionados de uma só vez.",
+
+
+  "pageReflectionAddedListTitle": "Lista de reflexão adicionada",
+  "pageReflectionAddedListButtonSave": "Salvar",
+  "pageReflectionAddedListDoneAlert": "Reflexão adicionada.",
+  "pageReflectionAddedListCountValue": "+{count} vezes",
+
+
+  "pageReflectionHistoryCountValue": "+{count} vezes",
+
+
+  "pageReflectionHistoryGroupTitle": "{title} Histórico",
+  "pageReflectionHistoryGroupNoList": "Não há histórico de reflexão.",
+  "pageReflectionHistoryGroupAnnotation": "Até 10 itens podem ser salvos.",
+
+
+  "pageTodoTitle": "Lista de tarefas",
+  "pageTodoNoData": "Não foram adicionados todos. \nVamos adicionar a partir da Solução.",
+  "pageTodoButtonGame": "Jogo",
+  "pageTodoButtonTraining": "Treinamento",
+
+
+  "accountPageTitle": "Configuração da conta",
+  "accountPageCurrentReflectionName": "Nome da reflexão selecionada",
+  "accountPageChangeReflectionName": "Alterar nome da reflexão",
+  "accountPageChangeReflectionNamePlaceHolder": "Nome do jogo + nome do personagem",
+  "accountPageChangeReflectionNameButton": "Alterar",
+  "accountPageAddReflection": "Criar uma nova reflexão",
+  "accountPageAddReflectionPlaceHolder": "Nome do jogo + nome do personagem",
+  "accountPageAddReflectionButton": "Criar novo",
+  "accountPageChangeColorMode": "Alterar modo de cor",
+  "accountPageChangeLanguage": "Alterar idioma",
+  "accountPageQuestionnaire": "questionário",
+  "accountPageTermsOfService": "Termos de serviço",
+  "accountPagePrivacyPolicy": "Política de Privacidade",
+  "accountPageAppInfo": "Informações do aplicativo",
+  "accountPageDeleteReflection": "Excluir reflexão selecionada",
+  "accountPageDeleteReflectionDetail": "*O conteúdo de reflexão também será excluído.",
+  "accountPageDeleteButton": "Excluir",
+  "accountPageModalDeleteTitle": "Excluir reflexão",
+  "accountPageModalDeleteSubTitle": "O conteúdo revisado também será excluído. \nRestaurar não é possível.",
+  "accountPageModalDeleteButtonDelete": "Excluir",
+  "accountPageModalDeleteCancel": "Cancelar",
+  "accountPageModalNewTitle": "Criar uma nova reflexão",
+  "accountPageModalNewButtonAdd": "Criar novo",
+  "accountPageModalNewCancel": "Cancelar",
+  "accountPageHooksDoneChangedName": "Alterado para {name}.",
+  "accountPageHooksDoneAddedName": "Adicionou {name}.",
+  "accountPageHooksAddedNameValidation": "Até {num} itens podem ser adicionados.",
+  "accountPageHooksDeleteLastGroup": "O último não pode ser excluído.",
+  "accountPageHooksDoneDelete": "Removido {name}.",
+
+
+  "footerSolution": "Solução",
+  "footerReflection": "Refletir",
+  "footerTodo": "Todo",
+  "footerAccount": "Conta",
+
+
+  "headerMenuRightDone": "Concluído",
+  "headerMenuRightHistory": "Histórico",
+
+
+  "commonButtonPeriodFilterAll": "Todos",
+  "commonButtonPeriodFilterCenter": "3 meses",
+  "commonButtonPeriodFilterRight": "1 semana",
+
+
+  "commonSelectColorModeDark": "Escuro",
+  "commonSelectColorModeLight": "Claro",
+
+
+  "commonRadioGoodBadButtonGood": "Bom",
+  "commonRadioGoodBadButtonBad": "Ruim",
+
+
+  "commonInputTextValidationEmpty": "*Nenhum caractere foi inserido.",
+  "commonInputTextValidationMaxLengthOver": "*Número máximo de caracteres.",
+  "commonInputTextValidationAllSpace": "*Você não pode adicionar todos os espaços em branco.",
+  "commonInputTextValidationFisrtSpace": "*Não é permitido espaço no início.",
+  "commonInputTextValidationLastSpace": "*Não é permitido espaço no final.",
+
+
+  "commonRankBronze": "Bronze",
+  "commonRankSilver": "Prata",
+  "commonRankGold": "Ouro",
+  "commonRankPlatinum3": "Platinum3",
+  "commonRankPlatinum2": "Platinum2",
+  "commonRankPlatinum1": "Platinum1",
+  "commonRankDiamond3": "Diamante3",
+  "commonRankDiamond2": "Diamond2",
+  "commonRankDiamond1": "Diamond1"
+}

@@ -1,0 +1,176 @@
+{
+  "@@locale": "fr",
+
+
+  "pageAddReflectionNameTitle": "Déterminons le nom de la réflexion!",
+  "pageAddReflectionNameSubTitle": "Il est utilisé pour refléter chaque personnage/arme.",
+  "pageAddReflectionNameFormTitle": "Nom de la réflexion",
+  "pageAddReflectionNameFormAnnotation": "*Vous pouvez le modifier plus tard.",
+  "pageAddReflectionNameFormPlaceHolder": "Nom du jeu + Nom du personnage",
+  "pageAddReflectionNameFormButton": "S'inscrire",
+  "pageAddReflectionNameLanguageTitle": "Changer de langue",
+
+
+  "pageSolutionTitle": "Solution",
+  "pageSolutionCountValue": "{count} fois",
+  "pageSolutionNoList": "Il n'y a pas de reflet.\nAjoutons-le depuis Révision.",
+  "pageSolutionButtonGood": "à améliorer",
+  "pageSolutionButtonBad": "pour grandir",
+
+
+  "solutionDetailPageTitle": "Détails de la réflexion",
+  "solutionDetailPageButtonEdit": "Pour éditer",
+  "solutionDetailPageButtonRemoveTodo": "Supprimer de la tâche",
+  "solutionDetailPageButtonAddTodo": "Ajouter à la tâche",
+  "solutionDetailPageButtonDone": "Terminer l'édition",
+  "solutionDetailPageButtonCancel": "Annuler",
+  "solutionDetailPageModalCheckTitle": "Êtes-vous sûr de vouloir terminer?",
+  "solutionDetailPageModalCheckAnnotation": "* Supprimé et ne peut pas être restauré.",
+  "solutionDetailPageModalCheckButtonDone": "Terminé",
+  "solutionDetailPageModalCheckButtonCancel": "Annuler",
+  "solutionDetailPageModalAddTodoTitle": "Ajouter une tâche",
+  "solutionDetailPageModalAddTodoTitleSub": "Quelle scène ?",
+  "solutionDetailPageModalAddTodoAdd": "Ajouter",
+  "solutionDetailPageModalAddTodoCancel": "Annuler",
+  "solutionDetailPageModalAddTodoGame": "faire dans un jeu",
+  "solutionDetailPageModalAddTodoTraning": "faire dans une formation",
+  "solutionDetailPageHooksAlertAddGood": "Vous devez écrire [comment grandir] pour ajouter.",
+  "solutionDetailPageHooksAlertAddBad": "Vous devez écrire [comment améliorer] pour ajouter.",
+  "solutionDetailPageHooksAddTodoValidate": "Vous pouvez ajouter jusqu'à 15 tâches.",
+  "solutionDetailPageHooksAlertRemoveTodo": "Supprimé de la tâche.",
+  "solutionDetailPageHooksAlertAddTodo": "Ajouté depuis la tâche.",
+  "solutionDetailPageTopTypeGood": "Type: bons points",
+  "solutionDetailPageTopTypeBad": "Type: Points négatifs",
+  "solutionDetailPageTopCountValue": "{count} fois",
+  "solutionDetailPageTopDetailGood": "Comment améliorer vos bons points",
+  "solutionDetailPageTopDetailBad": "Contre-mesure",
+  "solutionDetailPageTopUpdateAt": "Dernière occurrence: {updateAtText}",
+  "solutionDetailPageTopNoData": "Pas encore ajouté",
+  "solutionDetailPageTopEditCountValue": "{count} fois",
+  "solutionDetailPageTopEditDetailGood": "Comment améliorer vos bons points",
+  "solutionDetailPageTopEditDetailBad": "Contre-mesure",
+  "solutionDetailPageTopEditDetailHintGood": "Écrivez comment vous pouvez améliorer vos points forts.",
+  "solutionDetailPageTopEditDetailHintBad": "Écrivez une contre-mesure.",
+  "solutionDetailPageTopEditTitleHint": "Nom de la réflexion",
+
+
+  "pageReflectionTitle": "Ajouter une réflexion",
+  "pageReflectionHowToTitle": "Comment réfléchir",
+  "pageReflectionHowToDetail": "1. Regardez la rediffusion\n\n2. Écrivez le bien et le mal\n\n3. Ajoutez la même réflexion à partir des suggestions",
+  "pageReflectionHowToDetailSub": "* Faites cela tous les quelques jeux.",
+  "pageReflectionButtonStart": "Démarrer la réflexion",
+  "pageReflectionHooksAddValidation": "Dépassement de la limite supplémentaire.\nVous pouvez le supprimer de [Solution].\n{numStr}",
+
+
+  "pageRankDetailTitle": "Rang",
+  "pageRankDetailSubTitle": "C'est un indicateur de compétence en réflexion.",
+
+
+  "reflectionAddPageModalAddType": "Classification de la réflexion",
+  "reflectionAddPageModalAddCountTitle": "Nombre de fois où cela s'est produit",
+  "reflectionAddPageModalAddCountValue": "{count} fois",
+  "reflectionAddPageModalAddButton": "Ajouter",
+  "reflectionAddPageModalAddButtonCancel": "Annuler",
+  "reflectionAddPageModalConfirmTitle": "J'ai ajouté une critique. \nVoulez-vous vraiment revenir en arrière?",
+  "reflectionAddPageModalConfirmBack": "Revenir sans enregistrer",
+  "reflectionAddPageModalConfirmCancel": "Annuler",
+  "reflectionAddPageBottomDone": "Réflexion complète",
+  "reflectionAddPageBottomHint": "Écrire une réflexion",
+  "reflectionAddPageBottomButtonAdd": "Ajouter",
+  "reflectionAddPageCandidateNoList": "Aucun candidat trouvé",
+  "reflectionAddPageCandidateFirstText": "Regardez la rediffusion\net notez ce que vous avez de bon et de mauvais.\nOu ajoutez-le juste après le match.",
+  "reflectionAddPageDoneAlert": "Vous n'avez ajouté aucun reflet.",
+  "reflectionAddPageAddValidate": "Jusqu'à 30 peuvent être ajoutés à la fois.",
+
+
+  "pageReflectionAddedListTitle": "Liste de réflexion ajoutée",
+  "pageReflectionAddedListButtonSave": "Enregistrer",
+  "pageReflectionAddedListDoneAlert": "Réflexion ajoutée.",
+  "pageReflectionAddedListCountValue": "+{count} fois",
+
+
+  "pageReflectionHistoryCountValue": "+{count} fois",
+
+
+  "pageReflectionHistoryGroupTitle": "Historique de {title}",
+  "pageReflectionHistoryGroupNoList": "Il n'y a pas d'historique de réflexion.",
+  "pageReflectionHistoryGroupAnnotation": "Jusqu'à 10 éléments peuvent être enregistrés.",
+
+
+  "pageTodoTitle": "Liste de tâches",
+  "pageTodoNoData": "Aucune tâche n'a été ajoutée. \nAjoutons à partir de la Solution.",
+  "pageTodoButtonGame": "Jeu",
+  "pageTodoButtonTraining": "Entraînement",
+
+
+  "accountPageTitle": "Paramètres du compte",
+  "accountPageCurrentReflectionName": "Nom de réflexion sélectionné",
+  "accountPageChangeReflectionName": "Modifier le nom de la réflexion",
+  "accountPageChangeReflectionNamePlaceHolder": "Nom du jeu + Nom du personnage",
+  "accountPageChangeReflectionNameButton": "Modifier",
+  "accountPageAddReflection": "Créer une nouvelle réflexion",
+  "accountPageAddReflectionPlaceHolder": "Nom du jeu + nom du personnage",
+  "accountPageAddReflectionButton": "Créer nouveau",
+  "accountPageChangeColorMode": "Changer le mode de couleur",
+  "accountPageChangeLanguage": "Changer de langue",
+  "accountPageQuestionnaire": "questionnaire",
+  "accountPageTermsOfService": "Conditions d'utilisation",
+  "accountPagePrivacyPolicy": "Politique de confidentialité",
+  "accountPageAppInfo": "Informations sur l'application",
+  "accountPageDeleteReflection": "Supprimer la réflexion sélectionnée",
+  "accountPageDeleteReflectionDetail": "*Le contenu de la réflexion sera également supprimé.",
+  "accountPageDeleteButton": "Supprimer",
+  "accountPageModalDeleteTitle": "Supprimer la réflexion",
+  "accountPageModalDeleteSubTitle": "Le contenu révisé sera également supprimé. \nLa restauration n'est pas possible.",
+  "accountPageModalDeleteButtonDelete": "Supprimer",
+  "accountPageModalDeleteCancel": "Annuler",
+  "accountPageModalNewTitle": "Créer une nouvelle réflexion",
+  "accountPageModalNewButtonAdd": "Créer nouveau",
+  "accountPageModalNewCancel": "Annuler",
+  "accountPageHooksDoneChangedName": "Changement en {name}.",
+  "accountPageHooksDoneAddedName": "{name} ajouté.",
+  "accountPageHooksAddedNameValidation": "Jusqu'à {num} éléments peuvent être ajoutés.",
+  "accountPageHooksDeleteLastGroup": "Le dernier ne peut pas être supprimé.",
+  "accountPageHooksDoneDelete": "Supprimé {name}.",
+
+
+  "footerSolution": "Solution",
+  "footerReflection": "Révision",
+  "footerTodo": "Faire",
+  "footerAccount": "Compte",
+
+
+  "headerMenuRightDone": "Terminé",
+  "headerMenuRightHistory": "Historique",
+
+
+  "commonButtonPeriodFilterAll": "Tous",
+  "commonButtonPeriodFilterCenter": "3 mois",
+  "commonButtonPeriodFilterRight": "1 semaine",
+
+
+  "commonSelectColorModeDark": "Sombre",
+  "commonSelectColorModeLight": "Lumière",
+
+
+  "commonRadioGoodBadButtonGood": "Bien",
+  "commonRadioGoodBadButtonBad": "Mauvais",
+
+
+  "commonInputTextValidationEmpty": "*Aucun caractère n'a été saisi.",
+  "commonInputTextValidationMaxLengthOver": "*Nombre maximum de caractères.",
+  "commonInputTextValidationAllSpace": "*Vous ne pouvez pas ajouter tous les blancs.",
+  "commonInputTextValidationFisrtSpace": "*Aucun espace n'est autorisé au début.",
+  "commonInputTextValidationLastSpace": "*Aucun espace n'est autorisé à la fin.",
+
+
+  "commonRankBronze": "Bronze",
+  "commonRankSilver": "Argent",
+  "commonRankGold": "Or",
+  "commonRankPlatinum3": "Platine3",
+  "commonRankPlatinum2": "Platine2",
+  "commonRankPlatinum1": "Platine1",
+  "commonRankDiamond3": "Diamant3",
+  "commonRankDiamond2": "Diamant2",
+  "commonRankDiamond1": "Diamant1"
+}
