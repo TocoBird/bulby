@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart' show Widget, BuildContext, Column;
 import 'package:flutter_hooks/flutter_hooks.dart' show HookWidget;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/components/common/atoms/spacer/height.dart'
+import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
-import 'package:gamer_reflection/components/common/atoms/button/radio.dart'
+import 'package:bulby/components/common/atoms/button/radio.dart'
     show ButtonRadio;
 
 /// ラジオボタン: 試合か練習か

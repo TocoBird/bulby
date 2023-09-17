@@ -8,7 +8,7 @@ import 'package:flutter/material.dart'
         Radius,
         LinearProgressIndicator,
         AlwaysStoppedAnimation;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 
 /// ゲージのバー
 class GaugeBar extends StatelessWidget {

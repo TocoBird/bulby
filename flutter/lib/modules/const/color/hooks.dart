@@ -1,17 +1,16 @@
 import 'package:flutter/material.dart' show AsyncSnapshot, ValueNotifier;
-import 'package:gamer_reflection/modules/const/color/base.dart'
-    show ColorBase, colorBase;
-import 'package:gamer_reflection/modules/const/color/button.dart'
+import 'package:bulby/modules/const/color/base.dart' show ColorBase, colorBase;
+import 'package:bulby/modules/const/color/button.dart'
     show ColorButton, colorButton;
-import 'package:gamer_reflection/modules/const/color/gauge.dart'
+import 'package:bulby/modules/const/color/gauge.dart'
     show ColorGauge, colorGauge;
-import 'package:gamer_reflection/modules/const/color/input.dart'
+import 'package:bulby/modules/const/color/input.dart'
     show ColorInput, colorInput;
-import 'package:gamer_reflection/modules/const/color/text_tag.dart'
+import 'package:bulby/modules/const/color/text_tag.dart'
     show ColorTextTag, colorTextTag;
 import 'package:flutter_hooks/flutter_hooks.dart'
     show useMemoized, useFuture, useEffect, useState;
-import 'package:gamer_reflection/storage/kvs/selected_color_mode.dart'
+import 'package:bulby/storage/kvs/selected_color_mode.dart'
     show selectColorMode;
 
 class UseColor {

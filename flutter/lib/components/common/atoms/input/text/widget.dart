@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/modules/const/size.dart' show ConstantSizeUI;
-import 'package:gamer_reflection/components/common/atoms/input/text/validate.dart'
+import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
+import 'package:bulby/components/common/atoms/input/text/validate.dart'
     show useValidate;
 
 /// input: 文字入力欄

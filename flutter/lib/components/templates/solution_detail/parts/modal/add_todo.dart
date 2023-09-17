@@ -7,20 +7,18 @@ import 'package:flutter/material.dart'
         ValueNotifier,
         Widget;
 import 'package:flutter_hooks/flutter_hooks.dart' show HookWidget, useState;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/components/common/atoms/text/basic.dart'
-    show BasicText;
-import 'package:gamer_reflection/components/common/atoms/spacer/height.dart'
+import 'package:bulby/components/common/atoms/text/basic.dart' show BasicText;
+import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
-import 'package:gamer_reflection/components/common/atoms/button/basic.dart'
+import 'package:bulby/components/common/atoms/button/basic.dart'
     show ButtonBasic;
-import 'package:gamer_reflection/components/common/atoms/button/cancel.dart'
+import 'package:bulby/components/common/atoms/button/cancel.dart'
     show ButtonCancel;
-import 'package:gamer_reflection/components/common/modal/base.dart'
-    show ModalBase;
-import 'package:gamer_reflection/components/templates/solution_detail/parts/radio_game_traning_button.dart'
+import 'package:bulby/components/common/modal/base.dart' show ModalBase;
+import 'package:bulby/components/templates/solution_detail/parts/radio_game_traning_button.dart'
     show RadioGameTraningButton;
 
 /// todoに追加するモーダルを表示

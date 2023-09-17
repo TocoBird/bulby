@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart' show ValueNotifier;
 import 'package:flutter_hooks/flutter_hooks.dart' show useState, useEffect;
-import 'package:gamer_reflection/components/templates/reflection_history/domain/reflection_history.dart'
+import 'package:bulby/components/templates/reflection_history/domain/reflection_history.dart'
     show DomainReflectionHistory;
-import 'package:gamer_reflection/api/query/controller/reflection_history.dart'
+import 'package:bulby/api/query/controller/reflection_history.dart'
     show FetchReflectionHistoryPage;
 
 class UseReturn {

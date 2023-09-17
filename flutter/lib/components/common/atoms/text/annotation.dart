@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart'
     show StatelessWidget, TextAlign, Widget, BuildContext, Text, TextStyle;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
-import 'package:gamer_reflection/modules/const/size.dart' show ConstantSizeFont;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/size.dart' show ConstantSizeFont;
 
 /// 注釈テキスト
 class TextAnnotation extends StatelessWidget {

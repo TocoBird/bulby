@@ -1,11 +1,8 @@
-import 'package:gamer_reflection/components/templates/solution/domain/reflection.dart'
+import 'package:bulby/components/templates/solution/domain/reflection.dart'
     show DomainSolutionReflection;
-import 'package:gamer_reflection/modules/type/reflection.dart'
-    show ReflectionType;
-import 'package:gamer_reflection/storage/rdb/model/reflection.dart'
-    show ModelReflection;
-import 'package:gamer_reflection/modules/type/tag_text_color.dart'
-    show TagTextColor;
+import 'package:bulby/modules/type/reflection.dart' show ReflectionType;
+import 'package:bulby/storage/rdb/model/reflection.dart' show ModelReflection;
+import 'package:bulby/modules/type/tag_text_color.dart' show TagTextColor;
 
 /// Adapter Domain: Reflection
 class AdapterDomainSolutionPage {

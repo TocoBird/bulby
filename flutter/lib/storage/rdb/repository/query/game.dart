@@ -1,6 +1,6 @@
 import 'package:sqflite/sqflite.dart' show Database;
 import 'package:injectable/injectable.dart' show Injectable;
-import 'package:gamer_reflection/storage/rdb/model/game.dart'
+import 'package:bulby/storage/rdb/model/game.dart'
     show ModelGame, tableNameGame;
 
 /// Interface: RepositoryGameQuery

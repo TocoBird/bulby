@@ -16,29 +16,27 @@ import 'package:flutter/material.dart'
         SizedBox,
         Icon,
         Icons;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/components/layouts/base_padding.dart'
+import 'package:bulby/components/layouts/base_padding.dart'
     show BaseLayoutPadding;
-import 'package:gamer_reflection/components/common/atoms/spacer/height.dart'
+import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
-import 'package:gamer_reflection/components/common/atoms/spacer/width.dart'
+import 'package:bulby/components/common/atoms/spacer/width.dart'
     show SpacerWidth;
-import 'package:gamer_reflection/components/common/atoms/text/basic.dart'
-    show BasicText;
-import 'package:gamer_reflection/components/common/atoms/text/annotation.dart'
+import 'package:bulby/components/common/atoms/text/basic.dart' show BasicText;
+import 'package:bulby/components/common/atoms/text/annotation.dart'
     show TextAnnotation;
-import 'package:gamer_reflection/components/common/atoms/box.dart' show Box;
-import 'package:gamer_reflection/components/common/molecules/select_reflection_group/widget.dart'
+import 'package:bulby/components/common/atoms/box.dart' show Box;
+import 'package:bulby/components/common/molecules/select_reflection_group/widget.dart'
     show SelectReflectionGroup;
-import 'package:gamer_reflection/domain/common/reflection_group.dart'
+import 'package:bulby/domain/common/reflection_group.dart'
     show DomainReflectionGroup;
-import 'package:gamer_reflection/components/common/atoms/button/basic.dart'
+import 'package:bulby/components/common/atoms/button/basic.dart'
     show ButtonBasic;
-import 'package:gamer_reflection/components/common/atoms/gauge_bar.dart'
-    show GaugeBar;
-import 'package:gamer_reflection/modules/const/size.dart' show ConstantSizeUI;
+import 'package:bulby/components/common/atoms/gauge_bar.dart' show GaugeBar;
+import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
 
 ///
 Widget view(

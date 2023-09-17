@@ -1,18 +1,17 @@
 import 'package:flutter/material.dart'
     show Widget, Row, ListView, Image, TextAlign;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/components/layouts/base_padding.dart'
+import 'package:bulby/components/layouts/base_padding.dart'
     show BaseLayoutPadding;
-import 'package:gamer_reflection/components/common/atoms/spacer/height.dart'
+import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
-import 'package:gamer_reflection/components/common/atoms/spacer/width.dart'
+import 'package:bulby/components/common/atoms/spacer/width.dart'
     show SpacerWidth;
-import 'package:gamer_reflection/modules/const/rank/rank_system.dart'
+import 'package:bulby/modules/const/rank/rank_system.dart'
     show ConstantRankSystem;
-import 'package:gamer_reflection/components/common/atoms/text/basic.dart'
-    show BasicText;
+import 'package:bulby/components/common/atoms/text/basic.dart' show BasicText;
 
 ///
 Widget view(

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart' show Color;
-import 'package:gamer_reflection/modules/const/color/colors.dart'
-    show darkBlue, blue;
+import 'package:bulby/modules/const/color/colors.dart' show darkBlue, blue;
 
 class ColorButton {
   const ColorButton({

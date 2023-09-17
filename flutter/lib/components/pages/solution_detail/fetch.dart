@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart' show ValueNotifier;
 import 'package:flutter_hooks/flutter_hooks.dart' show useState, useEffect;
-import 'package:gamer_reflection/components/templates/solution_detail/domain/reflection.dart'
+import 'package:bulby/components/templates/solution_detail/domain/reflection.dart'
     show DomainSolutionDetailReflection;
-import 'package:gamer_reflection/api/query/controller/solution_detail.dart'
+import 'package:bulby/api/query/controller/solution_detail.dart'
     show FetchSolutionDetailPage;
-import 'package:gamer_reflection/modules/type/data_fetch.dart'
-    show DataFetchState;
+import 'package:bulby/modules/type/data_fetch.dart' show DataFetchState;
 
 class UseReturn {
   const UseReturn({

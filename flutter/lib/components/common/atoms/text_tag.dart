@@ -15,11 +15,10 @@ import 'package:flutter/material.dart'
         Text,
         TextAlign,
         TextStyle;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
-import 'package:gamer_reflection/modules/const/size.dart' show ConstantSizeFont;
-import 'package:gamer_reflection/modules/type/tag_text_color.dart'
-    show TagTextColor;
-import 'package:gamer_reflection/modules/const/size.dart' show ConstantSizeUI;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/size.dart' show ConstantSizeFont;
+import 'package:bulby/modules/type/tag_text_color.dart' show TagTextColor;
+import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
 
 /// タグテキスト
 class TextTag extends StatelessWidget {

@@ -1,7 +1,6 @@
-import 'package:gamer_reflection/domain/site/reflection.dart'
+import 'package:bulby/domain/site/reflection.dart'
     show DomainReflectionText, DomainReflectionCount, DomainReflectionType;
-import 'package:gamer_reflection/modules/type/reflection.dart'
-    show ReflectionType;
+import 'package:bulby/modules/type/reflection.dart' show ReflectionType;
 
 /// ドメイン: 追加している振り返り
 class DomainReflectionAdded

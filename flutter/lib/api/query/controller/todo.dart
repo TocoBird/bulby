@@ -1,15 +1,14 @@
 import 'package:get_it/get_it.dart' show GetIt;
 import 'package:sqflite/sqflite.dart' show Database;
-import 'package:gamer_reflection/domain/common/reflection_group.dart'
+import 'package:bulby/domain/common/reflection_group.dart'
     show DomainReflectionGroup;
-import 'package:gamer_reflection/components/templates/todo/domain/todo.dart'
+import 'package:bulby/components/templates/todo/domain/todo.dart'
     show DomainTodo;
-import 'package:gamer_reflection/storage/rdb/repository/query/reflection_group.dart'
+import 'package:bulby/storage/rdb/repository/query/reflection_group.dart'
     show IRepositoryReflectionGroupQuery;
-import 'package:gamer_reflection/storage/rdb/repository/query/todo.dart'
+import 'package:bulby/storage/rdb/repository/query/todo.dart'
     show IRepositoryTodoQuery;
-import 'package:gamer_reflection/storage/rdb/driver/sqlite.dart'
-    show DBConnection;
+import 'package:bulby/storage/rdb/driver/sqlite.dart' show DBConnection;
 
 /// データ取得: タスク一覧ページ
 class FetchTodoPage {

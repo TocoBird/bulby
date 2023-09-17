@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart'
     show Widget, BuildContext, Scaffold, ValueNotifier;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
 import 'package:flutter_hooks/flutter_hooks.dart' show HookWidget;
-import 'package:gamer_reflection/components/templates/solution/widget.dart'
+import 'package:bulby/components/templates/solution/widget.dart'
     show TemplateSolution;
-import 'package:gamer_reflection/components/pages/solution/fetch.dart'
-    show useFetch;
+import 'package:bulby/components/pages/solution/fetch.dart' show useFetch;
 
 /// ページ: 解決案一覧
 class PageSolution extends HookWidget {

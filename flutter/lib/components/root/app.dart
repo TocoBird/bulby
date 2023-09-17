@@ -8,12 +8,11 @@ import 'package:flutter/material.dart'
         SizedBox,
         Container;
 import 'package:flutter_hooks/flutter_hooks.dart' show HookWidget;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show useColor;
-import 'package:gamer_reflection/components/layouts/tabbar/tabbar.dart'
-    show Tabbar;
-import 'package:gamer_reflection/components/pages/add_reflection_name/widget.dart'
+import 'package:bulby/modules/const/color/hooks.dart' show useColor;
+import 'package:bulby/components/layouts/tabbar/tabbar.dart' show Tabbar;
+import 'package:bulby/components/pages/add_reflection_name/widget.dart'
     show PageAddReflectionName;
-import 'package:gamer_reflection/components/root/hooks.dart' show useHooks;
+import 'package:bulby/components/root/hooks.dart' show useHooks;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
 

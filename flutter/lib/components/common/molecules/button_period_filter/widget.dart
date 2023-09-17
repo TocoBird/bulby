@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart'
     show StatelessWidget, Widget, BuildContext;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/components/common/molecules/button_period_filter/view.dart'
+import 'package:bulby/components/common/molecules/button_period_filter/view.dart'
     show view;
-import 'package:gamer_reflection/components/common/molecules/button_period_filter/type.dart'
+import 'package:bulby/components/common/molecules/button_period_filter/type.dart'
     show Period;
 
 /// 期間を選択するボタンの一覧

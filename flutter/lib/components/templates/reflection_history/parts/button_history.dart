@@ -9,18 +9,15 @@ import 'package:flutter/material.dart'
         EdgeInsets,
         Row,
         Container;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/components/common/atoms/text/basic.dart'
-    show BasicText;
-import 'package:gamer_reflection/components/common/atoms/text_tag.dart'
-    show TextTag;
-import 'package:gamer_reflection/components/common/atoms/spacer/width.dart'
+import 'package:bulby/components/common/atoms/text/basic.dart' show BasicText;
+import 'package:bulby/components/common/atoms/text_tag.dart' show TextTag;
+import 'package:bulby/components/common/atoms/spacer/width.dart'
     show SpacerWidth;
-import 'package:gamer_reflection/modules/type/tag_text_color.dart'
-    show TagTextColor;
-import 'package:gamer_reflection/modules/const/size.dart' show ConstantSizeUI;
+import 'package:bulby/modules/type/tag_text_color.dart' show TagTextColor;
+import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
 
 /// ボタン: 振り返り履歴一覧
 class ButtonHistory extends StatelessWidget {

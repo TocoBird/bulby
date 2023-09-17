@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart' show runApp, WidgetsFlutterBinding;
-import 'package:gamer_reflection/components/root/app.dart' show App;
-import 'package:gamer_reflection/injector.dart' show configureDependencies;
+import 'package:bulby/components/root/app.dart' show App;
+import 'package:bulby/injector.dart' show configureDependencies;
 import 'package:flutter/services.dart' show SystemChrome, DeviceOrientation;
 
 /// デバイスの対応の向きを設定

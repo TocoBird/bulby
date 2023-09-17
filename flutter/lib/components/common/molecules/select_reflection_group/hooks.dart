@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart' show AsyncSnapshot, ValueNotifier;
 import 'package:flutter_hooks/flutter_hooks.dart'
     show useEffect, useState, useMemoized, useFuture;
-import 'package:gamer_reflection/components/common/atoms/input/select.dart'
+import 'package:bulby/components/common/atoms/input/select.dart'
     show SelectItem;
-import 'package:gamer_reflection/domain/common/reflection_group.dart'
+import 'package:bulby/domain/common/reflection_group.dart'
     show DomainReflectionGroup;
-import 'package:gamer_reflection/storage/kvs/selected_reflection_group.dart'
+import 'package:bulby/storage/kvs/selected_reflection_group.dart'
     show selectReflectionGroupId;
 
 class UseReturn {

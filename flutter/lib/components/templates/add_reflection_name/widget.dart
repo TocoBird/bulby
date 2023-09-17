@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart' show Widget, BuildContext;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_hooks/flutter_hooks.dart' show HookWidget;
-import 'package:gamer_reflection/components/templates/add_reflection_name/hooks.dart'
+import 'package:bulby/components/templates/add_reflection_name/hooks.dart'
     show useHooks;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/components/templates/add_reflection_name/view.dart'
+import 'package:bulby/components/templates/add_reflection_name/view.dart'
     show view;
-import 'package:gamer_reflection/modules/type/locale.dart' show LocaleCode;
+import 'package:bulby/modules/type/locale.dart' show LocaleCode;
 
 /// テンプレート: 振り返り名の追加
 class TemplateAddReflectionName extends HookWidget {

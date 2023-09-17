@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart' show Widget, BuildContext;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/components/common/molecules/footer/view.dart'
-    show view;
+import 'package:bulby/components/common/molecules/footer/view.dart' show view;
 import 'package:flutter_hooks/flutter_hooks.dart' show HookWidget;
 
 /// Footer

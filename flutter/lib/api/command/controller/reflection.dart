@@ -1,11 +1,9 @@
 import 'package:get_it/get_it.dart' show GetIt;
 import 'package:sqflite/sqflite.dart' show Database;
-import 'package:gamer_reflection/storage/rdb/repository/command/reflection.dart'
+import 'package:bulby/storage/rdb/repository/command/reflection.dart'
     show IRepositoryReflectionCommand;
-import 'package:gamer_reflection/storage/rdb/driver/sqlite.dart'
-    show DBConnection;
-import 'package:gamer_reflection/modules/type/reflection.dart'
-    show ReflectionType;
+import 'package:bulby/storage/rdb/driver/sqlite.dart' show DBConnection;
+import 'package:bulby/modules/type/reflection.dart' show ReflectionType;
 
 /// Request: 振り返り
 class RequestReflection {

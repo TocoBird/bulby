@@ -2,20 +2,18 @@ import 'package:get_it/get_it.dart' show GetIt;
 import 'package:sqflite/sqflite.dart' show Database;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/domain/common/reflection_group.dart'
+import 'package:bulby/domain/common/reflection_group.dart'
     show DomainReflectionGroup;
-import 'package:gamer_reflection/components/templates/reflection/domain/game.dart'
+import 'package:bulby/components/templates/reflection/domain/game.dart'
     show DomainReflectionGame;
-import 'package:gamer_reflection/storage/rdb/repository/query/reflection_group.dart'
+import 'package:bulby/storage/rdb/repository/query/reflection_group.dart'
     show IRepositoryReflectionGroupQuery;
-import 'package:gamer_reflection/storage/rdb/repository/query/reflection.dart'
+import 'package:bulby/storage/rdb/repository/query/reflection.dart'
     show IRepositoryReflectionQuery;
-import 'package:gamer_reflection/storage/rdb/repository/query/game.dart'
+import 'package:bulby/storage/rdb/repository/query/game.dart'
     show IRepositoryGameQuery;
-import 'package:gamer_reflection/storage/rdb/driver/sqlite.dart'
-    show DBConnection;
-import 'package:gamer_reflection/api/query/adapter/reflection.dart'
-    show AdapterReflection;
+import 'package:bulby/storage/rdb/driver/sqlite.dart' show DBConnection;
+import 'package:bulby/api/query/adapter/reflection.dart' show AdapterReflection;
 
 /// データ取得: 振り返りページ
 class FetchReflectionPage {

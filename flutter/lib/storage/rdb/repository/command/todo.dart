@@ -1,6 +1,6 @@
 import 'package:sqflite/sqflite.dart' show Database, ConflictAlgorithm;
 import 'package:injectable/injectable.dart' show Injectable;
-import 'package:gamer_reflection/storage/rdb/model/todo.dart'
+import 'package:bulby/storage/rdb/model/todo.dart'
     show ModelTodo, tableNameTodo;
 
 /// Interface: RepositoryTodoCommand

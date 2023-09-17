@@ -1,8 +1,7 @@
 import 'package:sqflite/sqflite.dart' show Database;
 import 'package:injectable/injectable.dart' show Injectable;
-import 'package:gamer_reflection/storage/rdb/model/todo.dart'
-    show tableNameTodo;
-import 'package:gamer_reflection/components/templates/todo/domain/todo.dart'
+import 'package:bulby/storage/rdb/model/todo.dart' show tableNameTodo;
+import 'package:bulby/components/templates/todo/domain/todo.dart'
     show DomainTodo;
 
 /// Interface: RepositoryTodoQuery

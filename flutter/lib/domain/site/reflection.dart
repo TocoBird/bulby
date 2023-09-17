@@ -1,7 +1,5 @@
-import 'package:gamer_reflection/modules/type/reflection.dart'
-    show ReflectionType;
-import 'package:gamer_reflection/modules/type/tag_text_color.dart'
-    show TagTextColor;
+import 'package:bulby/modules/type/reflection.dart' show ReflectionType;
+import 'package:bulby/modules/type/tag_text_color.dart' show TagTextColor;
 
 /// ドメイン: 振り返りID
 class DomainReflectionId {

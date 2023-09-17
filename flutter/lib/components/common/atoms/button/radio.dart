@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
-import 'package:gamer_reflection/components/common/atoms/text/basic.dart'
-    show BasicText;
-import 'package:gamer_reflection/modules/const/size.dart' show ConstantSizeUI;
-import 'package:gamer_reflection/components/common/atoms/spacer/width.dart'
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/components/common/atoms/text/basic.dart' show BasicText;
+import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
+import 'package:bulby/components/common/atoms/spacer/width.dart'
     show SpacerWidth;
 
 /// ボタン: ラジオ

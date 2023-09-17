@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart'
     show TextEditingController, FocusNode, ValueNotifier, GlobalKey, FormState;
 import 'package:flutter_hooks/flutter_hooks.dart' show useState, useFocusNode;
-import 'package:gamer_reflection/api/command/controller/reflection_group.dart'
+import 'package:bulby/api/command/controller/reflection_group.dart'
     show RequestReflectionGroup;
-import 'package:gamer_reflection/storage/kvs/selected_reflection_group.dart'
+import 'package:bulby/storage/kvs/selected_reflection_group.dart'
     show selectReflectionGroupId;
 
 class UseReturn {

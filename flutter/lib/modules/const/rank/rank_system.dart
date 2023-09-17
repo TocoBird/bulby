@@ -1,7 +1,6 @@
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/modules/const/rank/rank_exp.dart'
-    show ConstantRankExp;
+import 'package:bulby/modules/const/rank/rank_exp.dart' show ConstantRankExp;
 
 /// ランクシステムのマスター情報
 class ConstantRankSystem {

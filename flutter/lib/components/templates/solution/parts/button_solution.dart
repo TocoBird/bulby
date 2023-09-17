@@ -10,18 +10,15 @@ import 'package:flutter/material.dart'
         Expanded,
         Icon,
         Icons;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/components/common/atoms/text/basic.dart'
-    show BasicText;
-import 'package:gamer_reflection/components/common/atoms/spacer/width.dart'
+import 'package:bulby/components/common/atoms/text/basic.dart' show BasicText;
+import 'package:bulby/components/common/atoms/spacer/width.dart'
     show SpacerWidth;
-import 'package:gamer_reflection/modules/const/size.dart' show ConstantSizeUI;
-import 'package:gamer_reflection/components/common/atoms/text_tag.dart'
-    show TextTag;
-import 'package:gamer_reflection/modules/type/tag_text_color.dart'
-    show TagTextColor;
+import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
+import 'package:bulby/components/common/atoms/text_tag.dart' show TextTag;
+import 'package:bulby/modules/type/tag_text_color.dart' show TagTextColor;
 
 /// ボタン: 詳細アイテム
 class ButtonSolution extends StatelessWidget {

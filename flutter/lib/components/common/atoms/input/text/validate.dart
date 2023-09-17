@@ -1,4 +1,4 @@
-import 'package:gamer_reflection/modules/validate/text.dart'
+import 'package:bulby/modules/validate/text.dart'
     show fisrtSpace, lastSpace, allSpace, maxLengthOverForMultibyte;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;

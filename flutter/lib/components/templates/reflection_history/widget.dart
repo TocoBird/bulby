@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart' show Widget, BuildContext;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_hooks/flutter_hooks.dart' show HookWidget;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/components/templates/reflection_history/domain/reflection_history.dart'
+import 'package:bulby/components/templates/reflection_history/domain/reflection_history.dart'
     show DomainReflectionHistory;
-import 'package:gamer_reflection/components/templates/reflection_history/view.dart'
+import 'package:bulby/components/templates/reflection_history/view.dart'
     show view;
 
 /// テンプレート: 振り返り履歴グループ詳細

@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart' show Widget, BuildContext, Scaffold;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_hooks/flutter_hooks.dart' show HookWidget;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/components/templates/reflection/widget.dart'
+import 'package:bulby/components/templates/reflection/widget.dart'
     show TemplateReflection;
-import 'package:gamer_reflection/components/pages/reflection/fetch.dart'
-    show useFetch;
+import 'package:bulby/components/pages/reflection/fetch.dart' show useFetch;
 
 /// ページ: 振り返りの追加説明
 class PageReflection extends HookWidget {

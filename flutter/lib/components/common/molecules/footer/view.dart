@@ -6,7 +6,7 @@ import 'package:flutter/material.dart'
         Icons,
         BottomNavigationBar,
         BottomNavigationBarType;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
 

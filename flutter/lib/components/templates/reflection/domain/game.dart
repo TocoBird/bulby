@@ -1,4 +1,4 @@
-import 'package:gamer_reflection/domain/site/game.dart' show DomainGameEXP;
+import 'package:bulby/domain/site/game.dart' show DomainGameEXP;
 
 /// ドメイン: 振り返りページ ゲーミフィケーション
 class DomainReflectionGame implements DomainGameEXP {

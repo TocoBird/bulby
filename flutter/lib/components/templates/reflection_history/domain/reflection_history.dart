@@ -1,4 +1,4 @@
-import 'package:gamer_reflection/domain/site/reflection_history.dart'
+import 'package:bulby/domain/site/reflection_history.dart'
     show
         DomainReflectionHistoryId,
         DomainReflectionHistoryText,

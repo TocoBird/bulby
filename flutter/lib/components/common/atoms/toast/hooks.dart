@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart' show BuildContext;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
-import 'package:gamer_reflection/components/common/atoms/toast/basic.dart'
-    show ToastBasic;
-import 'package:gamer_reflection/components/common/atoms/toast/alert.dart'
-    show ToastAlert;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/components/common/atoms/toast/basic.dart' show ToastBasic;
+import 'package:bulby/components/common/atoms/toast/alert.dart' show ToastAlert;
 import 'package:fluttertoast/fluttertoast.dart' show FToast, ToastGravity;
 
 class UseToastParam {

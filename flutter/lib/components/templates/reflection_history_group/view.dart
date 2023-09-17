@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart'
     show Widget, BuildContext, ListView, TextAlign;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
 import 'package:intl/intl.dart' show DateFormat;
-import 'package:gamer_reflection/components/layouts/base.dart' show BaseLayout;
-import 'package:gamer_reflection/components/templates/reflection_history_group/domain/reflection_history_group.dart'
+import 'package:bulby/components/layouts/base.dart' show BaseLayout;
+import 'package:bulby/components/templates/reflection_history_group/domain/reflection_history_group.dart'
     show DomainReflectionHistoryGroup;
-import 'package:gamer_reflection/components/templates/reflection_history_group/parts/button_history_group.dart'
+import 'package:bulby/components/templates/reflection_history_group/parts/button_history_group.dart'
     show ButtonHistoryGroup;
-import 'package:gamer_reflection/components/common/atoms/spacer/height.dart'
+import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
-import 'package:gamer_reflection/components/common/atoms/text/annotation.dart'
+import 'package:bulby/components/common/atoms/text/annotation.dart'
     show TextAnnotation;
 
 /// View: 振り返り履歴グループ一覧

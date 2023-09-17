@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart'
     show Widget, BuildContext, Padding, EdgeInsets, Row, Expanded, Container;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
 import 'package:flutter_hooks/flutter_hooks.dart' show HookWidget;
-import 'package:gamer_reflection/components/common/atoms/spacer/width.dart'
+import 'package:bulby/components/common/atoms/spacer/width.dart'
     show SpacerWidth;
-import 'package:gamer_reflection/components/common/atoms/button/thin.dart'
-    show ButtonThin;
-import 'package:gamer_reflection/modules/const/size.dart' show ConstantSizeUI;
+import 'package:bulby/components/common/atoms/button/thin.dart' show ButtonThin;
+import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
 
 /// 下部の固定ボタン
 class BottomButtons extends HookWidget {

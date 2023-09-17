@@ -10,10 +10,9 @@ import 'package:flutter/material.dart'
         EdgeInsets,
         Radius,
         BorderSide;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
-import 'package:gamer_reflection/components/common/atoms/text/basic.dart'
-    show BasicText;
-import 'package:gamer_reflection/modules/const/size.dart' show ConstantSizeUI;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/components/common/atoms/text/basic.dart' show BasicText;
+import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
 
 /// ボタン: キャンセル
 class ButtonCancel extends StatelessWidget {

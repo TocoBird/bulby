@@ -1,9 +1,9 @@
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/storage/rdb/model/game.dart' show ModelGame;
-import 'package:gamer_reflection/components/templates/reflection/domain/game.dart'
+import 'package:bulby/storage/rdb/model/game.dart' show ModelGame;
+import 'package:bulby/components/templates/reflection/domain/game.dart'
     show DomainReflectionGame;
-import 'package:gamer_reflection/modules/const/rank/rank_system.dart'
+import 'package:bulby/modules/const/rank/rank_system.dart'
     show constantRankSystems;
 
 /// Adapter Domain: Reflection

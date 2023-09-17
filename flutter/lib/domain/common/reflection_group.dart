@@ -1,4 +1,4 @@
-import 'package:gamer_reflection/domain/site/reflection_group.dart'
+import 'package:bulby/domain/site/reflection_group.dart'
     show DomainReflectionGroupId, DomainReflectionGroupName;
 
 /// ドメイン: 共通 振り返りグループ

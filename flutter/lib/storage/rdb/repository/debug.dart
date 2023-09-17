@@ -1,17 +1,15 @@
 import 'package:sqflite/sqflite.dart' show Database;
 import 'package:shared_preferences/shared_preferences.dart'
     show SharedPreferences;
-import 'package:gamer_reflection/storage/kvs/selected_period.dart'
+import 'package:bulby/storage/kvs/selected_period.dart'
     show selectedTaskPagePeriod;
-import 'package:gamer_reflection/storage/kvs/selected_reflection_type.dart'
+import 'package:bulby/storage/kvs/selected_reflection_type.dart'
     show selectReflectionType;
-import 'package:gamer_reflection/storage/kvs/selected_reflection_group.dart'
+import 'package:bulby/storage/kvs/selected_reflection_group.dart'
     show selectReflectionGroupId;
-import 'package:gamer_reflection/storage/kvs/selected_todo_type.dart'
-    show selectTodoType;
-import 'package:gamer_reflection/storage/kvs/selected_language.dart'
-    show selectLanguage;
-import 'package:gamer_reflection/storage/kvs/selected_color_mode.dart'
+import 'package:bulby/storage/kvs/selected_todo_type.dart' show selectTodoType;
+import 'package:bulby/storage/kvs/selected_language.dart' show selectLanguage;
+import 'package:bulby/storage/kvs/selected_color_mode.dart'
     show selectColorMode;
 
 /// DB: テーブルのデバッグ

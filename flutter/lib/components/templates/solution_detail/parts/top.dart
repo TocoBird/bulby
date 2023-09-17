@@ -8,26 +8,22 @@ import 'package:flutter/material.dart'
         Column,
         Row,
         CrossAxisAlignment;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/components/common/atoms/text/basic.dart'
-    show BasicText;
-import 'package:gamer_reflection/components/common/atoms/text/annotation.dart'
+import 'package:bulby/components/common/atoms/text/basic.dart' show BasicText;
+import 'package:bulby/components/common/atoms/text/annotation.dart'
     show TextAnnotation;
-import 'package:gamer_reflection/components/common/atoms/box.dart' show Box;
-import 'package:gamer_reflection/components/templates/solution_detail/domain/reflection.dart'
+import 'package:bulby/components/common/atoms/box.dart' show Box;
+import 'package:bulby/components/templates/solution_detail/domain/reflection.dart'
     show DomainSolutionDetailReflection;
-import 'package:gamer_reflection/modules/type/reflection.dart'
-    show ReflectionType;
-import 'package:gamer_reflection/components/common/atoms/text_tag.dart'
-    show TextTag;
-import 'package:gamer_reflection/components/common/atoms/spacer/height.dart'
+import 'package:bulby/modules/type/reflection.dart' show ReflectionType;
+import 'package:bulby/components/common/atoms/text_tag.dart' show TextTag;
+import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
-import 'package:gamer_reflection/components/common/atoms/spacer/width.dart'
+import 'package:bulby/components/common/atoms/spacer/width.dart'
     show SpacerWidth;
-import 'package:gamer_reflection/modules/type/tag_text_color.dart'
-    show TagTextColor;
+import 'package:bulby/modules/type/tag_text_color.dart' show TagTextColor;
 import 'package:intl/intl.dart' show DateFormat;
 
 /// タスク詳細上部

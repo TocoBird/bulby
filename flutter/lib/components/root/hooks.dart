@@ -4,13 +4,11 @@ import 'package:get_it/get_it.dart' show GetIt;
 import 'package:sqflite/sqflite.dart' show Database;
 import 'package:flutter_hooks/flutter_hooks.dart'
     show useState, useEffect, useFuture, useMemoized;
-import 'package:gamer_reflection/storage/rdb/driver/sqlite.dart'
+import 'package:bulby/storage/rdb/driver/sqlite.dart'
     show initDatabase, DBConnection;
-import 'package:gamer_reflection/modules/type/locale.dart' show LocaleCode;
-import 'package:gamer_reflection/storage/kvs/selected_language.dart'
-    show selectLanguage;
-import 'package:gamer_reflection/api/query/controller/root.dart'
-    show FetchRootPage;
+import 'package:bulby/modules/type/locale.dart' show LocaleCode;
+import 'package:bulby/storage/kvs/selected_language.dart' show selectLanguage;
+import 'package:bulby/api/query/controller/root.dart' show FetchRootPage;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
 

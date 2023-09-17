@@ -1,14 +1,13 @@
 import 'package:sqflite/sqflite.dart'
     show ConflictAlgorithm, Batch, Transaction;
 import 'package:injectable/injectable.dart' show Injectable;
-import 'package:gamer_reflection/storage/rdb/model/reflection_history_group.dart'
+import 'package:bulby/storage/rdb/model/reflection_history_group.dart'
     show ModelReflectionHistoryGroup, tableNameReflectionHistoryGroup;
-import 'package:gamer_reflection/storage/rdb/model/reflection_history.dart'
+import 'package:bulby/storage/rdb/model/reflection_history.dart'
     show ModelReflectionHistory, tableNameReflectionHistory;
-import 'package:gamer_reflection/components/templates/reflection_add/domain/reflection_added.dart'
+import 'package:bulby/components/templates/reflection_add/domain/reflection_added.dart'
     show DomainReflectionAdded;
-import 'package:gamer_reflection/modules/type/reflection.dart'
-    show ReflectionType;
+import 'package:bulby/modules/type/reflection.dart' show ReflectionType;
 
 /// Interface: RepositoryReflectionHistoryGroupCommand
 abstract class IRepositoryReflectionHistoryGroupCommand {

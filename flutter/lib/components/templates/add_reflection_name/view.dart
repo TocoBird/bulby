@@ -17,24 +17,22 @@ import 'package:flutter/material.dart'
         Expanded,
         AutovalidateMode,
         CrossAxisAlignment;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
-import 'package:gamer_reflection/components/common/atoms/input/text/widget.dart'
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/components/common/atoms/input/text/widget.dart'
     show InputText;
-import 'package:gamer_reflection/components/common/atoms/text/annotation.dart'
+import 'package:bulby/components/common/atoms/text/annotation.dart'
     show TextAnnotation;
-import 'package:gamer_reflection/components/common/molecules/select_language/widget.dart'
+import 'package:bulby/components/common/molecules/select_language/widget.dart'
     show SelectLanguage;
-import 'package:gamer_reflection/components/layouts/base_padding.dart'
+import 'package:bulby/components/layouts/base_padding.dart'
     show BaseLayoutPadding;
-import 'package:gamer_reflection/components/common/atoms/text/basic.dart'
-    show BasicText;
-import 'package:gamer_reflection/components/common/atoms/button/icon.dart'
-    show ButtonIcon;
-import 'package:gamer_reflection/components/common/atoms/box.dart' show Box;
-import 'package:gamer_reflection/components/common/atoms/spacer/height.dart'
+import 'package:bulby/components/common/atoms/text/basic.dart' show BasicText;
+import 'package:bulby/components/common/atoms/button/icon.dart' show ButtonIcon;
+import 'package:bulby/components/common/atoms/box.dart' show Box;
+import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
-import 'package:gamer_reflection/modules/type/locale.dart' show LocaleCode;
-import 'package:gamer_reflection/modules/const/size.dart' show ConstantSizeUI;
+import 'package:bulby/modules/type/locale.dart' show LocaleCode;
+import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
 

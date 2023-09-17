@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart' show Widget, BuildContext, Scaffold;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_hooks/flutter_hooks.dart' show HookWidget;
-import 'package:gamer_reflection/components/templates/add_reflection_name/widget.dart'
+import 'package:bulby/components/templates/add_reflection_name/widget.dart'
     show TemplateAddReflectionName;
-import 'package:gamer_reflection/modules/type/locale.dart' show LocaleCode;
+import 'package:bulby/modules/type/locale.dart' show LocaleCode;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
 

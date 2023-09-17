@@ -9,37 +9,35 @@ import 'package:flutter/material.dart'
         CrossAxisAlignment,
         GlobalKey,
         FormState;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/components/common/atoms/text/basic.dart'
-    show BasicText;
-import 'package:gamer_reflection/components/common/atoms/text/annotation.dart'
+import 'package:bulby/components/common/atoms/text/basic.dart' show BasicText;
+import 'package:bulby/components/common/atoms/text/annotation.dart'
     show TextAnnotation;
-import 'package:gamer_reflection/components/layouts/base_padding.dart'
+import 'package:bulby/components/layouts/base_padding.dart'
     show BaseLayoutPadding;
-import 'package:gamer_reflection/components/common/atoms/box.dart' show Box;
-import 'package:gamer_reflection/components/common/atoms/spacer/height.dart'
+import 'package:bulby/components/common/atoms/box.dart' show Box;
+import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
-import 'package:gamer_reflection/components/common/atoms/button/delete.dart'
+import 'package:bulby/components/common/atoms/button/delete.dart'
     show ButtonDelete;
-import 'package:gamer_reflection/components/common/molecules/select_language/widget.dart'
+import 'package:bulby/components/common/molecules/select_language/widget.dart'
     show SelectLanguage;
-// import 'package:gamer_reflection/components/common/molecules/select_color_mode/widget.dart'
+// import 'package:bulby/components/common/molecules/select_color_mode/widget.dart'
 //     show SelectColorMode;
-import 'package:gamer_reflection/components/common/molecules/select_reflection_group/widget.dart'
+import 'package:bulby/components/common/molecules/select_reflection_group/widget.dart'
     show SelectReflectionGroup;
-import 'package:gamer_reflection/domain/common/reflection_group.dart'
+import 'package:bulby/domain/common/reflection_group.dart'
     show DomainReflectionGroup;
-import 'package:gamer_reflection/components/templates/account_setting/parts/new_reflection_name.dart'
+import 'package:bulby/components/templates/account_setting/parts/new_reflection_name.dart'
     show NewReflectionName;
-import 'package:gamer_reflection/components/templates/account_setting/parts/edit_reflection_name.dart'
+import 'package:bulby/components/templates/account_setting/parts/edit_reflection_name.dart'
     show EditReflectionName;
-import 'package:gamer_reflection/components/templates/account_setting/parts/button_links.dart'
+import 'package:bulby/components/templates/account_setting/parts/button_links.dart'
     show ButtonLinks, ButtonLinksParam;
-import 'package:gamer_reflection/modules/const/app_info.dart'
-    show ConstantAppInfo;
-import 'package:gamer_reflection/modules/type/locale.dart' show LocaleCode;
+import 'package:bulby/modules/const/app_info.dart' show ConstantAppInfo;
+import 'package:bulby/modules/type/locale.dart' show LocaleCode;
 
 /// アカウント設定
 Widget view(

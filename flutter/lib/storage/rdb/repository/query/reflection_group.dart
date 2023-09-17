@@ -1,14 +1,13 @@
 import 'package:sqflite/sqflite.dart' show Database;
 import 'package:injectable/injectable.dart' show Injectable;
-import 'package:gamer_reflection/storage/rdb/model/reflection_group.dart'
+import 'package:bulby/storage/rdb/model/reflection_group.dart'
     show tableNameReflectionGroup;
-import 'package:gamer_reflection/domain/common/reflection_group.dart'
+import 'package:bulby/domain/common/reflection_group.dart'
     show DomainReflectionGroup;
 
 /// Interface: IRepositoryReflectionGroupQuery
 abstract class IRepositoryReflectionGroupQuery {
-  Future<List<DomainReflectionGroup>> getReflectionGroups(
-      Database db);
+  Future<List<DomainReflectionGroup>> getReflectionGroups(Database db);
 }
 
 /// Repository: 振り返りグループ
@@ -16,8 +15,7 @@ abstract class IRepositoryReflectionGroupQuery {
 class RepositoryReflectionQuery extends IRepositoryReflectionGroupQuery {
   /// 取得: 振り返りグループ一覧
   @override
-  Future<List<DomainReflectionGroup>> getReflectionGroups(
-      Database db) async {
+  Future<List<DomainReflectionGroup>> getReflectionGroups(Database db) async {
     final List<Map<String, Object?>> res = await db.query(
       tableNameReflectionGroup,
       columns: ['*'],

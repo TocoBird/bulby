@@ -1,11 +1,10 @@
 import 'package:sqflite/sqflite.dart'
     show Database, ConflictAlgorithm, Transaction;
 import 'package:injectable/injectable.dart' show Injectable;
-import 'package:gamer_reflection/storage/rdb/model/reflection.dart'
+import 'package:bulby/storage/rdb/model/reflection.dart'
     show ModelReflection, tableNameReflection;
-import 'package:gamer_reflection/modules/type/reflection.dart'
-    show ReflectionType;
-import 'package:gamer_reflection/components/templates/reflection_add/domain/reflection_added.dart'
+import 'package:bulby/modules/type/reflection.dart' show ReflectionType;
+import 'package:bulby/components/templates/reflection_add/domain/reflection_added.dart'
     show DomainReflectionAdded;
 
 /// Interface: RepositoryReflectionCommand

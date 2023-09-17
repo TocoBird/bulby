@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart' show Widget, BuildContext, Scaffold;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_hooks/flutter_hooks.dart' show HookWidget;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/components/templates/reflection_history_group/widget.dart'
+import 'package:bulby/components/templates/reflection_history_group/widget.dart'
     show TemplateReflectionHistoryGroup;
-import 'package:gamer_reflection/components/pages/reflection_history_group/fetch.dart'
+import 'package:bulby/components/pages/reflection_history_group/fetch.dart'
     show useFetch;
 
 /// ページ: 振り返り履歴グループ一覧

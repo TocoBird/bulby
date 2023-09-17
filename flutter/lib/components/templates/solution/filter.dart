@@ -1,13 +1,10 @@
-import 'package:gamer_reflection/components/templates/solution/domain/reflection.dart'
+import 'package:bulby/components/templates/solution/domain/reflection.dart'
     show DomainSolutionReflection;
-import 'package:gamer_reflection/modules/type/tag_text_color.dart'
-    show TagTextColor;
-import 'package:gamer_reflection/components/common/molecules/button_period_filter/type.dart'
+import 'package:bulby/modules/type/tag_text_color.dart' show TagTextColor;
+import 'package:bulby/components/common/molecules/button_period_filter/type.dart'
     show Period;
-import 'package:gamer_reflection/modules/type/reflection.dart'
-    show ReflectionType;
-import 'package:gamer_reflection/modules/date/date.dart'
-    show getMonthAgo, getDayAgo;
+import 'package:bulby/modules/type/reflection.dart' show ReflectionType;
+import 'package:bulby/modules/date/date.dart' show getMonthAgo, getDayAgo;
 
 /// 優先度からTagの色を返す
 TagTextColor getTagColor(int priority) {

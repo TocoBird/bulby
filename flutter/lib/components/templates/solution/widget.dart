@@ -1,16 +1,14 @@
 import 'package:flutter/material.dart' show BuildContext, Widget;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_hooks/flutter_hooks.dart' show HookWidget;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/components/templates/solution/domain/reflection.dart'
+import 'package:bulby/components/templates/solution/domain/reflection.dart'
     show DomainSolutionReflection;
-import 'package:gamer_reflection/domain/common/reflection_group.dart'
+import 'package:bulby/domain/common/reflection_group.dart'
     show DomainReflectionGroup;
-import 'package:gamer_reflection/components/templates/solution/view.dart'
-    show view;
-import 'package:gamer_reflection/components/templates/solution/hooks.dart'
-    show useHooks;
+import 'package:bulby/components/templates/solution/view.dart' show view;
+import 'package:bulby/components/templates/solution/hooks.dart' show useHooks;
 
 /// テンプレート: 解決案一覧
 class TemplateSolution extends HookWidget {

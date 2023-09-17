@@ -1,12 +1,11 @@
 import 'package:sqflite/sqflite.dart'
     show Database, getDatabasesPath, openDatabase;
 import 'package:path/path.dart' show join;
-import 'package:gamer_reflection/storage/rdb/repository/table.dart'
+import 'package:bulby/storage/rdb/repository/table.dart'
     show TableSetUp, TableOpenSetUp;
-import 'package:gamer_reflection/storage/rdb/repository/migration.dart'
+import 'package:bulby/storage/rdb/repository/migration.dart'
     show TableMigration;
-import 'package:gamer_reflection/storage/rdb/repository/debug.dart'
-    show TableDebug;
+import 'package:bulby/storage/rdb/repository/debug.dart' show TableDebug;
 
 /// sqliteの管理
 

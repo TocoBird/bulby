@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart'
     show StatelessWidget, Widget, BuildContext, Row, Expanded;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/components/common/atoms/spacer/width.dart'
+import 'package:bulby/components/common/atoms/spacer/width.dart'
     show SpacerWidth;
-import 'package:gamer_reflection/components/common/atoms/button/radio.dart'
+import 'package:bulby/components/common/atoms/button/radio.dart'
     show ButtonRadio;
 
 /// ラジオボタン: 良かったこと悪かったこと

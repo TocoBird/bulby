@@ -1,7 +1,6 @@
-import 'package:gamer_reflection/components/templates/reflection_add/domain/reflection.dart'
+import 'package:bulby/components/templates/reflection_add/domain/reflection.dart'
     show DomainReflectionAddReflection;
-import 'package:gamer_reflection/storage/rdb/model/reflection.dart'
-    show ModelReflection;
+import 'package:bulby/storage/rdb/model/reflection.dart' show ModelReflection;
 
 /// Adapter Domain: ReflectionAdd
 class AdapterDomainReflectionAddPage {

@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart' show Widget, BuildContext, Scaffold;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_hooks/flutter_hooks.dart' show HookWidget;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/components/templates/account_setting/widget.dart'
+import 'package:bulby/components/templates/account_setting/widget.dart'
     show TemplateAccountSetting;
-import 'package:gamer_reflection/components/pages/account/fetch.dart'
-    show useFetch;
-import 'package:gamer_reflection/modules/type/locale.dart' show LocaleCode;
+import 'package:bulby/components/pages/account/fetch.dart' show useFetch;
+import 'package:bulby/modules/type/locale.dart' show LocaleCode;
 
 /// ページ: アカウント設定
 class PageAccountSetting extends HookWidget {

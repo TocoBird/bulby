@@ -12,25 +12,24 @@ import 'package:flutter/material.dart'
         Form,
         Padding,
         SizedBox;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/components/templates/solution_detail/parts/top.dart'
+import 'package:bulby/components/templates/solution_detail/parts/top.dart'
     show SolutionDetailTop;
-import 'package:gamer_reflection/components/templates/solution_detail/parts/top_edit.dart'
+import 'package:bulby/components/templates/solution_detail/parts/top_edit.dart'
     show SolutionDetailTopEdit;
-import 'package:gamer_reflection/components/common/atoms/button/done_menu.dart'
+import 'package:bulby/components/common/atoms/button/done_menu.dart'
     show ButtonDoneMenu;
-import 'package:gamer_reflection/components/common/atoms/button/icon.dart'
-    show ButtonIcon;
-import 'package:gamer_reflection/components/common/atoms/button/cancel.dart'
+import 'package:bulby/components/common/atoms/button/icon.dart' show ButtonIcon;
+import 'package:bulby/components/common/atoms/button/cancel.dart'
     show ButtonCancel;
-import 'package:gamer_reflection/components/layouts/base.dart' show BaseLayout;
-import 'package:gamer_reflection/components/templates/solution_detail/domain/reflection.dart'
+import 'package:bulby/components/layouts/base.dart' show BaseLayout;
+import 'package:bulby/components/templates/solution_detail/domain/reflection.dart'
     show DomainSolutionDetailReflection;
-import 'package:gamer_reflection/components/common/atoms/spacer/height.dart'
+import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
-import 'package:gamer_reflection/modules/const/size.dart' show ConstantSizeUI;
+import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
 
 ///
 Widget view(

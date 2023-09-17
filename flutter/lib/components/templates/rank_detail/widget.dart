@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart' show Widget, BuildContext;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_hooks/flutter_hooks.dart' show HookWidget;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
-import 'package:gamer_reflection/components/templates/rank_detail/view.dart'
-    show view;
-import 'package:gamer_reflection/modules/const/rank/rank_system.dart'
+import 'package:bulby/components/templates/rank_detail/view.dart' show view;
+import 'package:bulby/modules/const/rank/rank_system.dart'
     show ConstantRankSystem;
 
 /// テンプレート: ランクの説明

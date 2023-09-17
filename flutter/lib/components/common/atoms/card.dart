@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
-import 'package:gamer_reflection/modules/const/size.dart' show ConstantSizeUI;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
 
 /// 削除ボタン付きコンテンツ
 class Card extends StatelessWidget {

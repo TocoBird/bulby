@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart' show Widget, BuildContext, FocusNode;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_hooks/flutter_hooks.dart' show HookWidget;
-import 'package:gamer_reflection/components/common/atoms/input/select.dart'
+import 'package:bulby/components/common/atoms/input/select.dart'
     show InputSelect;
-import 'package:gamer_reflection/components/common/molecules/select_language/hooks.dart'
+import 'package:bulby/components/common/molecules/select_language/hooks.dart'
     show useHooks;
-import 'package:gamer_reflection/modules/type/locale.dart' show LocaleCode;
+import 'package:bulby/modules/type/locale.dart' show LocaleCode;
 
 /// 言語選択
 class SelectLanguage extends HookWidget {

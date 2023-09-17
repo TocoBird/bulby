@@ -8,8 +8,8 @@ import 'package:flutter/material.dart'
         SelectableText,
         TextStyle,
         FontWeight;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
-import 'package:gamer_reflection/modules/const/size.dart' show ConstantSizeFont;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/size.dart' show ConstantSizeFont;
 
 /// 基本的なテキスト
 class BasicText extends StatelessWidget {

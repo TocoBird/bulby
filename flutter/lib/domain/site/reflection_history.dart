@@ -1,5 +1,4 @@
-import 'package:gamer_reflection/modules/type/reflection.dart'
-    show ReflectionType;
+import 'package:bulby/modules/type/reflection.dart' show ReflectionType;
 
 /// ドメイン: 振り返りID
 class DomainReflectionHistoryId {

@@ -6,29 +6,25 @@ import 'package:flutter/material.dart'
         Widget,
         BuildContext,
         CrossAxisAlignment;
-import 'package:gamer_reflection/modules/const/color/hooks.dart' show UseColor;
+import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
 import 'package:flutter_hooks/flutter_hooks.dart' show HookWidget;
-import 'package:gamer_reflection/components/common/atoms/text/basic.dart'
-    show BasicText;
-import 'package:gamer_reflection/components/common/atoms/input/text/widget.dart'
+import 'package:bulby/components/common/atoms/text/basic.dart' show BasicText;
+import 'package:bulby/components/common/atoms/input/text/widget.dart'
     show InputText;
-import 'package:gamer_reflection/components/common/atoms/input/text_form.dart'
+import 'package:bulby/components/common/atoms/input/text_form.dart'
     show InputTextForm;
-import 'package:gamer_reflection/components/templates/solution_detail/domain/reflection.dart'
+import 'package:bulby/components/templates/solution_detail/domain/reflection.dart'
     show DomainSolutionDetailReflection;
-import 'package:gamer_reflection/modules/type/reflection.dart'
-    show ReflectionType;
-import 'package:gamer_reflection/components/common/atoms/text_tag.dart'
-    show TextTag;
-import 'package:gamer_reflection/components/common/atoms/spacer/height.dart'
+import 'package:bulby/modules/type/reflection.dart' show ReflectionType;
+import 'package:bulby/components/common/atoms/text_tag.dart' show TextTag;
+import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
-import 'package:gamer_reflection/modules/type/tag_text_color.dart'
-    show TagTextColor;
-import 'package:gamer_reflection/components/common/molecules/radio_good_bad_button.dart'
+import 'package:bulby/modules/type/tag_text_color.dart' show TagTextColor;
+import 'package:bulby/components/common/molecules/radio_good_bad_button.dart'
     show RadioGoodBadButton;
-import 'package:gamer_reflection/modules/const/size.dart' show ConstantSizeUI;
+import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
 
 /// タスク詳細上部: 編集モード
 class SolutionDetailTopEdit extends HookWidget {

@@ -1,9 +1,8 @@
 import 'package:get_it/get_it.dart' show GetIt;
 import 'package:sqflite/sqflite.dart' show Database;
-import 'package:gamer_reflection/storage/rdb/repository/command/reflection_group.dart'
+import 'package:bulby/storage/rdb/repository/command/reflection_group.dart'
     show IRepositoryReflectionGroupCommand;
-import 'package:gamer_reflection/storage/rdb/driver/sqlite.dart'
-    show DBConnection;
+import 'package:bulby/storage/rdb/driver/sqlite.dart' show DBConnection;
 
 /// Request: 振り返りグループ
 class RequestReflectionGroup {

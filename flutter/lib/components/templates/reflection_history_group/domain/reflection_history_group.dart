@@ -1,4 +1,4 @@
-import 'package:gamer_reflection/domain/site/reflection_history_group.dart'
+import 'package:bulby/domain/site/reflection_history_group.dart'
     show DomainReflectionHistoryGroupId, DomainReflectionHistoryGroupDate;
 
 /// ドメイン: 振り返り履歴グループ 履歴グループ

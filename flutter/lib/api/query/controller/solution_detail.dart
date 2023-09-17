@@ -1,14 +1,13 @@
 import 'package:get_it/get_it.dart' show GetIt;
 import 'package:sqflite/sqflite.dart' show Database;
-import 'package:gamer_reflection/components/templates/solution_detail/domain/reflection.dart'
+import 'package:bulby/components/templates/solution_detail/domain/reflection.dart'
     show DomainSolutionDetailReflection;
-import 'package:gamer_reflection/storage/rdb/repository/query/reflection.dart'
+import 'package:bulby/storage/rdb/repository/query/reflection.dart'
     show IRepositoryReflectionQuery;
-import 'package:gamer_reflection/storage/rdb/repository/query/todo.dart'
+import 'package:bulby/storage/rdb/repository/query/todo.dart'
     show IRepositoryTodoQuery;
-import 'package:gamer_reflection/storage/rdb/driver/sqlite.dart'
-    show DBConnection;
-import 'package:gamer_reflection/api/query/adapter/solution_detail.dart'
+import 'package:bulby/storage/rdb/driver/sqlite.dart' show DBConnection;
+import 'package:bulby/api/query/adapter/solution_detail.dart'
     show AdapterDomainSolutionDetailPage;
 
 /// データ取得: 振り返り詳細ページ
