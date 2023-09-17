@@ -6,8 +6,6 @@ import 'package:flutter/material.dart'
         SizedBox,
         Column,
         MainAxisAlignment,
-        Icon,
-        Icons,
         TextAlign;
 import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
@@ -16,6 +14,8 @@ import 'package:bulby/components/common/atoms/text/annotation.dart'
     show TextAnnotation;
 import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
+import 'package:bulby/components/common/atoms/icon_logo.dart' show IconLogo;
+import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
 
 /// やることリスト: データがまだない
 class TodoNoDataAnnotation extends StatelessWidget {
@@ -39,10 +39,10 @@ class TodoNoDataAnnotation extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SpacerHeight.xl,
-          Icon(
-            Icons.info,
-            color: color.base.textOpacity,
-            size: 56,
+          IconLogo(
+            color: color,
+            width: ConstantSizeUI.l7,
+            height: ConstantSizeUI.l7,
           ),
           SpacerHeight.m,
           TextAnnotation(

@@ -6,6 +6,8 @@ import 'package:bulby/components/common/atoms/text/annotation.dart'
     show TextAnnotation;
 import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
+import 'package:bulby/components/common/atoms/icon_logo.dart' show IconLogo;
+import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
 
 /// タスク一覧: データがまだない
 class SolutionNoDataAnnotation extends StatelessWidget {
@@ -29,10 +31,10 @@ class SolutionNoDataAnnotation extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SpacerHeight.xl,
-          Icon(
-            Icons.info,
-            color: color.base.textOpacity,
-            size: 56,
+          IconLogo(
+            color: color,
+            width: ConstantSizeUI.l7,
+            height: ConstantSizeUI.l7,
           ),
           SpacerHeight.m,
           TextAnnotation(
