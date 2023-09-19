@@ -27,6 +27,7 @@ class BaseLayoutPadding extends HookWidget {
     required this.child,
     required this.title,
     required this.isBackGround,
+    this.isNoHeader,
     this.onTap,
     this.rightButton,
   });
@@ -45,6 +46,9 @@ class BaseLayoutPadding extends HookWidget {
 
   /// 背景あり
   final bool isBackGround;
+
+  /// ヘッダーなし
+  final bool? isNoHeader;
 
   /// 外部を押した
   final void Function()? onTap;
@@ -71,14 +75,22 @@ class BaseLayoutPadding extends HookWidget {
       child: padding,
     );
 
+    //　ヘッダーを表示するか
+    bool isShowHeader(bool? isNoShow) {
+      if (isNoShow == null) return true;
+      return !isNoShow;
+    }
+
     return Scaffold(
       backgroundColor: color.base.content,
-      appBar: Header(
-        i18n: i18n,
-        color: color,
-        title: title,
-        rightButton: rightButton,
-      ),
+      appBar: isShowHeader(isNoHeader)
+          ? Header(
+              i18n: i18n,
+              color: color,
+              title: title,
+              rightButton: rightButton,
+            )
+          : null,
       body: GestureDetector(
         onTap: onTap,
         child: isBackGround ? backGroundBody : padding,

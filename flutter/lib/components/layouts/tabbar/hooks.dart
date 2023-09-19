@@ -31,7 +31,7 @@ UseReturn useHooks(
   void Function(LocaleCode) changeLocale,
 ) {
   ///
-  final ValueNotifier<int> selectedIndex = useState<int>(0);
+  final ValueNotifier<int> selectedIndex = useState<int>(1);
 
   /// 言語
   final i18n = AppLocalizations.of(context)!;
