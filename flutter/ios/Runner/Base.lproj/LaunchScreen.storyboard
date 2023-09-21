@@ -19,33 +19,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="LaunchImage" translatesAutoresizingMaskIntoConstraints="NO" id="YRO-k0-Ey4">
-                                <rect key="frame" x="196.33333333333334" y="426" width="0.33333333333334281" height="0.33333333333331439"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bulby" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nUk-Mh-Ce5">
-                                <rect key="frame" x="157.66666666666666" y="406.66666666666669" width="77.666666666666657" height="38.666666666666686"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1p9-wR-xui">
+                                <rect key="frame" x="16" y="362" width="361" height="128"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage" translatesAutoresizingMaskIntoConstraints="NO" id="0tG-Uc-GFb">
+                                        <rect key="frame" x="-331.66666666666669" y="0.0" width="1024.3333333333333" height="82"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="82" id="MlR-a0-skG"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bulby" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nUk-Mh-Ce5">
+                                        <rect key="frame" x="141.66666666666666" y="81" width="77.666666666666657" height="38.666666666666657"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="0.64039217715231789" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="nUk-Mh-Ce5" secondAttribute="height" multiplier="2:1" id="RmN-Zh-duA"/>
+                                    <constraint firstItem="0tG-Uc-GFb" firstAttribute="top" secondItem="1p9-wR-xui" secondAttribute="top" id="0ji-0j-0rC"/>
+                                    <constraint firstItem="0tG-Uc-GFb" firstAttribute="centerX" secondItem="1p9-wR-xui" secondAttribute="centerX" id="GIa-f8-bzh"/>
+                                    <constraint firstAttribute="bottom" secondItem="0tG-Uc-GFb" secondAttribute="bottom" constant="46" id="Gxu-36-YoQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="nUk-Mh-Ce5" secondAttribute="bottom" constant="8.3300000000000001" id="Uxq-Og-Lj4"/>
+                                    <constraint firstItem="0tG-Uc-GFb" firstAttribute="top" secondItem="1p9-wR-xui" secondAttribute="top" id="cOT-aE-L7L"/>
+                                    <constraint firstItem="0tG-Uc-GFb" firstAttribute="top" secondItem="1p9-wR-xui" secondAttribute="top" id="mlb-JT-JTS"/>
+                                    <constraint firstItem="nUk-Mh-Ce5" firstAttribute="centerX" secondItem="1p9-wR-xui" secondAttribute="centerX" id="mzZ-pJ-x6F"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="0.64039217715231789" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.027038759043291092" blue="0.078933869949494917" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="nUk-Mh-Ce5" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="0pC-On-OH0"/>
-                            <constraint firstItem="nUk-Mh-Ce5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="J7U-TA-tgM"/>
+                            <constraint firstItem="1p9-wR-xui" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="Lml-3p-571"/>
+                            <constraint firstItem="1p9-wR-xui" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="gMq-2n-COT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1p9-wR-xui" secondAttribute="trailing" id="oWt-ya-NCQ"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="80.916030534351137" y="264.08450704225356"/>
+            <point key="canvasLocation" x="80.152671755725194" y="264.08450704225356"/>
         </scene>
     </scenes>
     <resources>
-        <image name="LaunchImage" width="0.3333333432674408" height="0.3333333432674408"/>
+        <image name="LaunchImage" width="1024" height="1024"/>
     </resources>
 </document>
