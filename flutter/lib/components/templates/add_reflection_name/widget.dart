@@ -39,9 +39,12 @@ class TemplateAddReflectionName extends HookWidget {
       context,
       color,
       i18n,
+      h.isFisrtView,
       h.formKey,
       h.textReflectionName,
       h.textFieldFocusNode,
+      h.onPressedBack,
+      h.onPressedStart,
       h.onPressedRegister,
       changeLocale,
     );

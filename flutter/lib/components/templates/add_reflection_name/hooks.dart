@@ -8,20 +8,27 @@ import 'package:bulby/storage/kvs/selected_reflection_group.dart'
 
 class UseReturn {
   const UseReturn({
+    required this.isFisrtView,
     required this.formKey,
     required this.textReflectionName,
     required this.textFieldFocusNode,
+    required this.onPressedBack,
+    required this.onPressedStart,
     required this.onPressedRegister,
   });
 
+  final bool isFisrtView;
   final GlobalKey<FormState> formKey;
   final TextEditingController textReflectionName;
   final FocusNode textFieldFocusNode;
+  final void Function() onPressedBack;
+  final void Function() onPressedStart;
   final Future<void> Function() onPressedRegister;
 }
 
 /// ロジック
 UseReturn useHooks(void Function() changeTabPage) {
+  ValueNotifier<bool> isFisrtView = useState<bool>(true);
   ValueNotifier<TextEditingController> textReflectionName =
       useState<TextEditingController>(TextEditingController());
   final GlobalKey<FormState> formKey = GlobalKey<FormState>();
@@ -44,10 +51,23 @@ UseReturn useHooks(void Function() changeTabPage) {
     changeTabPage();
   }
 
+  /// 始めるボタンを押した
+  void onPressedStart() {
+    isFisrtView.value = false;
+  }
+
+  /// 戻るボタンを押した
+  void onPressedBack() {
+    isFisrtView.value = true;
+  }
+
   return UseReturn(
+    isFisrtView: isFisrtView.value,
     formKey: formKey,
     textReflectionName: textReflectionName.value,
     textFieldFocusNode: textFieldFocusNode,
+    onPressedBack: onPressedBack,
+    onPressedStart: onPressedStart,
     onPressedRegister: onPressedRegister,
   );
 }

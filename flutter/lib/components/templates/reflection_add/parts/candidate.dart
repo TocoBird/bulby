@@ -13,6 +13,8 @@ import 'package:bulby/components/templates/reflection_add/domain/reflection.dart
     show DomainReflectionAddReflection;
 import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
+import 'package:bulby/components/common/atoms/icon_logo.dart' show IconLogo;
+import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
 
 /// 振り返りがない場合
 Widget candidatesNone(
@@ -20,17 +22,38 @@ Widget candidatesNone(
   UseColor color,
   bool isNotAdd,
 ) {
-  final text = isNotAdd
-      ? i18n.reflectionAddPageCandidateFirstText
-      : i18n.reflectionAddPageCandidateNoList;
+  // 振り返りを追加していない場合
+  if (isNotAdd) {
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        SpacerHeight.xm,
+        IconLogo(
+          color: color.base.textOpacity,
+          width: ConstantSizeUI.l7,
+          height: ConstantSizeUI.l7,
+        ),
+        SpacerHeight.m,
+        Center(
+          child: TextAnnotation(
+            color: color,
+            text: i18n.reflectionAddPageCandidateFirstText,
+            size: "M",
+            textAlign: TextAlign.center,
+          ),
+        )
+      ],
+    );
+  }
 
+  // 候補がない場合
   return Column(
     children: [
       SpacerHeight.xm,
       Center(
         child: TextAnnotation(
           color: color,
-          text: text,
+          text: i18n.reflectionAddPageCandidateNoList,
           size: "M",
           textAlign: TextAlign.center,
         ),

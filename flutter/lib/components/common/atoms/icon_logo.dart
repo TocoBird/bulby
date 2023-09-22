@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart'
-    show StatelessWidget, Widget, BuildContext, ColorFilter, Color, BlendMode;
-import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
-import 'package:flutter_svg/flutter_svg.dart' show SvgPicture;
+    show StatelessWidget, Widget, BuildContext, Image, Color;
 
 /// ロゴアイコン
 class IconLogo extends StatelessWidget {
@@ -13,7 +11,7 @@ class IconLogo extends StatelessWidget {
   });
 
   /// カラーの設定
-  final UseColor color;
+  final Color color;
 
   /// 横幅
   final double width;
@@ -23,15 +21,12 @@ class IconLogo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const path = 'images/BulbyLogo.svg';
-    return SvgPicture.asset(
+    const path = 'images/BulbyLogo.png';
+    return Image.asset(
       path,
-      height: height,
       width: width,
-      colorFilter: ColorFilter.mode(
-        color.base.textOpacity,
-        BlendMode.srcIn,
-      ),
+      height: height,
+      color: color,
     );
   }
 }

@@ -32,7 +32,7 @@ class SolutionNoDataAnnotation extends StatelessWidget {
         children: [
           SpacerHeight.xl,
           IconLogo(
-            color: color,
+            color: color.base.textOpacity,
             width: ConstantSizeUI.l7,
             height: ConstantSizeUI.l7,
           ),

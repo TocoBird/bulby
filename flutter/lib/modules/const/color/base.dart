@@ -9,6 +9,8 @@ class ColorBase {
     required this.content,
     required this.box,
     required this.boxBorder,
+    required this.boxComment,
+    required this.boxCommentBorder,
     required this.text,
     required this.textBold,
     required this.textOpacity,
@@ -37,6 +39,12 @@ class ColorBase {
 
   /// ボックスの枠線色
   final Color boxBorder;
+
+  /// ボックスコメントの背景色
+  final Color boxComment;
+
+  /// ボックスコメントの枠線色
+  final Color boxCommentBorder;
 
   /// 基本的な文字色
   final Color text;
@@ -99,6 +107,16 @@ ColorBase colorBase(bool isDark) {
   boxBorder() {
     if (isDark) return ConstantColorDark.boxBorder;
     return ConstantColorLight.boxBorder;
+  }
+
+  boxComment() {
+    if (isDark) return ConstantColorDark.boxComment;
+    return ConstantColorLight.boxComment;
+  }
+
+  boxCommentBorder() {
+    if (isDark) return ConstantColorDark.boxCommentBorder;
+    return ConstantColorLight.boxCommentBorder;
   }
 
   text() {
@@ -167,6 +185,8 @@ ColorBase colorBase(bool isDark) {
     content: content(),
     box: box(),
     boxBorder: boxBorder(),
+    boxComment: boxComment(),
+    boxCommentBorder: boxCommentBorder(),
     text: text(),
     textBold: textBold(),
     textOpacity: textOpacity(),
@@ -209,6 +229,12 @@ class ConstantColorDark {
 
   /// ボックスの枠線色
   static const Color boxBorder = Color.fromARGB(255, 46, 52, 65);
+
+  /// ボックスコメントの背景色
+  static const Color boxComment = Color.fromARGB(255, 47, 45, 62);
+
+  /// ボックスコメントの枠線色
+  static const Color boxCommentBorder = Color.fromARGB(255, 187, 192, 214);
 
   /// タスクリストの矢印の色
   static const Color taskListArrow = Color.fromARGB(55, 255, 255, 255);
@@ -265,6 +291,12 @@ class ConstantColorLight {
 
   /// ボックスの枠線色
   static const Color boxBorder = grayLight;
+
+  /// ボックスコメントの背景色
+  static const Color boxComment = Color.fromARGB(255, 239, 239, 239);
+
+  /// ボックスコメントの枠線色
+  static const Color boxCommentBorder = grayLight;
 
   /// タスクリストの矢印の色
   static const Color taskListArrow = Color.fromARGB(55, 255, 255, 255);
