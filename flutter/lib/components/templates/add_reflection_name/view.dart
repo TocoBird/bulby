@@ -28,9 +28,11 @@ import 'package:bulby/components/layouts/base_padding.dart'
     show BaseLayoutPadding;
 import 'package:bulby/components/common/atoms/text/basic.dart' show BasicText;
 import 'package:bulby/components/common/atoms/button/icon.dart' show ButtonIcon;
-import 'package:bulby/components/common/atoms/box.dart' show Box;
-import 'package:bulby/components/common/atoms/box_comment.dart' show BoxComment;
-import 'package:bulby/components/common/atoms/icon_logo.dart' show IconLogo;
+import 'package:bulby/components/common/atoms/box/box.dart' show Box;
+import 'package:bulby/components/common/atoms/box/box_comment.dart'
+    show BoxComment;
+import 'package:bulby/components/common/atoms/icon/icon_logo.dart'
+    show IconLogo;
 import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
 import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;

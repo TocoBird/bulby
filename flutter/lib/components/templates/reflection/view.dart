@@ -28,7 +28,7 @@ import 'package:bulby/components/common/atoms/spacer/width.dart'
 import 'package:bulby/components/common/atoms/text/basic.dart' show BasicText;
 import 'package:bulby/components/common/atoms/text/annotation.dart'
     show TextAnnotation;
-import 'package:bulby/components/common/atoms/box.dart' show Box;
+import 'package:bulby/components/common/atoms/box/box.dart' show Box;
 import 'package:bulby/components/common/molecules/select_reflection_group/widget.dart'
     show SelectReflectionGroup;
 import 'package:bulby/domain/common/reflection_group.dart'

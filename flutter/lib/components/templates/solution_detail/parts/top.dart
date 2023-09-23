@@ -14,7 +14,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart'
 import 'package:bulby/components/common/atoms/text/basic.dart' show BasicText;
 import 'package:bulby/components/common/atoms/text/annotation.dart'
     show TextAnnotation;
-import 'package:bulby/components/common/atoms/box.dart' show Box;
+import 'package:bulby/components/common/atoms/box/box.dart' show Box;
 import 'package:bulby/components/templates/solution_detail/domain/reflection.dart'
     show DomainSolutionDetailReflection;
 import 'package:bulby/modules/type/reflection.dart' show ReflectionType;

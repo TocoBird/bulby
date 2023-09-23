@@ -18,7 +18,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart'
 import 'package:bulby/components/common/atoms/text/basic.dart' show BasicText;
 import 'package:bulby/components/common/atoms/input/text/widget.dart'
     show InputText;
-import 'package:bulby/components/common/atoms/box.dart' show Box;
+import 'package:bulby/components/common/atoms/box/box.dart' show Box;
 import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
 import 'package:bulby/components/common/atoms/button/icon.dart' show ButtonIcon;

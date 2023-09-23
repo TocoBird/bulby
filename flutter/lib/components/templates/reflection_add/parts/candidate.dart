@@ -13,7 +13,8 @@ import 'package:bulby/components/templates/reflection_add/domain/reflection.dart
     show DomainReflectionAddReflection;
 import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
-import 'package:bulby/components/common/atoms/icon_logo.dart' show IconLogo;
+import 'package:bulby/components/common/atoms/icon/icon_logo.dart'
+    show IconLogo;
 import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
 
 /// 振り返りがない場合

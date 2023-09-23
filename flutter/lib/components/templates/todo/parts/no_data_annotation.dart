@@ -14,7 +14,8 @@ import 'package:bulby/components/common/atoms/text/annotation.dart'
     show TextAnnotation;
 import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
-import 'package:bulby/components/common/atoms/icon_logo.dart' show IconLogo;
+import 'package:bulby/components/common/atoms/icon/icon_logo.dart'
+    show IconLogo;
 import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
 
 /// やることリスト: データがまだない

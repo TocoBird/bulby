@@ -17,13 +17,15 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart'
 import 'package:bulby/components/common/atoms/text/basic.dart' show BasicText;
 import 'package:bulby/components/common/molecules/select_language/widget.dart'
     show SelectLanguage;
-import 'package:bulby/components/common/atoms/box_comment.dart' show BoxComment;
+import 'package:bulby/components/common/atoms/box/box_comment.dart'
+    show BoxComment;
 import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
 import 'package:bulby/components/common/atoms/button/basic.dart'
     show ButtonBasic;
 import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
-import 'package:bulby/components/common/atoms/icon_logo.dart' show IconLogo;
+import 'package:bulby/components/common/atoms/icon/icon_logo.dart'
+    show IconLogo;
 import 'package:bulby/modules/type/locale.dart' show LocaleCode;
 
 /// 最初の画面

@@ -17,7 +17,7 @@ import 'package:bulby/components/common/atoms/text/annotation.dart'
     show TextAnnotation;
 import 'package:bulby/components/layouts/base_padding.dart'
     show BaseLayoutPadding;
-import 'package:bulby/components/common/atoms/box.dart' show Box;
+import 'package:bulby/components/common/atoms/box/box.dart' show Box;
 import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
 import 'package:bulby/components/common/atoms/button/delete.dart'
