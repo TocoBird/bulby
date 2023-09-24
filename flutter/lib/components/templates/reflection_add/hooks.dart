@@ -219,6 +219,9 @@ UseReturn useHooks(
 
   /// 右上の一覧メニューを押した
   void onClickRightMenu(BuildContext c) {
+    // 入力欄をリセットする
+    resetInput();
+
     // 追加した振り返りページへ移動
     pushReflectionAddedList(c, false, reflectionsForRegister);
   }
