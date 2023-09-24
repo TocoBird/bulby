@@ -20,6 +20,9 @@ class TableSetUp {
       print("---- Setup Table ----");
 
       // 振り返りグループ
+      // id: 振り返りグループID
+      // name: グループ名
+      // created_at: 追加日
       await db.execute('''
 CREATE TABLE IF NOT EXISTS reflection_group(
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -29,6 +32,14 @@ CREATE TABLE IF NOT EXISTS reflection_group(
 ''');
 
       // 振り返り
+      // id: 振り返りID
+      // reflection_group_id: 振り返りグループID
+      // text: 振り返りのタイトル
+      // detail: 振り返りの詳細
+      // reflection_type: 種類, 1: Good, 2: Bad
+      // count: 回数
+      // created_at: 追加日
+      // updated_at: 更新日
       await db.execute('''
 CREATE TABLE IF NOT EXISTS reflection(
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -44,6 +55,9 @@ CREATE TABLE IF NOT EXISTS reflection(
 ''');
 
       // 振り返りの履歴グループ
+      // id: 振り返りの履歴グループID
+      // reflection_group_id: 振り返りグループID
+      // date: 作成日
       await db.execute('''
 CREATE TABLE IF NOT EXISTS reflection_history_group(
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -54,6 +68,11 @@ CREATE TABLE IF NOT EXISTS reflection_history_group(
 ''');
 
       // 振り返りの履歴
+      // id: 振り返りの履歴ID
+      // reflection_history_group_id: 振り返りの履歴グループID
+      // text: 振り返りのタイトル
+      // reflection_type: 種類, 1: Good, 2: Bad
+      // count: 回数
       await db.execute('''
 CREATE TABLE IF NOT EXISTS reflection_history(
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -66,6 +85,12 @@ CREATE TABLE IF NOT EXISTS reflection_history(
 ''');
 
       // やることリスト
+      // id: やることリストID
+      // index_num: 順番
+      // reflection_id: 振り返りID
+      // reflection_group_id: 振り返りグループID
+      // todo_type: 種類, 1: 試合, 2: 練習
+      // created_at: 追加日
       await db.execute('''
 CREATE TABLE IF NOT EXISTS todo(
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -79,6 +104,9 @@ CREATE TABLE IF NOT EXISTS todo(
 ''');
 
       // ゲーミフィケーション
+      // id: ゲーミフィケーションID
+      // exp: 経験値
+      // updated_at: 更新日
       await db.execute('''
 CREATE TABLE IF NOT EXISTS game(
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -86,6 +114,17 @@ CREATE TABLE IF NOT EXISTS game(
   updated_at TIMESTAMP DEFAULT (DATETIME(CURRENT_TIMESTAMP, 'localtime'))
 )
 ''');
+
+      // バッジ
+      // id: バッジID
+      // created_at: 追加日
+      await db.execute('''
+CREATE TABLE IF NOT EXISTS badge(
+  id INTEGER PRIMARY KEY,
+  created_at TIMESTAMP DEFAULT (DATETIME(CURRENT_TIMESTAMP, 'localtime'))
+)
+''');
+
       // ゲーミフィケーションの初期値
       await db.execute('INSERT INTO game(exp) values(0)');
     } catch (e) {

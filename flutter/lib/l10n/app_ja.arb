@@ -2,13 +2,14 @@
   "@@locale": "ja",
 
 
-  "pageAddReflectionNameTitle": "振り返り名を決めましょう！",
+  "pageAddReflectionNameTitle": "振り返り名を決めましょう!",
   "pageAddReflectionNameSubTitle": "キャラ/武器などでそれぞれ\n振り返るために必要です。",
   "pageAddReflectionNameFormTitle": "振り返り名",
   "pageAddReflectionNameFormAnnotation": "※後で変更できます。",
   "pageAddReflectionNameFormPlaceHolder": "ゲーム名 + キャラ名など",
   "pageAddReflectionNameFormButton": "登録する",
   "pageAddReflectionNameLanguageTitle": "言語の変更",
+  "pageAddReflectionNameStartText": "ESportsのための振り返りアプリ\n成長を加速させましょう!",
   "pageAddReflectionNameStartButton": "はじめる",
 
  

@@ -28,6 +28,8 @@ class TableDebug {
         await db.rawQuery('SELECT * FROM reflection_group');
     final List<Map<String, Object?>> game =
         await db.rawQuery('SELECT * FROM game');
+    final List<Map<String, Object?>> badge =
+        await db.rawQuery('SELECT * FROM badge');
 
     print("""
 
@@ -45,6 +47,8 @@ $reflectionHistoryGroups
 $reflectionGroups
 - Game
 $game
+- Badge
+$badge
 """);
 
     print("""
@@ -75,6 +79,7 @@ ${await selectColorMode.get()}
     await db.execute("DROP TABLE reflection_group");
     await db.execute("DROP TABLE todo");
     await db.execute("DROP TABLE game");
+    await db.execute("DROP TABLE badge");
     // AutoIncrementリセット
     await db.execute("DELETE FROM sqlite_sequence WHERE name='app_db'");
 

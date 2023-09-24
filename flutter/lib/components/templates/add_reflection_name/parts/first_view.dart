@@ -74,7 +74,7 @@ class FirstView extends StatelessWidget {
           child: BasicText(
             color: color,
             size: "M",
-            text: "ESportsのための振り返りアプリ\n成長を加速させましょう!",
+            text: i18n.pageAddReflectionNameStartText,
             textAlign: TextAlign.center,
           ),
         ),
