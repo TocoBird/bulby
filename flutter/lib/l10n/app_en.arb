@@ -15,7 +15,7 @@
 
   "pageSolutionTitle": "Solution",
   "pageSolutionCountValue": "{count} times",
-  "pageSolutionNoList": "There is no reflection. \nLet's add it from Reflect.",
+  "pageSolutionNoList": "There is no reflection. \nLet's add it from [Reflect].",
   "pageSolutionButtonGood": "to improve",
   "pageSolutionButtonBad": "to grow",
 
@@ -87,7 +87,7 @@
 
   "pageReflectionAddedListTitle": "Added reflection list",
   "pageReflectionAddedListButtonSave": "Save",
-  "pageReflectionAddedListDoneAlert": "Added reflection.",
+  "pageReflectionAddedListDoneAlert": "Added reflection.\nWrite the details in [Solution]!",
   "pageReflectionAddedListCountValue": "+{count} times",
 
 
@@ -100,7 +100,7 @@
 
 
   "pageTodoTitle": "Todo list",
-  "pageTodoNoData": "No todos have been added. \nLet's add from the Solution.",
+  "pageTodoNoData": "No todos have been added. \nLet's add from the [Solution].",
   "pageTodoButtonGame": "Game",
   "pageTodoButtonTraining": "Training",
 

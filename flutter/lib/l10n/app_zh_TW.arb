@@ -15,7 +15,7 @@
 
   "pageSolutionTitle": "解決方案",
   "pageSolutionCountValue": "{count} 次",
-  "pageSolutionNoList": "沒有回顧。\n讓我們從 回顧 添加它。",
+  "pageSolutionNoList": "沒有回顧。\n讓我們從 【回顧】 添加它。",
   "pageSolutionButtonGood": "改進",
   "pageSolutionButtonBad": "成長",
 
@@ -36,8 +36,8 @@
   "solutionDetailPageModalAddTodoCancel": "取消",
   "solutionDetailPageModalAddTodoGame": "在遊戲中執行",
   "solutionDetailPageModalAddTodoTraning": "在訓練中執行",
-  "solutionDetailPageHooksAlertAddGood": "需要寫[如何增長]來添加。",
-  "solutionDetailPageHooksAlertAddBad": "需要寫[如何改進]來添加。",
+  "solutionDetailPageHooksAlertAddGood": "需要寫【如何增長】來添加。",
+  "solutionDetailPageHooksAlertAddBad": "需要寫【如何改進】來添加。",
   "solutionDetailPageHooksAddTodoValidate": "您最多可以添加 15 個待辦事項。",
   "solutionDetailPageHooksAlertRemoveTodo": "已從待辦事項中刪除。",
   "solutionDetailPageHooksAlertAddTodo": "從待辦事項添加。",
@@ -61,7 +61,7 @@
   "pageReflectionHowToDetail": "1. 觀看重播\n\n2. 寫出好的和壞的\n\n3. 從建議中添加相同的反思",
   "pageReflectionHowToDetailSub": "* 每隔幾場比賽就這樣做一次。",
   "pageReflectionButtonStart": "開始回顧",
-  "pageReflectionHooksAddValidation": "超出額外限制。\n您可以從[解決方案]中將其刪除。\n{numStr}",
+  "pageReflectionHooksAddValidation": "超出額外限制。\n您可以從【解決方案】中將其刪除。\n{numStr}",
 
 
   "pageRankDetailTitle": "秩",
@@ -87,7 +87,7 @@
 
   "pageReflectionAddedListTitle": "添加回顧列表",
   "pageReflectionAddedListButtonSave": "保存",
-  "pageReflectionAddedListDoneAlert": "添加了回顧。",
+  "pageReflectionAddedListDoneAlert": "添加了回顧。\n詳細寫在【解決方案】裡!",
   "pageReflectionAddedListCountValue": "+{count} 次",
 
 
@@ -100,7 +100,7 @@
 
 
   "pageTodoTitle": "待辦事項列表",
-  "pageTodoNoData": "尚未添加待辦事項。\n讓我們從解決方案中添加。",
+  "pageTodoNoData": "尚未添加待辦事項。\n讓我們從【解決方案】中添加。",
   "pageTodoButtonGame": "遊戲",
   "pageTodoButtonTraining": "訓練",
 

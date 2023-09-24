@@ -15,7 +15,7 @@
 
   "pageSolutionTitle": "Soluzione",
   "pageSolutionCountValue": "{count} volte",
-  "pageSolutionNoList": "Non c'è nessuna riflessione.\nAggiungiamola da Riflettere.",
+  "pageSolutionNoList": "Non c'è nessuna riflessione.\nAggiungiamola da [Riflettere].",
   "pageSolutionButtonGood": "migliorare",
   "pageSolutionButtonBad": "crescere",
 
@@ -87,7 +87,7 @@
 
   "pageReflectionAddedListTitle": "Elenco riflessioni aggiunto",
   "pageReflectionAddedListButtonSave": "Salva",
-  "pageReflectionAddedListDoneAlert": "Aggiunta riflessione.",
+  "pageReflectionAddedListDoneAlert": "Aggiunta riflessione.\nScrivi i dettagli in [Soluzione]!",
   "pageReflectionAddedListCountValue": "+{count} volte",
 
 
@@ -100,7 +100,7 @@
 
 
   "pageTodoTitle": "Lista delle cose da fare",
-  "pageTodoNoData": "Non sono state aggiunte cose da fare. \nAggiungiamo dalla Soluzione.",
+  "pageTodoNoData": "Non sono state aggiunte cose da fare. \nAggiungiamo dalla [Soluzione].",
   "pageTodoButtonGame": "Gioco",
   "pageTodoButtonTraining": "Formazione",
 

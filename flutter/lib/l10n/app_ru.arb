@@ -15,7 +15,7 @@
 
   "pageSolutionTitle": "Решение",
   "pageSolutionCountValue": "{count} раз",
-  "pageSolutionNoList": "Отражение отсутствует.\nДавайте добавим его из Самоанализ.",
+  "pageSolutionNoList": "Отражение отсутствует.\nДавайте добавим его из [Самоанализ].",
   "pageSolutionButtonGood": "для улучшения",
   "pageSolutionButtonBad": "для роста",
 
@@ -87,7 +87,7 @@
 
   "pageReflectionAddedListTitle": "Добавлен список отражений",
   "pageReflectionAddedListButtonSave": "Сохранить",
-  "pageReflectionAddedListDoneAlert": "Добавлено отражение.",
+  "pageReflectionAddedListDoneAlert": "Добавлено отражение.\nНапишите подробности в [Решение]!",
   "pageReflectionAddedListCountValue": "+{count} раз",
 
 
@@ -100,7 +100,7 @@
 
 
   "pageTodoTitle": "Список дел",
-  "pageTodoNoData": "Задачи не добавлены. \nДавайте добавим из Решение.",
+  "pageTodoNoData": "Задачи не добавлены. \nДавайте добавим из [Решение].",
   "pageTodoButtonGame": "Игра",
   "pageTodoButtonTraining": "Обучение",
 

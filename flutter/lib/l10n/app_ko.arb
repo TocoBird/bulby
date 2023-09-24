@@ -15,7 +15,7 @@
 
   "pageSolutionTitle": "해결책",
   "pageSolutionCountValue": "{count}번",
-  "pageSolutionNoList": "반사가 없습니다.\n회고 에서 추가해 봅시다.",
+  "pageSolutionNoList": "반사가 없습니다.\n[회고] 에서 추가해 봅시다.",
   "pageSolutionButtonGood": "개선하기 위해",
   "pageSolutionButtonBad": "성장",
 
@@ -87,7 +87,7 @@
 
   "pageReflectionAddedListTitle": "추가된 반사 목록",
   "pageReflectionAddedListButtonSave": "저장",
-  "pageReflectionAddedListDoneAlert": "반성을 추가했습니다.",
+  "pageReflectionAddedListDoneAlert": "반성을 추가했습니다.\n[해결책]에 내용을 적어주세요!",
   "pageReflectionAddedListCountValue": "+{count}번",
 
 
@@ -100,7 +100,7 @@
 
 
   "pageTodoTitle": "할 일 목록",
-  "pageTodoNoData": "할 일이 추가되지 않았습니다. \n해결책 추가해 봅시다.",
+  "pageTodoNoData": "할 일이 추가되지 않았습니다. \n[해결책] 추가해 봅시다.",
   "pageTodoButtonGame": "게임",
   "pageTodoButtonTraining": "훈련",
 

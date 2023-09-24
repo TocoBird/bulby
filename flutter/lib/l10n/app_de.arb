@@ -87,7 +87,7 @@
 
   "pageReflectionAddedListTitle": "Reflexionsliste hinzugefügt",
   "pageReflectionAddedListButtonSave": "Speichern",
-  "pageReflectionAddedListDoneAlert": "Reflexion hinzugefügt.",
+  "pageReflectionAddedListDoneAlert": "Reflexion hinzugefügt.\nSchreiben Sie die Details in [Lösung]!",
   "pageReflectionAddedListCountValue": "+{count} mal",
 
 

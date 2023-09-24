@@ -15,7 +15,7 @@
 
   "pageSolutionTitle": "Solusi",
   "pageSolutionCountValue": "{count} kali",
-  "pageSolutionNoList": "Tidak ada refleksi.\nMari kita tambahkan dari Reflect.",
+  "pageSolutionNoList": "Tidak ada refleksi.\nMari kita tambahkan dari [Refleksikan].",
   "pageSolutionButtonGood": "perbaikan",
   "pageSolutionButtonBad": "tumbuh",
 
@@ -87,7 +87,7 @@
 
   "pageReflectionAddedListTitle": "Menambahkan daftar refleksi",
   "pageReflectionAddedListButtonSave": "Simpan",
-  "pageReflectionAddedListDoneAlert": "Menambahkan refleksi.",
+  "pageReflectionAddedListDoneAlert": "Menambahkan refleksi.\nTulis detailnya di [Solusi]!",
   "pageReflectionAddedListCountValue": "+{count} kali",
 
 
@@ -100,7 +100,7 @@
 
 
   "pageTodoTitle": "Daftar yang harus dilakukan",
-  "pageTodoNoData": "Belum ada todo yang ditambahkan. \nMari tambahkan dari Solusi.",
+  "pageTodoNoData": "Belum ada todo yang ditambahkan. \nMari tambahkan dari [Solusi].",
   "pageTodoButtonGame": "Permainan",
   "pageTodoButtonTraining": "Pelatihan",
 

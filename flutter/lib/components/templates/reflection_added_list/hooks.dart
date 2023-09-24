@@ -60,7 +60,7 @@ UseReturn useHooks(
     );
 
     // 追加完了
-    toast.showNotification(i18n.pageReflectionAddedListDoneAlert, 2500);
+    toast.showNotification(i18n.pageReflectionAddedListDoneAlert, 4000);
 
     // モーダルを閉じて、前のページへ戻る
     Navigator.of(context)

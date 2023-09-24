@@ -3,7 +3,7 @@
 
 
   "pageAddReflectionNameTitle": "¡Decidamos el nombre del reflejo!",
-  "pageAddReflectionNameSubTitle": "Se usa para reflejar\n cada personaje/arma.",
+  "pageAddReflectionNameSubTitle": "Se usa para reflexionar\n cada personaje/arma.",
   "pageAddReflectionNameFormTitle": "Nombre de la reflexión",
   "pageAddReflectionNameFormAnnotation": "*Puedes cambiarlo más tarde.",
   "pageAddReflectionNameFormPlaceHolder": "Nombre del juego + Nombre del personaje",
@@ -15,7 +15,7 @@
 
   "pageSolutionTitle": "Solución",
   "pageSolutionCountValue": "{count} veces",
-  "pageSolutionNoList": "No hay reflejo. \nVamos a agregarlo desde Reflect.",
+  "pageSolutionNoList": "No hay reflejo. \nVamos a agregarlo desde [Reflexionar].",
   "pageSolutionButtonGood": "para mejorar",
   "pageSolutionButtonBad": "para crecer",
 
@@ -87,7 +87,7 @@
 
   "pageReflectionAddedListTitle": "Lista de reflejos agregada",
   "pageReflectionAddedListButtonSave": "Guardar",
-  "pageReflectionAddedListDoneAlert": "Reflejo agregado.",
+  "pageReflectionAddedListDoneAlert": "Reflejo agregado.\n¡Escribe los detalles en [Solución]!",
   "pageReflectionAddedListCountValue": "+{count} veces",
 
 
@@ -100,7 +100,7 @@
 
 
   "pageTodoTitle": "Lista de tareas pendientes",
-  "pageTodoNoData": "No todos han sido agregados. \nVamos a agregar desde la Solución.",
+  "pageTodoNoData": "No todos han sido agregados. \nVamos a agregar desde la [Solución].",
   "pageTodoButtonGame": "Juego",
   "pageTodoButtonTraining": "Entrenamiento",
 
@@ -137,7 +137,7 @@
 
 
   "footerSolution": "Solución",
-  "footerReflection": "Reflejar",
+  "footerReflection": "Reflexionar",
   "footerTodo": "Todo",
   "footerAccount": "Cuenta",
 

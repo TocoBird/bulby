@@ -87,7 +87,7 @@
 
   "pageReflectionAddedListTitle": "Tilføjet reflektionsliste",
   "pageReflectionAddedListButtonSave": "Gem",
-  "pageReflectionAddedListDoneAlert": "Tilføjet refleksion.",
+  "pageReflectionAddedListDoneAlert": "Tilføjet refleksion.\nSkriv detaljerne i [Løsning]!",
   "pageReflectionAddedListCountValue": "+{count} gange",
 
 

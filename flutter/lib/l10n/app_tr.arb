@@ -15,7 +15,7 @@
 
   "pageSolutionTitle": "Çözüm",
   "pageSolutionCountValue": "{count} kez",
-  "pageSolutionNoList": "Yansıtma yok. \nYansıtma'dan ekleyelim.",
+  "pageSolutionNoList": "Yansıtma yok. \n[Yapılacak]'dan ekleyelim.",
   "pageSolutionButtonGood": "geliştirmek için",
   "pageSolutionButtonBad": "büyümek için",
 
@@ -87,7 +87,7 @@
 
   "pageReflectionAddedListTitle": "Yansıma listesi eklendi",
   "pageReflectionAddedListButtonSave": "Kaydet",
-  "pageReflectionAddedListDoneAlert": "Yansıma eklendi.",
+  "pageReflectionAddedListDoneAlert": "Yansıma eklendi.\nAyrıntıları [Çözüm]'e yazın!",
   "pageReflectionAddedListCountValue": "+{count} kez",
 
 
@@ -100,7 +100,7 @@
 
 
   "pageTodoTitle": "Yapılacaklar listesi",
-  "pageTodoNoData": "Yapılacaklar eklenmedi. \nÇözümden ekleyelim.",
+  "pageTodoNoData": "Yapılacaklar eklenmedi. \n[Çözüm]den ekleyelim.",
   "pageTodoButtonGame": "Oyun",
   "pageTodoButtonTraining": "Eğitim",
 

@@ -87,7 +87,7 @@
 
   "pageReflectionAddedListTitle": "追加した振り返り",
   "pageReflectionAddedListButtonSave": "保存する",
-  "pageReflectionAddedListDoneAlert": "振り返りを追加しました。",
+  "pageReflectionAddedListDoneAlert": "振り返りを追加しました。\n「解決案」で詳細を書きましょう!",
   "pageReflectionAddedListCountValue": "+{count}回",
 
 

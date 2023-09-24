@@ -87,7 +87,7 @@
 
   "pageReflectionAddedListTitle": "قائمة انعكاسات مضافة",
   "pageReflectionAddedListButtonSave": "يحفظ",
-  "pageReflectionAddedListDoneAlert": "انعكاس مضاف.",
+  "pageReflectionAddedListDoneAlert": "تمت إضافة الانعكاس.\n اكتب التفاصيل في [الحل]!",
   "pageReflectionAddedListCountValue": "+ {count} مرة",
 
 

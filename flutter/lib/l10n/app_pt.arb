@@ -15,7 +15,7 @@
 
   "pageSolutionTitle": "Solução",
   "pageSolutionCountValue": "{count} vezes",
-  "pageSolutionNoList": "Não há reflexão. \nVamos adicioná-la a partir do Reflect.",
+  "pageSolutionNoList": "Não há reflexão. \nVamos adicioná-la a partir do [Refletir].",
   "pageSolutionButtonGood": "para melhorar",
   "pageSolutionButtonBad": "crescer",
 
@@ -87,7 +87,7 @@
 
   "pageReflectionAddedListTitle": "Lista de reflexão adicionada",
   "pageReflectionAddedListButtonSave": "Salvar",
-  "pageReflectionAddedListDoneAlert": "Reflexão adicionada.",
+  "pageReflectionAddedListDoneAlert": "Reflexão adicionada.\nEscreva os detalhes em [Solução]!",
   "pageReflectionAddedListCountValue": "+{count} vezes",
 
 
@@ -100,7 +100,7 @@
 
 
   "pageTodoTitle": "Lista de tarefas",
-  "pageTodoNoData": "Não foram adicionados todos. \nVamos adicionar a partir da Solução.",
+  "pageTodoNoData": "Não foram adicionados todos. \nVamos adicionar a partir da [Solução].",
   "pageTodoButtonGame": "Jogo",
   "pageTodoButtonTraining": "Treinamento",
 

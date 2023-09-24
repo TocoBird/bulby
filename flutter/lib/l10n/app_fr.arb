@@ -15,7 +15,7 @@
 
   "pageSolutionTitle": "Solution",
   "pageSolutionCountValue": "{count} fois",
-  "pageSolutionNoList": "Il n'y a pas de reflet.\nAjoutons-le depuis Révision.",
+  "pageSolutionNoList": "Il n'y a pas de reflet.\nAjoutons-le depuis [Révision].",
   "pageSolutionButtonGood": "à améliorer",
   "pageSolutionButtonBad": "pour grandir",
 
@@ -31,7 +31,7 @@
   "solutionDetailPageModalCheckButtonDone": "Terminé",
   "solutionDetailPageModalCheckButtonCancel": "Annuler",
   "solutionDetailPageModalAddTodoTitle": "Ajouter une tâche",
-  "solutionDetailPageModalAddTodoTitleSub": "Quelle scène ?",
+  "solutionDetailPageModalAddTodoTitleSub": "Quelle scène?",
   "solutionDetailPageModalAddTodoAdd": "Ajouter",
   "solutionDetailPageModalAddTodoCancel": "Annuler",
   "solutionDetailPageModalAddTodoGame": "faire dans un jeu",
@@ -87,7 +87,7 @@
 
   "pageReflectionAddedListTitle": "Liste de réflexion ajoutée",
   "pageReflectionAddedListButtonSave": "Enregistrer",
-  "pageReflectionAddedListDoneAlert": "Réflexion ajoutée.",
+  "pageReflectionAddedListDoneAlert": "Réflexion ajoutée.\nÉcrivez les détails dans [Solution]!",
   "pageReflectionAddedListCountValue": "+{count} fois",
 
 
@@ -100,7 +100,7 @@
 
 
   "pageTodoTitle": "Liste de tâches",
-  "pageTodoNoData": "Aucune tâche n'a été ajoutée. \nAjoutons à partir de la Solution.",
+  "pageTodoNoData": "Aucune tâche n'a été ajoutée. \nAjoutons à partir de la [Solution].",
   "pageTodoButtonGame": "Jeu",
   "pageTodoButtonTraining": "Entraînement",
 
