@@ -15,7 +15,7 @@
 
   "pageSolutionTitle": "Lösung",
   "pageSolutionCountValue": "{count} mal",
-  "pageSolutionNoList": "Es gibt keine Reflektion. \nFügen wir sie aus Rezension hinzu.",
+  "pageSolutionNoList": "Es gibt keine Reflektion. \nFügen wir sie aus [Rezension] hinzu.",
   "pageSolutionButtonGood": "zu verbessern",
   "pageSolutionButtonBad": "wachsen",
 
@@ -73,7 +73,7 @@
   "reflectionAddPageModalAddCountValue": "{count} mal",
   "reflectionAddPageModalAddButton": "Hinzufügen",
   "reflectionAddPageModalAddButtonCancel": "Abbrechen",
-  "reflectionAddPageModalConfirmTitle": "Ich habe eine hinzugefügte Rezension. \nSind Sie sicher, dass Sie zurückgehen möchten?",
+  "reflectionAddPageModalConfirmTitle": "Ich habe eine hinzugefügte Rezension.\nSind Sie sicher, dass Sie zurückgehen möchten?",
   "reflectionAddPageModalConfirmBack": "Zurück ohne zu speichern",
   "reflectionAddPageModalConfirmCancel": "Abbrechen",
   "reflectionAddPageBottomDone": "Vollständige Reflexion",
@@ -100,7 +100,7 @@
 
 
   "pageTodoTitle": "Aufgabenliste",
-  "pageTodoNoData": "Es wurden keine Aufgaben hinzugefügt. \nFügen wir aus der Lösung hinzu.",
+  "pageTodoNoData": "Es wurden keine Aufgaben hinzugefügt. \nFügen wir aus der [Lösung] hinzu.",
   "pageTodoButtonGame": "Spiel",
   "pageTodoButtonTraining": "Training",
 
@@ -123,7 +123,7 @@
   "accountPageDeleteReflectionDetail": "*Reflection-Inhalte werden ebenfalls gelöscht.",
   "accountPageDeleteButton": "Löschen",
   "accountPageModalDeleteTitle": "Spiegelung löschen",
-  "accountPageModalDeleteSubTitle": "Überprüfte Inhalte werden ebenfalls gelöscht. \nEine Wiederherstellung ist nicht möglich.",
+  "accountPageModalDeleteSubTitle": "Überprüfte Inhalte werden ebenfalls gelöscht.\nEine Wiederherstellung ist nicht möglich.",
   "accountPageModalDeleteButtonDelete": "Löschen",
   "accountPageModalDeleteCancel": "Abbrechen",
   "accountPageModalNewTitle": "Eine neue Reflexion erstellen",

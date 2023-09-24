@@ -22,8 +22,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1p9-wR-xui">
                                 <rect key="frame" x="16" y="362" width="361" height="128"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage" translatesAutoresizingMaskIntoConstraints="NO" id="0tG-Uc-GFb">
-                                        <rect key="frame" x="-331.66666666666669" y="0.0" width="1024.3333333333333" height="82"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchImage" translatesAutoresizingMaskIntoConstraints="NO" id="0tG-Uc-GFb">
+                                        <rect key="frame" x="10" y="0.0" width="341.33333333333331" height="82"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="82" id="MlR-a0-skG"/>
                                         </constraints>
@@ -60,6 +60,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LaunchImage" width="1024" height="1024"/>
+        <image name="LaunchImage" width="341.33334350585938" height="341.33334350585938"/>
     </resources>
 </document>
