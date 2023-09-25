@@ -43,10 +43,13 @@ Widget view(
       i18n.localeName == 'de' ||
       i18n.localeName == 'it' ||
       i18n.localeName == 'pt';
+
   return Column(
     crossAxisAlignment: CrossAxisAlignment.start,
     children: [
       SpacerHeight.s,
+
+      // 完了ボタン
       Padding(
         padding: const EdgeInsets.symmetric(
           horizontal: ConstantSizeUI.l2,
@@ -57,12 +60,15 @@ Widget view(
           onPressed: () => onPressedReflectionDone(context),
         ),
       ),
+
       SpacerHeight.s,
+
       Container(
         color: color.base.footer,
         padding: const EdgeInsets.all(ConstantSizeUI.l2),
         child: Row(
           children: [
+            // 入力欄
             Expanded(
               child: InputText(
                 i18n: i18n,
@@ -76,7 +82,10 @@ Widget view(
                 onPressedRemove: onPressedRemoveText,
               ),
             ),
+
             SpacerWidth.m,
+
+            // 追加ボタン
             SizedBox(
               width: 80,
               child: ButtonBasic(
