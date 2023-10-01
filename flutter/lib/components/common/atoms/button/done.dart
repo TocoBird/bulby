@@ -9,6 +9,7 @@ class ButtonDone extends StatelessWidget {
     super.key,
     required this.color,
     required this.text,
+    this.isThin,
     this.isActive,
     this.onPressed,
   });
@@ -18,6 +19,9 @@ class ButtonDone extends StatelessWidget {
 
   /// 文字
   final String text;
+
+  /// 薄くする
+  final bool? isThin;
 
   /// アクティブかどうか
   final bool? isActive;
@@ -53,31 +57,37 @@ class ButtonDone extends StatelessWidget {
       ),
     );
 
-    return Container(
-      padding: EdgeInsets.zero,
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: color.button.done,
+    // ボタンが薄いか
+    bool isThinButton = isThin ?? false;
+
+    return Opacity(
+      opacity: isThinButton ? 0.6 : 1,
+      child: Container(
+        padding: EdgeInsets.zero,
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: color.button.done,
+          ),
+          borderRadius: const BorderRadius.all(Radius.circular(100)),
+          border: Border.all(
+            color: isActiveMode()
+                ? color.button.doneBorder
+                : color.button.doneBorderDisable,
+          ),
         ),
-        borderRadius: const BorderRadius.all(Radius.circular(100)),
-        border: Border.all(
-          color: isActiveMode()
-              ? color.button.doneBorder
-              : color.button.doneBorderDisable,
-        ),
-      ),
-      child: ElevatedButton.icon(
-        onPressed: isActiveMode() ? onPressed : null,
-        style: style,
-        icon: Icon(
-          Icons.check_circle,
-          color: color.base.icon,
-        ),
-        label: BasicText(
-          color: color,
-          text: text,
-          size: "M",
-          isNoSelect: true,
+        child: ElevatedButton.icon(
+          onPressed: isActiveMode() ? onPressed : null,
+          style: style,
+          icon: Icon(
+            Icons.check_circle,
+            color: color.base.icon,
+          ),
+          label: BasicText(
+            color: color,
+            text: text,
+            size: "M",
+            isNoSelect: true,
+          ),
         ),
       ),
     );

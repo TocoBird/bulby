@@ -25,7 +25,7 @@ class UseReturn {
   final List<DomainReflectionAddReflection> reflections;
   final List<DomainReflectionAdded> addedReflectionsFromOtherPage;
   final Future<void> Function() fetchReflections;
-  final void Function(BuildContext, bool, List<DomainReflectionAdded>)
+  final void Function(BuildContext, List<DomainReflectionAdded>)
       pushReflectionAddedList;
 }
 
@@ -87,7 +87,6 @@ UseReturn useFetch(int groupId, AppLocalizations i18n, UseColor color) {
   /// 追加している振り返りページへ移動
   void pushReflectionAddedList(
     BuildContext c,
-    bool isSavePage,
     List<DomainReflectionAdded> reflections,
   ) {
     final PageReflectionAddedList page = PageReflectionAddedList(
@@ -95,7 +94,6 @@ UseReturn useFetch(int groupId, AppLocalizations i18n, UseColor color) {
       color: color,
       reflections: reflections,
       groupId: groupId,
-      isSavePage: isSavePage,
     );
     Navigator.push(
       c,

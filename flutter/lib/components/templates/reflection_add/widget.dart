@@ -43,7 +43,7 @@ class TemplateReflectionAdd extends HookWidget {
   final int groupId;
 
   /// 追加した振り返り一覧ページへ移動
-  final Function(BuildContext, bool, List<DomainReflectionAdded>)
+  final Function(BuildContext, List<DomainReflectionAdded>)
       pushReflectionAddedList;
 
   @override
@@ -73,7 +73,6 @@ class TemplateReflectionAdd extends HookWidget {
       h.onPressedReflectionDone,
       h.onPressedRemoveText,
       h.onChangeTextReflection,
-      h.onClickRightMenu,
       h.candidatesForListener,
       h.onWillPop,
     );

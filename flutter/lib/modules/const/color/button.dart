@@ -147,8 +147,8 @@ class ConstantColorButtonDark {
 
   /// ボタン: 背景色
   static const List<Color> basic = [
-    Color.fromARGB(255, 44, 46, 117),
-    Color.fromARGB(255, 43, 29, 104),
+    Color.fromARGB(255, 27, 28, 76),
+    Color.fromARGB(255, 23, 16, 58),
   ];
 
   /// ボタン: 背景色 薄い
@@ -158,7 +158,7 @@ class ConstantColorButtonDark {
   ];
 
   /// ボタン: 枠線色
-  static const Color basicBorder = blue;
+  static const Color basicBorder = Color.fromARGB(255, 40, 49, 167);
 
   /// ボタン: 枠線色 薄い
   static const Color basicBorderThin = Color.fromARGB(150, 38, 43, 114);

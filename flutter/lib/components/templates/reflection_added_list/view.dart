@@ -19,7 +19,6 @@ Widget view(
   AppLocalizations i18n,
   UseColor color,
   BuildContext context,
-  bool isSavePage,
   List<DomainReflectionAdded> reflections,
   Future<bool> Function(BuildContext) onWillPop,
   void Function(String) onClickRemove,
@@ -39,7 +38,6 @@ Widget view(
               text: reflections[i].text,
               isThin: i % 2 == 0,
               count: reflections[i].count,
-              isSavePage: isSavePage,
               onClickRemove: () => onClickRemove(reflections[i].text),
             ),
           },
@@ -74,7 +72,7 @@ Widget view(
     color: color,
     title: i18n.pageReflectionAddedListTitle,
     isBackGround: false,
-    child: isSavePage ? content : column,
+    child: content,
     onWillPop: () => onWillPop(context),
   );
 }

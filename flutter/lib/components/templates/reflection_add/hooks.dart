@@ -36,7 +36,6 @@ class UseReturn {
     required this.candidatesForListener,
     required this.badgeNumForListener,
     required this.onWillPop,
-    required this.onClickRightMenu,
   });
   final void Function(BuildContext) onPressedAddReflection;
   final void Function(String) onPressedAddCandidate;
@@ -50,7 +49,6 @@ class UseReturn {
       candidatesForListener;
   final Future<bool> Function(BuildContext) onWillPop;
   final void Function(BuildContext) onPressedReflectionDone;
-  final void Function(BuildContext) onClickRightMenu;
 }
 
 /// ロジック: 振り返り追加ページ
@@ -61,8 +59,7 @@ UseReturn useHooks(
   List<DomainReflectionAddReflection> reflections,
   List<DomainReflectionAdded> addedReflectionsFromOtherPage,
   int groupId,
-  Function(BuildContext, bool, List<DomainReflectionAdded>)
-      pushReflectionAddedList,
+  Function(BuildContext, List<DomainReflectionAdded>) pushReflectionAddedList,
 ) {
   final FocusNode textFieldFocusNode = useFocusNode();
   final ValueNotifier<TextEditingController> textReflection =
@@ -206,24 +203,18 @@ UseReturn useHooks(
     candidatesForListener.value = addedReflections;
   }
 
-  /// 振り返りの完了を押した
+  /// 下部ボタン: 振り返りの完了を押した
   void onPressedReflectionDone(BuildContext c) {
     if (reflectionsForRegister.isEmpty) {
       toast.showAlert(i18n.reflectionAddPageDoneAlert, 2500);
       return;
     }
 
-    // 追加した振り返りページへ移動
-    pushReflectionAddedList(c, true, reflectionsForRegister);
-  }
-
-  /// 右上の一覧メニューを押した
-  void onClickRightMenu(BuildContext c) {
     // 入力欄をリセットする
     resetInput();
 
     // 追加した振り返りページへ移動
-    pushReflectionAddedList(c, false, reflectionsForRegister);
+    pushReflectionAddedList(c, reflectionsForRegister);
   }
 
   /// 候補から振り返りの追加を押した
@@ -286,6 +277,5 @@ UseReturn useHooks(
     formKey: formKey,
     candidatesForListener: candidatesForListener,
     onWillPop: onWillPop,
-    onClickRightMenu: onClickRightMenu,
   );
 }

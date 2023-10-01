@@ -12,7 +12,8 @@ import 'package:flutter/material.dart'
         Row,
         Expanded,
         SizedBox,
-        Builder;
+        Builder,
+        ValueNotifier;
 import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
@@ -21,12 +22,13 @@ import 'package:bulby/components/common/atoms/input/text/widget.dart'
     show InputText;
 import 'package:bulby/components/common/atoms/button/basic.dart'
     show ButtonBasic;
-import 'package:bulby/components/common/atoms/button/done.dart' show ButtonDone;
 import 'package:bulby/components/common/atoms/spacer/height.dart'
     show SpacerHeight;
 import 'package:bulby/components/common/atoms/spacer/width.dart'
     show SpacerWidth;
 import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
+import 'package:bulby/components/templates/reflection_add/parts/button_done.dart'
+    show ReflectionButtonDone;
 
 Widget view(
   AppLocalizations i18n,
@@ -34,6 +36,7 @@ Widget view(
   BuildContext context,
   FocusNode textFieldFocusNode,
   TextEditingController textReflection,
+  ValueNotifier<int>? badgeNumForListener,
   void Function(BuildContext) onPressedReflectionDone,
   void Function(BuildContext) onPressedAddReflection,
   void Function() onPressedRemoveText,
@@ -54,9 +57,10 @@ Widget view(
         padding: const EdgeInsets.symmetric(
           horizontal: ConstantSizeUI.l2,
         ),
-        child: ButtonDone(
+        child: ReflectionButtonDone(
+          i18n: i18n,
           color: color,
-          text: i18n.reflectionAddPageBottomDone,
+          badgeNumForListener: badgeNumForListener,
           onPressed: () => onPressedReflectionDone(context),
         ),
       ),
@@ -110,6 +114,7 @@ class BottomContents extends HookWidget {
     required this.color,
     required this.textFieldFocusNode,
     required this.textReflection,
+    required this.badgeNumForListener,
     required this.onPressedReflectionDone,
     required this.onPressedAddReflection,
     required this.onPressedRemoveText,
@@ -124,6 +129,9 @@ class BottomContents extends HookWidget {
 
   ///
   final FocusNode textFieldFocusNode;
+
+  /// バッジ数
+  final ValueNotifier<int>? badgeNumForListener;
 
   ///
   final TextEditingController textReflection;
@@ -150,6 +158,7 @@ class BottomContents extends HookWidget {
           context,
           textFieldFocusNode,
           textReflection,
+          badgeNumForListener,
           onPressedReflectionDone,
           onPressedAddReflection,
           onPressedRemoveText,

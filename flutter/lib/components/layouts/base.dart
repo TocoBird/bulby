@@ -15,8 +15,6 @@ class BaseLayout extends HookWidget {
     required this.title,
     required this.isBackGround,
     this.onTap,
-    this.badgeNumForListener,
-    this.onClickRightMenu,
     this.onWillPop,
     this.rightButton,
   });
@@ -33,17 +31,11 @@ class BaseLayout extends HookWidget {
   /// タイトル
   final String title;
 
-  /// バッジの数
-  final ValueNotifier<int>? badgeNumForListener;
-
   /// 背景あり
   final bool isBackGround;
 
   /// 外部を押した
   final void Function()? onTap;
-
-  /// 右のメニューをクリックした
-  final void Function()? onClickRightMenu;
 
   /// 戻る時のアクション
   final Future<bool> Function()? onWillPop;
@@ -71,8 +63,6 @@ class BaseLayout extends HookWidget {
           i18n: i18n,
           color: color,
           title: title,
-          badgeNumForListener: badgeNumForListener,
-          onClickRightMenu: onClickRightMenu,
           rightButton: rightButton,
         ),
         body: GestureDetector(

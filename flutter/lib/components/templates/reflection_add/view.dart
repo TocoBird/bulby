@@ -41,7 +41,6 @@ Widget view(
   void Function(BuildContext) onPressedReflectionDone,
   void Function() onPressedRemoveText,
   void Function(String?) onChangeTextReflection,
-  void Function(BuildContext) onClickRightMenu,
   ValueNotifier<List<DomainReflectionAddReflection>> candidatesForListener,
   Future<bool> Function(BuildContext) onWillPop,
 ) {
@@ -66,6 +65,7 @@ Widget view(
         color: color,
         textReflection: textReflection,
         textFieldFocusNode: textFieldFocusNode,
+        badgeNumForListener: badgeNumForListener,
         onPressedReflectionDone: onPressedReflectionDone,
         onPressedAddReflection: onPressedAddReflection,
         onPressedRemoveText: onPressedRemoveText,
@@ -80,8 +80,6 @@ Widget view(
     title: title,
     isBackGround: false,
     onTap: () => textFieldFocusNode.unfocus(),
-    badgeNumForListener: badgeNumForListener,
-    onClickRightMenu: () => onClickRightMenu(context),
     onWillPop: () => onWillPop(context),
     child: Form(
       autovalidateMode: AutovalidateMode.onUserInteraction,

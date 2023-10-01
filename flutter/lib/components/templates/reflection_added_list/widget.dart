@@ -18,7 +18,6 @@ class TemplateReflectionAddedList extends HookWidget {
     required this.color,
     required this.reflections,
     required this.groupId,
-    required this.isSavePage,
   });
 
   /// 言語
@@ -32,9 +31,6 @@ class TemplateReflectionAddedList extends HookWidget {
 
   /// 振り返りグループID
   final int groupId;
-
-  /// todo: pageを分ける
-  final bool isSavePage;
 
   @override
   Widget build(BuildContext context) {
@@ -50,7 +46,6 @@ class TemplateReflectionAddedList extends HookWidget {
       i18n,
       color,
       context,
-      isSavePage,
       h.reflectionsOnPage,
       h.onWillPop,
       h.onClickRemove,

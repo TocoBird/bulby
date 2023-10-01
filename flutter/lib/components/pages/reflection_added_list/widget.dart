@@ -16,7 +16,6 @@ class PageReflectionAddedList extends HookWidget {
     required this.color,
     required this.reflections,
     required this.groupId,
-    required this.isSavePage,
   });
 
   /// 言語
@@ -31,10 +30,6 @@ class PageReflectionAddedList extends HookWidget {
   /// 振り返りグループID
   final int groupId;
 
-  /// 入力確認ページか、一次確認ページか
-  /// todo: pageを分ける
-  final bool isSavePage;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -43,7 +38,6 @@ class PageReflectionAddedList extends HookWidget {
         color: color,
         reflections: reflections,
         groupId: groupId,
-        isSavePage: isSavePage,
       ),
     );
   }
