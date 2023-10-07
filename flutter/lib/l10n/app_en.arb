@@ -76,11 +76,11 @@
   "reflectionAddPageModalConfirmTitle": "I have an added review. \nAre you sure you want to go back?",
   "reflectionAddPageModalConfirmBack": "Return without saving",
   "reflectionAddPageModalConfirmCancel": "Cancel",
-  "reflectionAddPageBottomDone": "Complete reflection",
+  "reflectionAddPageBottomDone": "Check the contents",
   "reflectionAddPageBottomHint": "Write a reflection",
   "reflectionAddPageBottomButtonAdd": "Add",
   "reflectionAddPageCandidateNoList": "No Candidates Found",
-  "reflectionAddPageCandidateFirstText": "Watch the replay\nand write down what you good point and bad point.\nOr add it right after the match.",
+  "reflectionAddPageCandidateFirstText": "Watch replays or play matches.\n\nWrite down the [good points] and [bad points].",
   "reflectionAddPageDoneAlert": "You haven't added any reflections.",
   "reflectionAddPageAddValidate": "Up to 30 can be added at once.",
 

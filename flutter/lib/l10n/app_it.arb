@@ -76,11 +76,11 @@
   "reflectionAddPageModalConfirmTitle": "Ho aggiunto una recensione. \nSei sicuro di voler tornare indietro?",
   "reflectionAddPageModalConfirmBack": "Ritorna senza salvare",
   "reflectionAddPageModalConfirmCancel": "Annulla",
-  "reflectionAddPageBottomDone": "Riflessione completa",
+  "reflectionAddPageBottomDone": "Controlla il contenuto",
   "reflectionAddPageBottomHint": "Scrivi una riflessione",
   "reflectionAddPageBottomButtonAdd": "Aggiungi",
   "reflectionAddPageCandidateNoList": "Nessun candidato trovato",
-  "reflectionAddPageCandidateFirstText": "Guarda il replay\ne scrivi qual è il tuo punto buono e quello cattivo.\nOppure aggiungilo subito dopo la partita.",
+  "reflectionAddPageCandidateFirstText": "Guarda i replay o gioca le partite.\n\nAnnota i [punti positivi] e i [punti negativi].",
   "reflectionAddPageDoneAlert": "Non hai aggiunto alcun riflesso.",
   "reflectionAddPageAddValidate": "È possibile aggiungerne fino a 30 contemporaneamente.",
 

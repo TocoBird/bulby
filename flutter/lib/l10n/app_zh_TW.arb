@@ -76,11 +76,11 @@
   "reflectionAddPageModalConfirmTitle": "我添加了一條評論。\n您確定要返回嗎？",
   "reflectionAddPageModalConfirmBack": "返回而不保存",
   "reflectionAddPageModalConfirmCancel": "取消",
-  "reflectionAddPageBottomDone": "完全回顧",
+  "reflectionAddPageBottomDone": "檢查內容",
   "reflectionAddPageBottomHint": "寫入回顧",
   "reflectionAddPageBottomButtonAdd": "添加",
   "reflectionAddPageCandidateNoList": "未找到候選者",
-  "reflectionAddPageCandidateFirstText": "觀看重播\n並寫下你的優點和缺點。\n或者在比賽后立即添加。",
+  "reflectionAddPageCandidateFirstText": "觀看重播或參加比賽。\n\n寫出【優點】和【缺點】。",
   "reflectionAddPageDoneAlert": "您尚未添加任何回顧。",
   "reflectionAddPageAddValidate": "一次最多可以添加30個。",
 

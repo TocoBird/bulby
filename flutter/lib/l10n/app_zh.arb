@@ -76,11 +76,11 @@
   "reflectionAddPageModalConfirmTitle": "我添加了一条评论。\n您确定要返回吗？",
   "reflectionAddPageModalConfirmBack": "返回而不保存",
   "reflectionAddPageModalConfirmCancel": "取消",
-  "reflectionAddPageBottomDone": "完成回望",
+  "reflectionAddPageBottomDone": "检查内容",
   "reflectionAddPageBottomHint": "写入回顾",
   "reflectionAddPageBottomButtonAdd": "添加",
   "reflectionAddPageCandidateNoList": "未找到候选者",
-  "reflectionAddPageCandidateFirstText": "观看重播\n并写下你的优点和缺点。\n或者在比赛后立即添加。",
+  "reflectionAddPageCandidateFirstText": "观看重播或参加比赛。\n\n写出【优点】和【缺点】。",
   "reflectionAddPageDoneAlert": "您尚未添加任何回顾。",
   "reflectionAddPageAddValidate": "一次最多可以添加30个。",
 

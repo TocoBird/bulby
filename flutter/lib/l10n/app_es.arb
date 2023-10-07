@@ -76,11 +76,11 @@
   "reflectionAddPageModalConfirmTitle": "Tengo una revisión añadida. \n¿Estás seguro de que quieres volver?",
   "reflectionAddPageModalConfirmBack": "Volver sin guardar",
   "reflectionAddPageModalConfirmCancel": "Cancelar",
-  "reflectionAddPageBottomDone": "Reflejo completo",
+  "reflectionAddPageBottomDone": "Comprueba el contenido",
   "reflectionAddPageBottomHint": "Escribir un reflejo",
   "reflectionAddPageBottomButtonAdd": "Agregar",
   "reflectionAddPageCandidateNoList": "No se encontraron candidatos",
-  "reflectionAddPageCandidateFirstText": "Mira la repetición\ny escribe lo bueno y lo malo.\nO añádelo justo después del partido.",
+  "reflectionAddPageCandidateFirstText": "Mira repeticiones o juega partidos.\n\nEscribe los [puntos buenos] y los [puntos malos].",
   "reflectionAddPageDoneAlert": "No has agregado ningún reflejo.",
   "reflectionAddPageAddValidate": "Se pueden agregar hasta 30 a la vez.",
 

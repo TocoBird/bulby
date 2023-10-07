@@ -76,11 +76,11 @@
   "reflectionAddPageModalConfirmTitle": "Ich habe eine hinzugefügte Rezension.\nSind Sie sicher, dass Sie zurückgehen möchten?",
   "reflectionAddPageModalConfirmBack": "Zurück ohne zu speichern",
   "reflectionAddPageModalConfirmCancel": "Abbrechen",
-  "reflectionAddPageBottomDone": "Vollständige Reflexion",
+  "reflectionAddPageBottomDone": "Überprüfen Sie den Inhalt",
   "reflectionAddPageBottomHint": "Eine Reflexion schreiben",
   "reflectionAddPageBottomButtonAdd": "Hinzufügen",
   "reflectionAddPageCandidateNoList": "Keine Kandidaten gefunden",
-  "reflectionAddPageCandidateFirstText": "Sehen Sie sich die Wiederholung an\nund notieren Sie Ihre guten und schlechten Punkte.\nOder fügen Sie sie direkt nach dem Spiel hinzu.",
+  "reflectionAddPageCandidateFirstText": "Sehen Sie sich Wiederholungen an oder spielen Sie Spiele.\n\nSchreiben Sie die [guten Punkte] und [schlechten Punkte] auf.",
   "reflectionAddPageDoneAlert": "Sie haben keine Reflexionen hinzugefügt.",
   "reflectionAddPageAddValidate": "Bis zu 30 können gleichzeitig hinzugefügt werden.",
 

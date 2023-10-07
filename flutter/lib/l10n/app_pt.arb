@@ -76,11 +76,11 @@
   "reflectionAddPageModalConfirmTitle": "Eu tenho uma revisão adicionada. \nTem certeza que deseja voltar?",
   "reflectionAddPageModalConfirmBack": "Retornar sem salvar",
   "reflectionAddPageModalConfirmCancel": "Cancelar",
-  "reflectionAddPageBottomDone": "Reflexão completa",
+  "reflectionAddPageBottomDone": "Verifique o conteúdo",
   "reflectionAddPageBottomHint": "Escreva uma reflexão",
   "reflectionAddPageBottomButtonAdd": "Adicionar",
   "reflectionAddPageCandidateNoList": "Nenhum candidato encontrado",
-  "reflectionAddPageCandidateFirstText": "Assista ao replay\ne anote o que você achou bom e ruim.\nOu adicione logo após a partida.",
+  "reflectionAddPageCandidateFirstText": "Assista a replays ou jogue partidas.\n\nAnote os [pontos positivos] e os [pontos negativos].",
   "reflectionAddPageDoneAlert": "Você não adicionou nenhum reflexo.",
   "reflectionAddPageAddValidate": "Até 30 podem ser adicionados de uma só vez.",
 

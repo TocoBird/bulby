@@ -76,11 +76,11 @@
   "reflectionAddPageModalConfirmTitle": "لدي مراجعة إضافية.\nهل أنت متأكد أنك تريد العودة؟",
   "reflectionAddPageModalConfirmBack": "العودة دون حفظ",
   "reflectionAddPageModalConfirmCancel": "يلغي",
-  "reflectionAddPageBottomDone": "انعكاس كامل",
+  "reflectionAddPageBottomDone": "تحقق من المحتويات",
   "reflectionAddPageBottomHint": "اكتب انعكاسًا",
   "reflectionAddPageBottomButtonAdd": "يضيف",
   "reflectionAddPageCandidateNoList": "لم يتم العثور على مرشحين",
-  "reflectionAddPageCandidateFirstText": "شاهد الاعادة\nواكتب النقطة الجيدة والنقطة السيئة.\nأو قم بإضافته مباشرة بعد المباراة.",
+  "reflectionAddPageCandidateFirstText": "مشاهدة الإعادة أو لعب المباريات.\n\nاكتب [النقاط الجيدة] و[النقاط السيئة].",
   "reflectionAddPageDoneAlert": "لم تقم بإضافة أي انعكاسات.",
   "reflectionAddPageAddValidate": "يمكن إضافة ما يصل إلى 30 مرة واحدة.",
 

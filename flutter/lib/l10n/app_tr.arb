@@ -76,11 +76,11 @@
   "reflectionAddPageModalConfirmTitle": "Ek incelemem var. \nGeri dönmek istediğinizden emin misiniz?",
   "reflectionAddPageModalConfirmBack": "Kaydetmeden dön",
   "reflectionAddPageModalConfirmCancel": "İptal",
-  "reflectionAddPageBottomDone": "Tam yansıma",
+  "reflectionAddPageBottomDone": "İçeriği kontrol edin",
   "reflectionAddPageBottomHint": "Bir yansıma yaz",
   "reflectionAddPageBottomButtonAdd": "Ekle",
   "reflectionAddPageCandidateNoList": "Aday Bulunamadı",
-  "reflectionAddPageCandidateFirstText": "Tekrarını izleyin\nve iyi ve kötü noktalarınızı yazın.\nYa da maçtan hemen sonra ekleyin.",
+  "reflectionAddPageCandidateFirstText": "Tekrarları izleyin veya maç oynayın.\n\n[İyi noktaları] ve [kötü noktaları] yazın.",
   "reflectionAddPageDoneAlert": "Herhangi bir yansıma eklemediniz.",
   "reflectionAddPageAddValidate": "Aynı anda 30 adede kadar eklenebilir.",
 

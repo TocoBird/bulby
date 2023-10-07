@@ -76,11 +76,11 @@
   "reflectionAddPageModalConfirmTitle": "Saya memiliki tinjauan tambahan.\nAnda yakin ingin kembali?",
   "reflectionAddPageModalConfirmBack": "Kembali tanpa menyimpan",
   "reflectionAddPageModalConfirmCancel": "Batalkan",
-  "reflectionAddPageBottomDone": "Refleksi lengkap",
+  "reflectionAddPageBottomDone": "Periksa isinya",
   "reflectionAddPageBottomHint": "Tulis refleksi",
   "reflectionAddPageBottomButtonAdd": "Tambah",
   "reflectionAddPageCandidateNoList": "Tidak Ditemukan Kandidat",
-  "reflectionAddPageCandidateFirstText": "Tonton tayangan ulang\ndan tulis poin baik dan buruk Anda.\nAtau tambahkan segera setelah pertandingan.",
+  "reflectionAddPageCandidateFirstText": "Tonton tayangan ulang atau mainkan pertandingan.\n\nTuliskan [poin baik] dan [poin buruk].",
   "reflectionAddPageDoneAlert": "Anda belum menambahkan refleksi apa pun.",
   "reflectionAddPageAddValidate": "Hingga 30 dapat ditambahkan sekaligus.",
 

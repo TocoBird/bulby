@@ -76,11 +76,11 @@
   "reflectionAddPageModalConfirmTitle": "追加した振り返りがあります。\n戻ってもよろしいですか？",
   "reflectionAddPageModalConfirmBack": "保存せずに戻る",
   "reflectionAddPageModalConfirmCancel": "キャンセル",
-  "reflectionAddPageBottomDone": "振り返りを完了する",
+  "reflectionAddPageBottomDone": "内容の確認",
   "reflectionAddPageBottomHint": "振り返りを書く",
   "reflectionAddPageBottomButtonAdd": "追加",
   "reflectionAddPageCandidateNoList": "候補が見つかりません",
-  "reflectionAddPageCandidateFirstText": "リプレイを見て、\n良かったこと悪かったことを書きましょう!\nまたは、試合の直後に追加しましょう。",
+  "reflectionAddPageCandidateFirstText": "まずは\nリプレイを見るか、試合をしましょう。\n\n【良かったこと】【悪かったこと】\nを書きましょう。",
   "reflectionAddPageDoneAlert": "振り返りを追加していません。",
   "reflectionAddPageAddValidate": "一度の追加上限は30件までです。",
 

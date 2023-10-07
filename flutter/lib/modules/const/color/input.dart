@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart' show Color;
-import 'package:bulby/modules/const/color/colors.dart' show blue;
 
 class ColorInput {
   const ColorInput({
@@ -79,13 +78,13 @@ class ConstantColorInputDark {
   static const Color input = Color.fromARGB(255, 24, 25, 31);
 
   /// inputの枠線色
-  static const Color inputBorder = blue;
+  static const Color inputBorder = Color.fromARGB(255, 38, 43, 123);
 
   /// prefixの文字色
   static const Color inputHintText = Color.fromARGB(70, 255, 255, 255);
 
   /// inputの枠線色フォーカス
-  static const Color inputBorderFocus = blue;
+  static const Color inputBorderFocus = Color.fromARGB(255, 38, 43, 123);
 
   /// inputの枠線色エラーテキスト
   static const Color inputBorderError = Color.fromARGB(255, 118, 63, 63);
@@ -102,13 +101,13 @@ class ConstantColorInputLight {
   static const Color input = Color.fromARGB(255, 24, 25, 31);
 
   /// inputの枠線色
-  static const Color inputBorder = blue;
+  static const Color inputBorder = Color.fromARGB(255, 38, 43, 123);
 
   /// prefixの文字色
   static const Color inputHintText = Color.fromARGB(70, 255, 255, 255);
 
   /// inputの枠線色フォーカス
-  static const Color inputBorderFocus = blue;
+  static const Color inputBorderFocus = Color.fromARGB(255, 38, 43, 123);
 
   /// inputの枠線色エラーテキスト
   static const Color inputBorderError = Color.fromARGB(255, 118, 63, 63);

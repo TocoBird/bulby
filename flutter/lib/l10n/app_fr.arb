@@ -76,11 +76,11 @@
   "reflectionAddPageModalConfirmTitle": "J'ai ajouté une critique. \nVoulez-vous vraiment revenir en arrière?",
   "reflectionAddPageModalConfirmBack": "Revenir sans enregistrer",
   "reflectionAddPageModalConfirmCancel": "Annuler",
-  "reflectionAddPageBottomDone": "Réflexion complète",
+  "reflectionAddPageBottomDone": "Vérifiez le contenu",
   "reflectionAddPageBottomHint": "Écrire une réflexion",
   "reflectionAddPageBottomButtonAdd": "Ajouter",
   "reflectionAddPageCandidateNoList": "Aucun candidat trouvé",
-  "reflectionAddPageCandidateFirstText": "Regardez la rediffusion\net notez ce que vous avez de bon et de mauvais.\nOu ajoutez-le juste après le match.",
+  "reflectionAddPageCandidateFirstText": "Regardez des replays ou jouez des matchs.\n\nNotez les [bons points] et les [mauvais points].",
   "reflectionAddPageDoneAlert": "Vous n'avez ajouté aucun reflet.",
   "reflectionAddPageAddValidate": "Jusqu'à 30 peuvent être ajoutés à la fois.",
 

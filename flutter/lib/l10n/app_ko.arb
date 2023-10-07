@@ -76,11 +76,11 @@
   "reflectionAddPageModalConfirmTitle": "추가된 리뷰가 있습니다. \n정말 돌아가시겠습니까?",
   "reflectionAddPageModalConfirmBack": "저장하지 않고 돌아가기",
   "reflectionAddPageModalConfirmCancel": "취소",
-  "reflectionAddPageBottomDone": "반영 완료",
+  "reflectionAddPageBottomDone": "내용을 확인하세요",
   "reflectionAddPageBottomHint": "반성 쓰기",
   "reflectionAddPageBottomButtonAdd": "추가",
   "reflectionAddPageCandidateNoList": "후보자 없음",
-  "reflectionAddPageCandidateFirstText": "리플레이를 보고\n좋은 점과 나쁜 점을 적으세요.\n또는 경기 직후에 추가하세요.",
+  "reflectionAddPageCandidateFirstText": "리플레이를 시청하거나 경기를 플레이해 보세요.\n\n[좋은 점]과 [나쁜 점]을 적어보세요.",
   "reflectionAddPageDoneAlert": "반사를 추가하지 않았습니다.",
   "reflectionAddPageAddValidate": "한 번에 최대 30개까지 추가할 수 있습니다.",
 

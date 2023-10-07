@@ -76,11 +76,11 @@
   "reflectionAddPageModalConfirmTitle": "Jeg har en tilføjet anmeldelse. \nEr du sikker på, at du vil tilbage?",
   "reflectionAddPageModalConfirmBack": "Vend tilbage uden at gemme",
   "reflectionAddPageModalConfirmCancel": "Annuller",
-  "reflectionAddPageBottomDone": "Fuldstændig refleksion",
+  "reflectionAddPageBottomDone": "Tjek indholdet",
   "reflectionAddPageBottomHint": "Skriv en refleksion",
   "reflectionAddPageBottomButtonAdd": "Tilføj",
   "reflectionAddPageCandidateNoList": "Ingen kandidater fundet",
-  "reflectionAddPageCandidateFirstText": "Se replayet\nog skriv ned, hvad du har gode og dårlige point.\nEller tilføj det lige efter kampen.",
+  "reflectionAddPageCandidateFirstText": "Se gentagelser eller spil kampe.\n\nSkriv de [gode punkter] og [dårlige punkter] ned.",
   "reflectionAddPageDoneAlert": "Du har ikke tilføjet nogen refleksioner.",
   "reflectionAddPageAddValidate": "Der kan tilføjes op til 30 på én gang.",
 
