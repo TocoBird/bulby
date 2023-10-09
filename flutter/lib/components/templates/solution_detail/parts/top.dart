@@ -5,6 +5,7 @@ import 'package:flutter/material.dart'
         TextEditingController,
         Widget,
         BuildContext,
+        MainAxisAlignment,
         Column,
         Row,
         CrossAxisAlignment;
@@ -79,7 +80,7 @@ class SolutionDetailTop extends StatelessWidget {
     final String reflectionUpdateAtText =
         i18n.solutionDetailPageTopUpdateAt(updateAtText);
 
-    return Column(
+    final body = Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Box(
@@ -90,8 +91,10 @@ class SolutionDetailTop extends StatelessWidget {
             size: "M",
           ),
         ),
-        SpacerHeight.m,
+        SpacerHeight.s,
         Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             TextTag(
               color: color,
@@ -99,17 +102,17 @@ class SolutionDetailTop extends StatelessWidget {
               colorType: TagTextColor.gray,
             ),
             SpacerWidth.m,
-            TextTag(
+            BasicText(
               color: color,
-              text: reflectionTypeText,
-              colorType: TagTextColor.gray,
+              text: reflectionUpdateAtText,
+              size: "XS",
             ),
           ],
         ),
-        SpacerHeight.m,
+        SpacerHeight.s,
         TextTag(
           color: color,
-          text: reflectionUpdateAtText,
+          text: reflectionTypeText,
           colorType: TagTextColor.gray,
         ),
         SpacerHeight.m,
@@ -135,5 +138,7 @@ class SolutionDetailTop extends StatelessWidget {
         ),
       ],
     );
+
+    return body;
   }
 }
