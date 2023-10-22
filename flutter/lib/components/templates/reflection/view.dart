@@ -145,11 +145,21 @@ Widget view(
           ],
         ),
       ),
-      SpacerHeight.m,
-      ButtonBasic(
-        color: color,
-        text: i18n.pageReflectionButtonStart,
-        onPressed: () => onPressedStart(context),
+    ],
+  );
+
+  final content = Column(
+    children: <Widget>[
+      Expanded(child: cloumn),
+      Column(
+        children: [
+          ButtonBasic(
+            color: color,
+            text: i18n.pageReflectionButtonStart,
+            onPressed: () => onPressedStart(context),
+          ),
+          SpacerHeight.xs,
+        ],
       ),
     ],
   );
@@ -180,6 +190,6 @@ Widget view(
     title: i18n.pageReflectionTitle,
     isBackGround: true,
     rightButton: rightButton,
-    child: cloumn,
+    child: content,
   );
 }
