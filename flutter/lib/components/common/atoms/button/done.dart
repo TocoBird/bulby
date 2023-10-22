@@ -61,7 +61,7 @@ class ButtonDone extends StatelessWidget {
     bool isThinButton = isThin ?? false;
 
     return Opacity(
-      opacity: isThinButton ? 0.6 : 1,
+      opacity: isThinButton ? 0.55 : 1,
       child: Container(
         padding: EdgeInsets.zero,
         decoration: BoxDecoration(

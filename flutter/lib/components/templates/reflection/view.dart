@@ -158,7 +158,7 @@ Widget view(
             text: i18n.pageReflectionButtonStart,
             onPressed: () => onPressedStart(context),
           ),
-          SpacerHeight.xs,
+          SpacerHeight.s,
         ],
       ),
     ],

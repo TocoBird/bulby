@@ -30,6 +30,8 @@ class TableDebug {
         await db.rawQuery('SELECT * FROM game');
     final List<Map<String, Object?>> badge =
         await db.rawQuery('SELECT * FROM badge');
+    final List<Map<String, Object?>> reflectionAddedDate =
+        await db.rawQuery('SELECT * FROM reflection_added_date');
 
     print("""
 
@@ -49,6 +51,8 @@ $reflectionGroups
 $game
 - Badge
 $badge
+- ReflectionAddedDate
+$reflectionAddedDate
 """);
 
     print("""

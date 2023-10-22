@@ -125,6 +125,17 @@ CREATE TABLE IF NOT EXISTS badge(
 )
 ''');
 
+      // 振り返りをした日
+      // date: 振り返りをした日 20200101
+      // count: 回数
+      await db.execute('''
+CREATE TABLE IF NOT EXISTS reflection_added_date(
+  date DATETIME NOT NULL,
+  count INTEGER NOT NULL,
+  UNIQUE(date)
+)
+''');
+
       // ゲーミフィケーションの初期値
       await db.execute('INSERT INTO game(exp) values(0)');
     } catch (e) {
