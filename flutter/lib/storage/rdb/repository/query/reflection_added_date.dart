@@ -24,7 +24,7 @@ class RepositoryReflectionAddedDateQuery
     final List<Map<String, Object?>> res = await db.query(
       tableNameReflectionAddedDate,
       columns: ['*'],
-      orderBy: "id DESC",
+      orderBy: "date DESC",
       limit: 30,
     );
 
