@@ -6,6 +6,6 @@ class DomainReflectionAddedDateCount {
 
 /// ドメイン: 振り返りした日 日付
 class DomainReflectionAddedDateDate {
-  const DomainReflectionAddedDateDate({required this.date});
-  final String date;
+  const DomainReflectionAddedDateDate({required this.addedDate});
+  final DateTime addedDate;
 }

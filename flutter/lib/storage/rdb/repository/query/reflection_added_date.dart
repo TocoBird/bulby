@@ -33,7 +33,8 @@ class RepositoryReflectionAddedDateQuery
       (i) {
         return DomainReflectionAddedDate(
           count: res[i]['count'] as int,
-          date: DateTime.tryParse(res[i]['date'] as String) ?? DateTime.now(),
+          addedDate:
+              DateTime.tryParse(res[i]['date'] as String) ?? DateTime.now(),
         );
       },
     );

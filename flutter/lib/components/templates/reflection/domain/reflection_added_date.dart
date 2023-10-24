@@ -6,14 +6,14 @@ class DomainReflectionAddedDate
     implements DomainReflectionAddedDateCount, DomainReflectionAddedDateDate {
   const DomainReflectionAddedDate({
     required this.count,
-    required this.date,
+    required this.addedDate,
   });
 
-  /// 経験値
+  /// 回数
   @override
   final int count;
 
-  /// 現在のランク
+  /// 日付
   @override
-  final DateTime date;
+  final DateTime addedDate;
 }
