@@ -12,6 +12,7 @@ import 'package:flutter/material.dart'
         Row,
         Expanded,
         SizedBox,
+        SafeArea,
         Builder,
         ValueNotifier;
 import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
@@ -67,39 +68,41 @@ Widget view(
 
       SpacerHeight.s,
 
-      Container(
-        color: color.base.footer,
-        padding: const EdgeInsets.all(ConstantSizeUI.l2),
-        child: Row(
-          children: [
-            // 入力欄
-            Expanded(
-              child: InputText(
-                i18n: i18n,
-                color: color,
-                autofocus: false,
-                text: textReflection,
-                hintText: i18n.reflectionAddPageBottomHint,
-                focusNode: textFieldFocusNode,
-                maxLength: 74,
-                onChanged: onChangeTextReflection,
-                onPressedRemove: onPressedRemoveText,
+      SafeArea(
+        child: Container(
+          color: color.base.footer,
+          padding: const EdgeInsets.all(ConstantSizeUI.l2),
+          child: Row(
+            children: [
+              // 入力欄
+              Expanded(
+                child: InputText(
+                  i18n: i18n,
+                  color: color,
+                  autofocus: false,
+                  text: textReflection,
+                  hintText: i18n.reflectionAddPageBottomHint,
+                  focusNode: textFieldFocusNode,
+                  maxLength: 74,
+                  onChanged: onChangeTextReflection,
+                  onPressedRemove: onPressedRemoveText,
+                ),
               ),
-            ),
 
-            SpacerWidth.m,
+              SpacerWidth.m,
 
-            // 追加ボタン
-            SizedBox(
-              width: 80,
-              child: ButtonBasic(
-                color: color,
-                text: i18n.reflectionAddPageBottomButtonAdd,
-                textSize: isTextSizeS ? 'S' : 'M',
-                onPressed: () => onPressedAddReflection(context),
+              // 追加ボタン
+              SizedBox(
+                width: 80,
+                child: ButtonBasic(
+                  color: color,
+                  text: i18n.reflectionAddPageBottomButtonAdd,
+                  textSize: isTextSizeS ? 'S' : 'M',
+                  onPressed: () => onPressedAddReflection(context),
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       )
     ],
