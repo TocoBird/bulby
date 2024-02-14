@@ -1,5 +1,12 @@
 import 'package:flutter/material.dart'
-    show AppBar, Widget, BuildContext, PreferredSizeWidget, Size;
+    show
+        AppBar,
+        Widget,
+        BuildContext,
+        PreferredSizeWidget,
+        Size,
+        BackButton,
+        Colors;
 import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
@@ -48,6 +55,9 @@ class Header extends HookWidget implements PreferredSizeWidget {
         color: color,
         text: title,
         size: "M",
+      ),
+      leading: BackButton(
+        color: color.base.icon, // <-- SEE HERE
       ),
       backgroundColor: color.base.header,
       actions: getActions(),

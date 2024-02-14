@@ -84,6 +84,7 @@ ${await selectColorMode.get()}
     await db.execute("DROP TABLE todo");
     await db.execute("DROP TABLE game");
     await db.execute("DROP TABLE badge");
+    await db.execute("DROP TABLE reflection_added_date");
     // AutoIncrementリセット
     await db.execute("DELETE FROM sqlite_sequence WHERE name='app_db'");
 

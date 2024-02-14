@@ -9,7 +9,9 @@ import 'package:flutter/material.dart'
         Row,
         Expanded,
         Icon,
-        Icons;
+        Icons,
+        RoundedRectangleBorder,
+        BorderRadius;
 import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
@@ -70,6 +72,9 @@ class ButtonSolution extends StatelessWidget {
         padding: const EdgeInsets.only(
           left: ConstantSizeUI.l3,
           right: 0,
+        ),
+        shape: const RoundedRectangleBorder(
+          borderRadius: BorderRadius.zero,
         ),
       ),
       child: Row(

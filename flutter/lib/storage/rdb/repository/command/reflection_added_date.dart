@@ -28,7 +28,6 @@ class RepositoryReflectionAddedDateCommand extends IReflectionAddedDateCommand {
     );
 
     if (res.isEmpty) {
-      // まだ登録されてない
       /// 新規登録
       final ModelReflectionAddedDate reflectionAddedDate =
           ModelReflectionAddedDate(
@@ -40,6 +39,21 @@ class RepositoryReflectionAddedDateCommand extends IReflectionAddedDateCommand {
         tableNameReflectionAddedDate,
         reflectionAddedDate.toMap(),
         conflictAlgorithm: ConflictAlgorithm.replace,
+      );
+    } else {
+      // 加算
+      final int count = res.first['count'] as int;
+      final ModelReflectionAddedDate reflectionAddedDate =
+          ModelReflectionAddedDate(
+        count: count + 1,
+        date: DateTime.now(),
+      );
+      final Map<String, Object?> map = reflectionAddedDate.toMap();
+      await db.update(
+        tableNameReflectionAddedDate,
+        map,
+        where: '"date" = ?',
+        whereArgs: [date],
       );
     }
   }

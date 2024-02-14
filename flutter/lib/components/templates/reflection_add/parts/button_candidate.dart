@@ -6,7 +6,9 @@ import 'package:flutter/material.dart'
         ElevatedButton,
         Size,
         Align,
-        Alignment;
+        Alignment,
+        RoundedRectangleBorder,
+        BorderRadius;
 import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:bulby/components/common/atoms/text/basic.dart' show BasicText;
 import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
@@ -47,6 +49,9 @@ class ButtonCandidate extends StatelessWidget {
         backgroundColor:
             isThin ? color.button.taskListThin : color.button.taskList,
         fixedSize: const Size.fromHeight(ConstantSizeUI.l7),
+        shape: const RoundedRectangleBorder(
+          borderRadius: BorderRadius.zero,
+        ),
       ),
       child: Align(
         alignment: Alignment.centerLeft,

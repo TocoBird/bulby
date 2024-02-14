@@ -14,7 +14,8 @@ import 'package:flutter/material.dart'
         Row,
         Expanded,
         Icon,
-        Icons;
+        Icons,
+        RoundedRectangleBorder;
 import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:bulby/components/common/atoms/text/basic.dart' show BasicText;
 import 'package:bulby/components/common/atoms/spacer/width.dart'
@@ -81,6 +82,9 @@ class ButtonLinks extends StatelessWidget {
                 padding: const EdgeInsets.only(
                   left: ConstantSizeUI.l3,
                   right: 0,
+                ),
+                shape: const RoundedRectangleBorder(
+                  borderRadius: BorderRadius.zero,
                 ),
               ),
               child: Row(

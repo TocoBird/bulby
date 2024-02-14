@@ -45,6 +45,9 @@ class ButtonHistoryGroup extends StatelessWidget {
           left: ConstantSizeUI.l3,
           right: 0,
         ),
+        shape: const RoundedRectangleBorder(
+          borderRadius: BorderRadius.zero,
+        ),
       ),
       child: Row(
         children: [

@@ -5,7 +5,9 @@ import 'package:flutter/material.dart'
         BuildContext,
         SimpleDialog,
         EdgeInsets,
-        Center;
+        Center,
+        RoundedRectangleBorder,
+        BorderRadius;
 import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:bulby/components/common/atoms/text/basic.dart' show BasicText;
 import 'package:bulby/modules/const/size.dart' show ConstantSizeUI;
@@ -38,6 +40,9 @@ class ModalBase extends StatelessWidget {
           text: title,
           size: "M",
         ),
+      ),
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(ConstantSizeUI.l2),
       ),
       insetPadding: const EdgeInsets.all(ConstantSizeUI.l4),
       titlePadding: const EdgeInsets.all(ConstantSizeUI.l3),
