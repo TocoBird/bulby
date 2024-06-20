@@ -17,14 +17,6 @@ flutter run
 // docker
 cd ./api/infrastructure/docker
 docker-compose up -d
-
-// create database
-```
-
-## test
-
-```
-// test
 ```
 
 # 仕様
@@ -46,3 +38,4 @@ root
 ### ページ遷移 - メモ
 
 - ログイン不要のツールなのでログアウトはない。
+
