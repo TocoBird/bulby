@@ -97,6 +97,9 @@ class InputSelect extends StatelessWidget {
       value: value,
       focusNode: focusNode,
       onChanged: onChanged,
+
+      /// ポップアップ自体の角丸
+      borderRadius: const BorderRadius.all(Radius.circular(4)),
     );
   }
 }

@@ -63,6 +63,7 @@ Widget view(
     color: color,
     title: i18n.pageReflectionHistoryGroupTitle(title),
     isBackGround: false,
+    canBack: true,
     child: cloumn,
   );
 }

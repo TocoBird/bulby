@@ -81,6 +81,7 @@ Widget view(
     isBackGround: false,
     onTap: () => textFieldFocusNode.unfocus(),
     onWillPop: () => onWillPop(context),
+    canBack: true,
     child: Form(
       autovalidateMode: AutovalidateMode.onUserInteraction,
       key: formKey,

@@ -27,6 +27,7 @@ class BaseLayoutPadding extends HookWidget {
     required this.child,
     required this.title,
     required this.isBackGround,
+    required this.canBack,
     this.isNoHeader,
     this.onTap,
     this.rightButton,
@@ -55,6 +56,9 @@ class BaseLayoutPadding extends HookWidget {
 
   /// 右上のメニューに表示
   final Widget? rightButton;
+
+  /// 戻るを表示するか
+  final bool canBack;
 
   @override
   Widget build(BuildContext context) {
@@ -89,6 +93,7 @@ class BaseLayoutPadding extends HookWidget {
               color: color,
               title: title,
               rightButton: rightButton,
+              canBack: canBack,
             )
           : null,
       body: GestureDetector(

@@ -226,6 +226,7 @@ Widget view(
       textReflectionNewNameFocusNode.unfocus(),
     },
     isBackGround: true,
+    canBack: false,
     child: cloumn,
   );
 }

@@ -129,6 +129,7 @@ Widget view(
     color: color,
     title: i18n.pageTodoTitle,
     isBackGround: true,
+    canBack: false,
     child: content,
   );
 }

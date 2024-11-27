@@ -58,6 +58,7 @@ Widget view(
     color: color,
     title: i18n.pageRankDetailTitle,
     isBackGround: false,
+    canBack: true,
     child: cloumn,
   );
 }

@@ -190,6 +190,7 @@ Widget view(
     title: i18n.pageReflectionTitle,
     isBackGround: true,
     rightButton: rightButton,
+    canBack: false,
     child: content,
   );
 }

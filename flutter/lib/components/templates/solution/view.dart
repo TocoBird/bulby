@@ -110,6 +110,7 @@ Widget view(
     color: color,
     title: i18n.pageSolutionTitle,
     isBackGround: true,
+    canBack: false,
     child: content,
   );
 }

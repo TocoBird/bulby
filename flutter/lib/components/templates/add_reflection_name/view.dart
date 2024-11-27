@@ -159,6 +159,7 @@ Widget view(
     title: "",
     isBackGround: true,
     isNoHeader: true,
+    canBack: true,
     child: content,
   );
 }

@@ -35,6 +35,7 @@ Widget view(
     color: color,
     title: title,
     isBackGround: false,
+    canBack: true,
     child: cloumn,
   );
 }

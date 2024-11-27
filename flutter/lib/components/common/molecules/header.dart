@@ -1,12 +1,5 @@
 import 'package:flutter/material.dart'
-    show
-        AppBar,
-        Widget,
-        BuildContext,
-        PreferredSizeWidget,
-        Size,
-        BackButton,
-        Colors;
+    show AppBar, Widget, BuildContext, PreferredSizeWidget, Size, BackButton;
 import 'package:bulby/modules/const/color/hooks.dart' show UseColor;
 import 'package:flutter_gen/gen_l10n/app_localizations.dart'
     show AppLocalizations;
@@ -21,6 +14,7 @@ class Header extends HookWidget implements PreferredSizeWidget {
     required this.i18n,
     required this.color,
     required this.title,
+    required this.canBack,
     this.rightButton,
   });
 
@@ -35,6 +29,9 @@ class Header extends HookWidget implements PreferredSizeWidget {
 
   /// 右上のメニューに表示
   final Widget? rightButton;
+
+  /// 戻るを表示するか
+  final bool canBack;
 
   /// 高さのサイズ
   @override
@@ -56,9 +53,11 @@ class Header extends HookWidget implements PreferredSizeWidget {
         text: title,
         size: "M",
       ),
-      leading: BackButton(
-        color: color.base.icon, // <-- SEE HERE
-      ),
+      leading: canBack
+          ? BackButton(
+              color: color.base.icon,
+            )
+          : null,
       backgroundColor: color.base.header,
       actions: getActions(),
     );

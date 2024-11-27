@@ -72,6 +72,7 @@ Widget view(
     color: color,
     title: i18n.pageReflectionAddedListTitle,
     isBackGround: false,
+    canBack: true,
     child: content,
     onWillPop: () => onWillPop(context),
   );

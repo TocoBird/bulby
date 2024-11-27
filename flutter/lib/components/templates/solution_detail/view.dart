@@ -147,6 +147,7 @@ Widget view(
     color: color,
     title: i18n.solutionDetailPageTitle,
     isBackGround: false,
+    canBack: true,
     rightButton: isEditMode ? null : rightButton,
     onTap: () => {
       titleFocusNode.unfocus(),

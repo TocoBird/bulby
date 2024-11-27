@@ -14,6 +14,7 @@ class BaseLayout extends HookWidget {
     required this.child,
     required this.title,
     required this.isBackGround,
+    required this.canBack,
     this.onTap,
     this.onWillPop,
     this.rightButton,
@@ -43,6 +44,9 @@ class BaseLayout extends HookWidget {
   /// 右上のメニューに表示
   final Widget? rightButton;
 
+  /// 戻るを表示するか
+  final bool canBack;
+
   @override
   Widget build(BuildContext context) {
     final backGroundBody = Container(
@@ -64,6 +68,7 @@ class BaseLayout extends HookWidget {
           color: color,
           title: title,
           rightButton: rightButton,
+          canBack: canBack,
         ),
         body: GestureDetector(
           onTap: onTap,
