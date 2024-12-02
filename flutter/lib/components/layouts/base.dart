@@ -59,8 +59,14 @@ class BaseLayout extends HookWidget {
       child: child,
     );
 
-    return WillPopScope(
-      onWillPop: onWillPop,
+    return PopScope(
+      canPop: true,
+      onPopInvokedWithResult: (didPop, _) {
+        if (onWillPop == null) return;
+        //todo
+        if (!didPop) return;
+        onWillPop!();
+      },
       child: Scaffold(
         backgroundColor: color.base.content,
         appBar: Header(
